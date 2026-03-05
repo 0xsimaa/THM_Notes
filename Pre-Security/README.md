@@ -4,7 +4,7 @@
 
 Gobuster: A directory and page enumeration tool that takes a wordlist of potential file or directory names and attempts to access them on a target website. If a page or path exists, Gobuster reports it back to you.
 
-![]()
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Pasted%20image%2020260206160633.png)
 ---
 
 ## Security Operations Center (SOC)
@@ -62,17 +62,27 @@ Primary analysis techniques:
 - **Static Analysis**: Examining the malware without executing it (e.g., reading code, checking file hashes).
 - **Dynamic Analysis**: Running the malware in a controlled environment (sandbox) to observe its behavior.
 
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Pasted%20image%2020260206161040.png)
+
 ---
 
 ## Careers in Cyber Security
 
 - **SOC Analyst**: Monitors security alerts and responds to incidents in real time to protect an organization's infrastructure.
+
 - **Penetration Tester (Ethical Hacker)**: Simulates attacks on systems and networks to find vulnerabilities before malicious actors do.
+
 - **Digital Forensics Investigator**: Collects and analyzes digital evidence from devices and networks to support cybercrime investigations.
+
 - **Malware Analyst**: Examines malicious software to understand how it works, what damage it causes, and how to defend against it.
+
 - **Threat Intelligence Analyst**: Researches and tracks threat actors, attack patterns, and emerging risks to help organizations stay ahead of threats.
+
 - **Security Engineer**: Designs and builds secure systems, networks, and tools to protect organizational infrastructure.
+
 - **Incident Responder**: Leads the containment and recovery process when a security breach or cyberattack occurs.
+
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Pasted%20image%2020260206182127.png)
 
 ---
 
@@ -83,13 +93,19 @@ Primary analysis techniques:
 A foundational overview of core networking concepts:
 
 - **Network**: A collection of interconnected devices that share resources and communicate.
+
     - **Public Network**: Accessible to anyone (e.g., the Internet).
     - **Private Network**: Restricted to authorized users (e.g., a corporate LAN).
+
 - **IP Address**: A unique logical identifier assigned to each device on a network.
+
     - **IPv4**: 32-bit address format (e.g., `192.168.1.1`).
     - **IPv6**: 128-bit address format designed to replace IPv4 due to address exhaustion.
+
 - **MAC Address**: A hardware-level identifier permanently assigned to a network interface card (NIC).
+
 - **MAC Spoofing**: Changing a device's MAC address to impersonate another device or bypass MAC-based filtering.
+
 - **Ping**: A utility used to test connectivity between two devices by sending ICMP echo requests.
 
 ![](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Pasted%20image%2020260206155940.png)
@@ -168,3 +184,5 @@ IP addresses can be assigned either:
 2. **DHCP Offer** — The server responds with an available IP address offer.
 3. **DHCP Request** — The client formally requests the offered IP address.
 4. **DHCP ACK (Acknowledgement)** — The server confirms the assignment; the client can now use the IP.
+
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Pasted%20image%2020260206210225.png)
