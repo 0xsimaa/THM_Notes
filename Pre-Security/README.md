@@ -92,6 +92,8 @@ A foundational overview of core networking concepts:
 - **MAC Spoofing**: Changing a device's MAC address to impersonate another device or bypass MAC-based filtering.
 - **Ping**: A utility used to test connectivity between two devices by sending ICMP echo requests.
 
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Pasted%20image%2020260206155940.png)
+
 bash
 
 ```bash
