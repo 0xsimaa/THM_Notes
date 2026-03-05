@@ -1,60 +1,69 @@
-## Introduction to Cyber Security
+# Introduction to Cyber Security
 
-#### Gobuster
+## Gobuster
 
-"[Gobuster](https://github.com/OJ/gobuster)" Gobuster will take a list of potential page or directory names and try accessing a website with each of them; if the page exists, it tells you.
-
-[![image](https://github.com/xor-1/CyberSecurity_TryHackMe/raw/main/PreSecurity/Pasted%20image%2020260206160704.png)](https://github.com/xor-1/CyberSecurity_TryHackMe/blob/main/PreSecurity/Pasted%20image%2020260206160704.png)
+Gobuster: A directory and page enumeration tool that takes a wordlist of potential file or directory names and attempts to access them on a target website. If a page or path exists, Gobuster reports it back to you.
 
 ---
 
-#### SOC
+## Security Operations Center (SOC)
 
-**Security Operations Center (SOC)** is a team of IT security professionals tasked with monitoring, preventing , detecting , investigating, and responding to threats within a company’s network and systems.
+Security Operations Center (SOC): A dedicated team of IT security professionals responsible for **monitoring**, **preventing**, **detecting**, **investigating**, and **responding** to threats across a company's network and systems.
 
-> _If a patch is not available, organizations must implement alternative measures to safeguard the system and mitigate potential exploitation._
-
-_**swag voucher: -**_
+> If a patch for a known vulnerability is unavailable, organizations must implement alternative compensating controls to protect the system and reduce the risk of exploitation.
 
 ---
 
-#### Threat Intelligence
+## Threat Intelligence
 
-In this context, _intelligence_ refers to information you gather about actual and potential enemies.
-
----
-
-#### Digital Forensics
-
-Forensics is the application of science to investigate crimes and establish facts. It focuses on:
-
-- File System (taking images)
-- System memory (taking images)
-- network logs
-- system logs (very important)
+Threat Intelligence: The process of collecting and analyzing information about actual and potential adversaries to better understand and anticipate threats.
 
 ---
 
-#### Incident Response
+## Digital Forensics
 
-Incident response specifies the methodology that should be followed to handle a cyber security incident case. Phases include:
+Digital Forensics: The application of scientific methods to investigate cybercrimes and establish facts from digital evidence.
 
-- Preparation
-- Detection and Analysis
-- Containment, Eradication and Recovery
-- Post Incident activity
+Key areas of focus include:
 
----
-
-#### Malware Analysis:
-
-Analysis of malicious software. Includes virus, trojan horse and ransomware. Analysis techniques mainly includes static and dynamic analysis.
-
-[![image](https://github.com/xor-1/CyberSecurity_TryHackMe/raw/main/PreSecurity/Pasted%20image%2020260206161040.png)](https://github.com/xor-1/CyberSecurity_TryHackMe/blob/main/PreSecurity/Pasted%20image%2020260206161040.png)
+- **File System Analysis**: Capturing disk images for offline examination.
+- **Memory Forensics**: Taking snapshots of system RAM to uncover volatile data.
+- **Network Logs**: Reviewing captured network traffic for suspicious activity.
+- **System Logs**: Examining OS and application logs — often the most critical evidence source.
 
 ---
 
-#### Careers in Cyber Security
+## Incident Response
+
+Incident Response: A structured methodology for handling cybersecurity incidents in an organized and effective manner.
+
+The four core phases are:
+
+1. **Preparation** — Establishing policies, tools, and teams before an incident occurs.
+2. **Detection and Analysis** — Identifying and investigating potential incidents.
+3. **Containment, Eradication, and Recovery** — Limiting damage, removing the threat, and restoring normal operations.
+4. **Post-Incident Activity** — Reviewing what happened and improving defenses going forward.
+
+---
+
+## Malware Analysis
+
+Malware Analysis: The process of studying malicious software to understand its behavior, origin, and impact.
+
+Common types of malware include:
+
+- **Virus**: Self-replicating code that attaches to legitimate programs.
+- **Trojan Horse**: Malware disguised as legitimate software.
+- **Ransomware**: Encrypts victim data and demands payment for decryption.
+
+Primary analysis techniques:
+
+- **Static Analysis**: Examining the malware without executing it (e.g., reading code, checking file hashes).
+- **Dynamic Analysis**: Running the malware in a controlled environment (sandbox) to observe its behavior.
+
+---
+
+## Careers in Cyber Security
 
 - **SOC Analyst**: Monitors security alerts and responds to incidents in real time to protect an organization's infrastructure.
 - **Penetration Tester (Ethical Hacker)**: Simulates attacks on systems and networks to find vulnerabilities before malicious actors do.
@@ -64,61 +73,95 @@ Analysis of malicious software. Includes virus, trojan horse and ransomware. Ana
 - **Security Engineer**: Designs and builds secure systems, networks, and tools to protect organizational infrastructure.
 - **Incident Responder**: Leads the containment and recovery process when a security breach or cyberattack occurs.
 
-[![image](https://github.com/xor-1/CyberSecurity_TryHackMe/raw/main/PreSecurity/Pasted%20image%2020260206182127.png)](https://github.com/xor-1/CyberSecurity_TryHackMe/blob/main/PreSecurity/Pasted%20image%2020260206182127.png)
+---
+
+# Network Fundamentals
+
+## What is Networking?
+
+A foundational overview of core networking concepts:
+
+- **Network**: A collection of interconnected devices that share resources and communicate.
+    - **Public Network**: Accessible to anyone (e.g., the Internet).
+    - **Private Network**: Restricted to authorized users (e.g., a corporate LAN).
+- **IP Address**: A unique logical identifier assigned to each device on a network.
+    - **IPv4**: 32-bit address format (e.g., `192.168.1.1`).
+    - **IPv6**: 128-bit address format designed to replace IPv4 due to address exhaustion.
+- **MAC Address**: A hardware-level identifier permanently assigned to a network interface card (NIC).
+- **MAC Spoofing**: Changing a device's MAC address to impersonate another device or bypass MAC-based filtering.
+- **Ping**: A utility used to test connectivity between two devices by sending ICMP echo requests.
+
+bash
+
+```bash
+ping 10.10.10.10
+```
 
 ---
 
-## Network Fundamentals
+## Intro to LAN
 
-#### What is Networking:
+### LAN (Local Area Network)
 
-- Network
-    - Public Network
-    - Private Network
-- IP Address
-    - IPv4
-    - IPv6
-- MAC Address
-- MAC Spoofing
-- Ping
-
-[![image](https://github.com/xor-1/CyberSecurity_TryHackMe/raw/main/PreSecurity/Pasted%20image%2020260206155940.png)](https://github.com/xor-1/CyberSecurity_TryHackMe/blob/main/PreSecurity/Pasted%20image%2020260206155940.png)
+A network covering a small geographic area, such as a home, office, or building.
 
 ---
 
-#### Intro to LAN:
+### Network Topologies
 
-- LAN
-    
-- Topologies
-    
-    - Star topology
-    - Bus topology
-    - Ring topology
-- Switch
-    
-- Router
-    
-- Subnetting (dividing a network into multiple parts)
-    
-    - Used for security and management.
-- ARP
-    
-    - Map IP address to MAC Address on each port in a network.
-    - Types of Signals by ARP:
-        - ARP Request
-        - ARP Reply.
+- **Star Topology**: All devices connect to a central switch or hub. Easy to manage; single point of failure at the center.
+- **Bus Topology**: All devices share a single communication line. Simple but prone to collisions and difficult to troubleshoot.
+- **Ring Topology**: Devices are connected in a circular loop. Data travels in one direction around the ring.
 
-When an **ARP request** is sent, a message is broadcasted on the network to other devices asking, "What is the mac address that owns this IP address?" When the other devices receive that message, they will only respond if they own that IP address and will send an **ARP reply** with its MAC address. The requesting device can now remember this mapping and store it in its **ARP cache** for future use.
+---
 
-- DHCP:
-    - IP addresses can be assigned **manually** or **automatically using DHCP**. With DHCP, a device requests an IP when it joins a network, the DHCP server offers one, the device accepts it, and the server confirms—allowing the device to start using the IP address.
-    - Requests:
-        - DHCP discover
-        - DHCP offer
-        - DHCP request
-        - DHCP ACK
+### Key Network Devices
 
-Room completed:
+- **Switch**: Connects devices within a LAN and forwards data only to the intended recipient using MAC addresses.
+- **Router**: Connects different networks together and directs traffic between them using IP addresses.
 
-[![image](https://github.com/xor-1/CyberSecurity_TryHackMe/raw/main/PreSecurity/Pasted%20image%2020260206210225.png)](https://github.com/xor-1/CyberSecurity_TryHackMe/blob/main/PreSecurity/Pasted%20image%2020260206210225.png)
+---
+
+### Subnetting
+
+Subnetting: The process of dividing a larger network into smaller, more manageable sub-networks (subnets).
+
+Used for:
+
+- **Security**: Isolating sensitive systems from the rest of the network.
+- **Management**: Reducing broadcast traffic and improving network organization.
+
+---
+
+### ARP (Address Resolution Protocol)
+
+ARP: A protocol used to map a known IP address to its corresponding MAC address on a local network.
+
+**How ARP works:**
+
+1. A device broadcasts an **ARP Request** asking: _"Who owns this IP address? What is your MAC address?"_
+2. The device that owns that IP responds with an **ARP Reply**, providing its MAC address.
+3. The requesting device stores this IP-to-MAC mapping in its **ARP Cache** for future use, avoiding repeated broadcasts.
+
+ARP signal types:
+
+- **ARP Request**: Broadcast message sent to all devices on the network.
+- **ARP Reply**: Unicast response sent back from the device that owns the IP.
+
+---
+
+### DHCP (Dynamic Host Configuration Protocol)
+
+DHCP: A protocol that automatically assigns IP addresses and other network configuration settings to devices when they join a network.
+
+IP addresses can be assigned either:
+
+- **Manually (Static)**: Configured directly on the device.
+- **Automatically (Dynamic)**: Assigned by a DHCP server.
+
+**DHCP four-step handshake (DORA):**
+
+1. **DHCP Discover** — The client broadcasts a request looking for a DHCP server.
+2. **DHCP Offer** — The server responds with an available IP address offer.
+3. **DHCP Request** — The client formally requests the offered IP address.
+4. **DHCP ACK (Acknowledgement)** — The server confirms the assignment; the client can now use the IP.
