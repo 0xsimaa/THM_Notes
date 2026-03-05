@@ -1,6 +1,6 @@
 # Introduction to Cyber Security
 
-#### **Gobuster**
+### **Gobuster**
 
 A directory and page enumeration tool that takes a wordlist of potential file or directory names and attempts to access them on a target website. If a page or path exists, Gobuster reports it back to you.
 
@@ -21,7 +21,7 @@ Threat Intelligence: The process of collecting and analyzing information about a
 
 ---
 
-## Digital Forensics
+### **Digital Forensics**
 
 Digital Forensics: The application of scientific methods to investigate cybercrimes and establish facts from digital evidence.
 
@@ -34,20 +34,20 @@ Key areas of focus include:
 
 ---
 
-## Incident Response
+### **Incident Response**
 
 Incident Response: A structured methodology for handling cybersecurity incidents in an organized and effective manner.
 
 The four core phases are:
 
-1. **Preparation** — Establishing policies, tools, and teams before an incident occurs.
-2. **Detection and Analysis** — Identifying and investigating potential incidents.
-3. **Containment, Eradication, and Recovery** — Limiting damage, removing the threat, and restoring normal operations.
-4. **Post-Incident Activity** — Reviewing what happened and improving defenses going forward.
+1. **Preparation**: Establishing policies, tools, and teams before an incident occurs.
+2. **Detection and Analysis**: Identifying and investigating potential incidents.
+3. **Containment, Eradication, and Recovery**: Limiting damage, removing the threat, and restoring normal operations.
+4. **Post-Incident Activity**: Reviewing what happened and improving defenses going forward.
 
 ---
 
-## Malware Analysis
+### **Malware Analysis**
 
 Malware Analysis: The process of studying malicious software to understand its behavior, origin, and impact.
 
@@ -180,9 +180,9 @@ IP addresses can be assigned either:
 
 **DHCP four-step handshake (DORA):**
 
-1. **DHCP Discover** — The client broadcasts a request looking for a DHCP server.
-2. **DHCP Offer** — The server responds with an available IP address offer.
-3. **DHCP Request** — The client formally requests the offered IP address.
-4. **DHCP ACK (Acknowledgement)** — The server confirms the assignment; the client can now use the IP.
+1. **DHCP Discover**: The client broadcasts a request looking for a DHCP server.
+2. **DHCP Offer**: The server responds with an available IP address offer.
+3. **DHCP Request**: The client formally requests the offered IP address.
+4. **DHCP ACK (Acknowledgement)**: The server confirms the assignment; the client can now use the IP.
 
 ![](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Pasted%20image%2020260206210225.png)
