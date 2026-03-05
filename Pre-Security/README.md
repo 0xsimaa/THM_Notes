@@ -4,6 +4,7 @@
 
 Gobuster: A directory and page enumeration tool that takes a wordlist of potential file or directory names and attempts to access them on a target website. If a page or path exists, Gobuster reports it back to you.
 
+![]()
 ---
 
 ## Security Operations Center (SOC)
