@@ -7,7 +7,7 @@ A directory and page enumeration tool that takes a wordlist of potential file or
 ![](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Pasted%20image%2020260206160633.png)
 ---
 
-##### **Security Operations Center (SOC)**
+#### **Security Operations Center (SOC)**
 
 Security Operations Center (SOC): A dedicated team of IT security professionals responsible for **monitoring**, **preventing**, **detecting**, **investigating**, and **responding** to threats across a company's network and systems.
 
@@ -15,7 +15,7 @@ Security Operations Center (SOC): A dedicated team of IT security professionals 
 
 ---
 
-## Threat Intelligence
+#### **Threat Intelligence**
 
 Threat Intelligence: The process of collecting and analyzing information about actual and potential adversaries to better understand and anticipate threats.
 
