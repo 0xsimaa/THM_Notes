@@ -56,6 +56,14 @@ Analysis of malicious software. Includes virus, trojan horse and ransomware. Ana
 
 #### Careers in Cyber Security
 
+- **SOC Analyst**: Monitors security alerts and responds to incidents in real time to protect an organization's infrastructure.
+- **Penetration Tester (Ethical Hacker)**: Simulates attacks on systems and networks to find vulnerabilities before malicious actors do.
+- **Digital Forensics Investigator**: Collects and analyzes digital evidence from devices and networks to support cybercrime investigations.
+- **Malware Analyst**: Examines malicious software to understand how it works, what damage it causes, and how to defend against it.
+- **Threat Intelligence Analyst**: Researches and tracks threat actors, attack patterns, and emerging risks to help organizations stay ahead of threats.
+- **Security Engineer**: Designs and builds secure systems, networks, and tools to protect organizational infrastructure.
+- **Incident Responder**: Leads the containment and recovery process when a security breach or cyberattack occurs.
+
 [![image](https://github.com/xor-1/CyberSecurity_TryHackMe/raw/main/PreSecurity/Pasted%20image%2020260206182127.png)](https://github.com/xor-1/CyberSecurity_TryHackMe/blob/main/PreSecurity/Pasted%20image%2020260206182127.png)
 
 ---
