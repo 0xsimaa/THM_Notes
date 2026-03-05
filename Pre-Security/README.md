@@ -1,13 +1,13 @@
 # Introduction to Cyber Security
 
-**Gobuster**
+##### **Gobuster**
 
-Gobuster: A directory and page enumeration tool that takes a wordlist of potential file or directory names and attempts to access them on a target website. If a page or path exists, Gobuster reports it back to you.
+A directory and page enumeration tool that takes a wordlist of potential file or directory names and attempts to access them on a target website. If a page or path exists, Gobuster reports it back to you.
 
 ![](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Pasted%20image%2020260206160633.png)
 ---
 
-## Security Operations Center (SOC)
+##### **Security Operations Center (SOC)**
 
 Security Operations Center (SOC): A dedicated team of IT security professionals responsible for **monitoring**, **preventing**, **detecting**, **investigating**, and **responding** to threats across a company's network and systems.
 
