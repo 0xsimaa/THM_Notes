@@ -66,7 +66,7 @@ Primary analysis techniques:
 
 ---
 
-## Careers in Cyber Security
+### Careers in Cyber Security
 
 - **SOC Analyst**: Monitors security alerts and responds to incidents in real time to protect an organization's infrastructure.
 
@@ -86,9 +86,9 @@ Primary analysis techniques:
 
 ---
 
-# Network Fundamentals
+### Network Fundamentals
 
-## What is Networking?
+#### What is Networking?
 
 A foundational overview of core networking concepts:
 
@@ -118,9 +118,9 @@ ping 10.10.10.10
 
 ---
 
-## Intro to LAN
+### Intro to LAN
 
-### LAN (Local Area Network)
+#### LAN (Local Area Network)
 
 A network covering a small geographic area, such as a home, office, or building.
 
