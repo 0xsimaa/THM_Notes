@@ -1,4 +1,4 @@
-# Introduction to Cyber Security
+## Introduction to Cyber Security
 
 ### **Gobuster**
 
