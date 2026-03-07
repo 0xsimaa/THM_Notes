@@ -154,7 +154,7 @@ Used for:
 
 ### ARP (Address Resolution Protocol)
 
-ARP: A protocol used to map a known IP address to its corresponding MAC address on a local network.
+ARP: A protocol used to map a known IP address to its corresponding MAC address on a local network. (Not for global Network)
 
 **How ARP works:**
 
