@@ -246,3 +246,33 @@ Handles **end-to-end delivery** across multiple networks using **logical (IP) ad
 - Common routing protocols (just know names for now): **OSPF**, **RIP**
 - Devices: **routers** → called **Layer 3 devices**
 
+### Layer 4 – Transport Layer
+
+Provides **end-to-end communication** services between hosts.
+
+Two main protocols:
+
+#### TCP (Transmission Control Protocol) – Reliable, connection-oriented
+
+- 3-way handshake to establish connection
+- Guarantees delivery, correct order, error checking & retransmission
+- Flow control (prevents overwhelming receiver)
+
+|Advantages|Disadvantages|
+|---|---|
+|Guarantees data arrives complete|Slower due to overhead|
+|Reassembles packets in order|Requires stable connection|
+|Flow control|One lost packet delays entire stream|
+|Used for: web browsing, email, file transfer|Connection reservation can bottleneck slow links|
+
+#### UDP (User Datagram Protocol) – Fast, connectionless
+
+- No handshake, no guarantees, fire-and-forget
+- Much lower overhead
+
+|Advantages|Disadvantages|
+|---|---|
+|Very fast|No delivery guarantee|
+|No connection setup|Lost packets are gone|
+|Flexible for developers|Poor experience on unstable networks|
+|Used for: video streaming, DNS, gaming, VoIP|Not suitable when accuracy is critical|
