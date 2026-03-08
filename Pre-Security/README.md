@@ -246,7 +246,7 @@ Handles **end-to-end delivery** across multiple networks using **logical (IP) ad
 - Common routing protocols (just know names for now): **OSPF**, **RIP**
 - Devices: **routers** → called **Layer 3 devices**
 
-### Layer 4 – Transport Layer
+### Layer 4: Transport Layer
 
 Provides **end-to-end communication** services between hosts.
 
@@ -276,3 +276,12 @@ Two main protocols:
 |No connection setup|Lost packets are gone|
 |Flexible for developers|Poor experience on unstable networks|
 |Used for: video streaming, DNS, gaming, VoIP|Not suitable when accuracy is critical|
+### Layer 5: Session Layer
+
+Manages **"dialogue"** (sessions) between applications.
+
+- Establishes, maintains, and terminates sessions
+- Handles reconnection & checkpoints (only resend data since last checkpoint)
+- Keeps data within its specific session (no cross-session mixing)
+- Examples: checkpointing in long file transfers, session recovery
+
