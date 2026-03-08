@@ -237,7 +237,7 @@ Responsible for **node-to-node delivery** on the same local network using **phys
 
 Handles **end-to-end delivery** across multiple networks using **logical (IP) addresses**.
 
-- Main job: **routing** — finding the best path for packets
+- Main job: **routing** i.e. finding the best path for packets
 - Uses **IP addresses** (e.g. 192.168.1.100)
 - Routing decisions based on:
     - Shortest path (fewest hops)
