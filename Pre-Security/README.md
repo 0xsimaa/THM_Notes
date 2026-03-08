@@ -223,3 +223,13 @@ Handles the **raw transmission of bits** (1s and 0s) over the physical medium.
 - Example: Ethernet cables carrying electrical signals
 - Pure hardware — no intelligence, just sending and receiving electrical/optical signals
 
+### Layer 2 – Data Link Layer
+
+Responsible for **node-to-node delivery** on the same local network using **physical (MAC) addresses**.
+
+- Takes packets from Layer 3 and adds the destination **MAC address**
+- MAC addresses are burned into the NIC by the manufacturer (can be spoofed, but not permanently changed)
+- Formats data into **frames** suitable for the physical medium
+- Error detection (but not correction) usually happens here
+- Devices: **switches**, bridges (work with MAC addresses)
+
