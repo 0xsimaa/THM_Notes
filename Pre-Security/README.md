@@ -233,14 +233,18 @@ Responsible for **node-to-node delivery** on the same local network using **phys
 - Error detection (but not correction) usually happens here
 - Devices: **switches**, bridges (work with MAC addresses)
 
-### Layer 3: Session Layer
+### Layer 3: Network Layer
 
-Manages **"dialogue"** (sessions) between applications.
+Handles **end-to-end delivery** across multiple networks using **logical (IP) addresses**.
 
-- Establishes, maintains, and terminates sessions
-- Handles reconnection & checkpoints (only resend data since last checkpoint)
-- Keeps data within its specific session (no cross-session mixing)
-- Examples: checkpointing in long file transfers, session recovery
+- Main job: **routing** — finding the best path for packets
+- Uses **IP addresses** (e.g. 192.168.1.100)
+- Routing decisions based on:
+    - Shortest path (fewest hops)
+    - Most reliable (least historical packet loss)
+    - Fastest link (fiber > copper)
+- Common routing protocols (just know names for now): **OSPF**, **RIP**
+- Devices: **routers** → called **Layer 3 devices**
 
 ### Layer 4: Transport Layer
 
@@ -272,19 +276,14 @@ Two main protocols:
 |No connection setup|Lost packets are gone|
 |Flexible for developers|Poor experience on unstable networks|
 |Used for: video streaming, DNS, gaming, VoIP|Not suitable when accuracy is critical|
+### Layer 5: Session Layer
 
-### Layer 5: Network Layer
+Manages **"dialogue"** (sessions) between applications.
 
-Handles **end-to-end delivery** across multiple networks using **logical (IP) addresses**.
-
-- Main job: **routing** — finding the best path for packets
-- Uses **IP addresses** (e.g. 192.168.1.100)
-- Routing decisions based on:
-    - Shortest path (fewest hops)
-    - Most reliable (least historical packet loss)
-    - Fastest link (fiber > copper)
-- Common routing protocols (just know names for now): **OSPF**, **RIP**
-- Devices: **routers** → called **Layer 3 devices**
+- Establishes, maintains, and terminates sessions
+- Handles reconnection & checkpoints (only resend data since last checkpoint)
+- Keeps data within its specific session (no cross-session mixing)
+- Examples: checkpointing in long file transfers, session recovery
 
 ### Layer 6: Presentation Layer
 
@@ -303,4 +302,3 @@ The layer **closest to the user**, i.e. where applications access network servic
 - Protocols: **HTTP/HTTPS**, **FTP**, **SMTP**, **DNS**, **POP3/IMAP**, **Telnet**, etc.
 - User-facing software lives here: browsers, email clients, FileZilla, etc.
 - DNS resolves domain names → IP addresses
-
