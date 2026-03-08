@@ -285,3 +285,12 @@ Manages **"dialogue"** (sessions) between applications.
 - Keeps data within its specific session (no cross-session mixing)
 - Examples: checkpointing in long file transfers, session recovery
 
+### Layer 6: Presentation Layer
+
+Acts as a **translator** and formatter so different systems can understand the data.
+
+- Converts data formats (e.g. ASCII ↔ EBCDIC, JPEG compression)
+- Handles encryption & decryption (**SSL/TLS**, HTTPS happens here)
+- Data compression/decompression
+- Ensures the receiving application sees data in a usable format
+
