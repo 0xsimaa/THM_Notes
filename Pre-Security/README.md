@@ -186,3 +186,32 @@ IP addresses can be assigned either:
 4. **DHCP ACK (Acknowledgement)**: The server confirms the assignment; the client can now use the IP.
 
 ![](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Pasted%20image%2020260206210225.png)
+
+---
+
+### OSI Model (Open Systems Interconnection Model)
+
+The **OSI Model** is a conceptual framework that standardizes how networked devices communicate. It defines how data is sent, received, and interpreted across networks so that devices from different vendors can interoperate.
+
+#### Key Benefit
+
+Devices with different hardware/software designs can still communicate reliably because everyone follows the same layered rules.
+
+#### Structure
+
+- 7 layers, numbered from **Layer 7** (top -> closest to user) to **Layer 1** (bottom –> physical hardware)
+- Data flows **down** the stack when sending → **encapsulation** (headers added at each layer)
+- Data flows **up** the stack when receiving → **decapsulation** (headers removed)
+
+text
+
+```
+Layer 7 – Application
+Layer 6 – Presentation
+Layer 5 – Session
+Layer 4 – Transport
+Layer 3 – Network
+Layer 2 – Data Link
+Layer 1 – Physical
+```
+
