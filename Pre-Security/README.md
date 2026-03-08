@@ -294,3 +294,12 @@ Acts as a **translator** and formatter so different systems can understand the d
 - Data compression/decompression
 - Ensures the receiving application sees data in a usable format
 
+### Layer 7: Application Layer
+
+The layer **closest to the user**, i.e. where applications access network services.
+
+- Provides network services to end-user applications
+- Protocols: **HTTP/HTTPS**, **FTP**, **SMTP**, **DNS**, **POP3/IMAP**, **Telnet**, etc.
+- User-facing software lives here: browsers, email clients, FileZilla, etc.
+- DNS resolves domain names → IP addresses
+
