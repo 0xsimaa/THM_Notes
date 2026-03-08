@@ -221,7 +221,7 @@ Handles the **raw transmission of bits** (1s and 0s) over the physical medium.
 
 - Deals with: cables, connectors, voltages, signal timing, hubs, repeaters, NIC ports
 - Example: Ethernet cables carrying electrical signals
-- Pure hardware — no intelligence, just sending and receiving electrical/optical signals
+- Pure hardware: no intelligence, just sending and receiving electrical/optical signals
 
 ### Layer 2: Data Link Layer
 
