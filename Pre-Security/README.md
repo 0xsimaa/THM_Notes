@@ -215,7 +215,7 @@ Layer 2 – Data Link
 Layer 1 – Physical
 ```
 
-### Layer 1 – Physical Layer
+### Layer 1: Physical Layer
 
 Handles the **raw transmission of bits** (1s and 0s) over the physical medium.
 
@@ -223,7 +223,7 @@ Handles the **raw transmission of bits** (1s and 0s) over the physical medium.
 - Example: Ethernet cables carrying electrical signals
 - Pure hardware — no intelligence, just sending and receiving electrical/optical signals
 
-### Layer 2 – Data Link Layer
+### Layer 2: Data Link Layer
 
 Responsible for **node-to-node delivery** on the same local network using **physical (MAC) addresses**.
 
@@ -232,4 +232,17 @@ Responsible for **node-to-node delivery** on the same local network using **phys
 - Formats data into **frames** suitable for the physical medium
 - Error detection (but not correction) usually happens here
 - Devices: **switches**, bridges (work with MAC addresses)
+
+### Layer 3: Network Layer
+
+Handles **end-to-end delivery** across multiple networks using **logical (IP) addresses**.
+
+- Main job: **routing** — finding the best path for packets
+- Uses **IP addresses** (e.g. 192.168.1.100)
+- Routing decisions based on:
+    - Shortest path (fewest hops)
+    - Most reliable (least historical packet loss)
+    - Fastest link (fiber > copper)
+- Common routing protocols (just know names for now): **OSPF**, **RIP**
+- Devices: **routers** → called **Layer 3 devices**
 
