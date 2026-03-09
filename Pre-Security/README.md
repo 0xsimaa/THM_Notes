@@ -303,5 +303,7 @@ The layer **closest to the user**, i.e. where applications access network servic
 - User-facing software lives here: browsers, email clients, FileZilla, etc.
 - DNS resolves domain names → IP addresses
 
----
+### OSI Dungeon Escape:
+
+(This is the dungeon escape room of THM OSI Model)
 
