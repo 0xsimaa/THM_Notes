@@ -302,3 +302,6 @@ The layer **closest to the user**, i.e. where applications access network servic
 - Protocols: **HTTP/HTTPS**, **FTP**, **SMTP**, **DNS**, **POP3/IMAP**, **Telnet**, etc.
 - User-facing software lives here: browsers, email clients, FileZilla, etc.
 - DNS resolves domain names → IP addresses
+
+---
+
