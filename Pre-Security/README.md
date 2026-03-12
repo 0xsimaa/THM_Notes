@@ -333,3 +333,8 @@ When you ping something (e.g., Google's DNS 8.8.8.8) and see a reply with TTL = 
 It flips the bits (one's complement) and puts that value in the checksum field.
 
 The receiver does the exact same calculation. If everything matches perfectly, the final sum (including the received checksum) should be all 1s (0xFFFF). Any other result means corruption happened somewhere along the way → packet gets dropped.
+
+- **Source IP address** Simply the IP of the device that originally sent this packet.
+    
+- **Destination IP address** The IP of the final intended recipient (though routers look at this to decide the _next_ hop).
+
