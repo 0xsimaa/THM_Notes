@@ -338,3 +338,4 @@ The receiver does the exact same calculation. If everything matches perfectly, t
     
 - **Destination IP address** The IP of the final intended recipient (though routers look at this to decide the _next_ hop).
 
+These fields help packets get delivered reliably, avoid endless loops, detect corruption, and of course know who sent what to whom. The whole encapsulation process (packet → frame → bits on the wire) is what makes modern networking actually work!
