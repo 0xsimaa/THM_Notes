@@ -307,3 +307,9 @@ The layer **closest to the user**, i.e. where applications access network servic
 
 (This is the dungeon escape room of THM OSI Model)
 
+---
+
+**Packets and frames** are the basic units of data that travel across networks, but they belong to different layers of the networking model (like the OSI or TCP/IP stack).
+
+- **Packets** are created at the **network layer** (Layer 3), typically carrying an **IP header**. This is the version of the data that gets routed across different networks (the internet).
+- **Frames** are formed at the **data link layer** (Layer 2), where the packet gets wrapped (encapsulated) with an additional header and trailer (like Ethernet header + CRC). Frames are what actually travel over a single physical link between two directly connected devices.
