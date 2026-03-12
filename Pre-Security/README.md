@@ -315,3 +315,13 @@ The layer **closest to the user**, i.e. where applications access network servic
 - **Frames** are formed at the **data link layer** (Layer 2), where the packet gets wrapped (encapsulated) with an additional header and trailer (like Ethernet header + CRC). Frames are what actually travel over a single physical link between two directly connected devices.
 
 In short: Packet → gets stuffed inside a frame when it's handed down to the local network hardware.
+
+Here are some key fields you'll often see in an **IP packet** (and especially in the context of things like ping or TCP):
+
+- **TTL (Time to Live)** This is basically a "hop limit" counter built into every IP packet to prevent it from looping forever if there's a routing mistake. Each router that forwards the packet decreases the TTL by 1. If it hits 0, the packet gets dropped (and usually an ICMP "time exceeded" message is sent back).
+    
+    Different systems start with different default TTL values:
+    
+    - Linux / macOS → usually starts at **64**
+    - Windows → usually starts at **128**
+    - Many routers (like Cisco) → often **255**
