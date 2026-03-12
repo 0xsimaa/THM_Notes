@@ -327,3 +327,9 @@ Here are some key fields you'll often see in an **IP packet** (and especially in
     - Many routers (like Cisco) → often **255**
 
 When you ping something (e.g., Google's DNS 8.8.8.8) and see a reply with TTL = 119, you can estimate the number of hops like this: If it's probably a Windows server (assuming initial TTL = 128), then hops ≈ 128 - 119 = 9 hops. (This is just an educated guess because you infer the starting TTL from the OS type.)
+
+**Checksum** (especially in TCP segments) This is an error-detection code. The sender adds up (in a special 16-bit one's complement way) almost everything: the TCP header, the payload (actual data), and even a "pseudo-header" pulled from the IP layer (source/dest IP addresses, protocol number, TCP length).
+
+It flips the bits (one's complement) and puts that value in the checksum field.
+
+The receiver does the exact same calculation. If everything matches perfectly, the final sum (including the received checksum) should be all 1s (0xFFFF). Any other result means corruption happened somewhere along the way → packet gets dropped.
