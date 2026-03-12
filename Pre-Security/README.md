@@ -325,3 +325,5 @@ Here are some key fields you'll often see in an **IP packet** (and especially in
     - Linux / macOS → usually starts at **64**
     - Windows → usually starts at **128**
     - Many routers (like Cisco) → often **255**
+
+When you ping something (e.g., Google's DNS 8.8.8.8) and see a reply with TTL = 119, you can estimate the number of hops like this: If it's probably a Windows server (assuming initial TTL = 128), then hops ≈ 128 - 119 = 9 hops. (This is just an educated guess because you infer the starting TTL from the OS type.)
