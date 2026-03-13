@@ -199,7 +199,7 @@ Devices with different hardware/software designs can still communicate reliably 
 
 #### Structure
 
-- 7 layers, numbered from **Layer 7** (top -> closest to user) to **Layer 1** (bottom –> physical hardware)
+- 7 layers, numbered from **Layer 7** (top --> closest to user) to **Layer 1** (bottom --> physical hardware)
 - Data flows **down** the stack when sending → **encapsulation** (headers added at each layer)
 - Data flows **up** the stack when receiving → **decapsulation** (headers removed)
 
