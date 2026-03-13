@@ -307,35 +307,3 @@ The layer **closest to the user**, i.e. where applications access network servic
 
 (This is the dungeon escape room of THM OSI Model)
 
----
-
-**Packets and frames** are the basic units of data that travel across networks, but they belong to different layers of the networking model (like the OSI or TCP/IP stack).
-
-- **Packets** are created at the **network layer** (Layer 3), typically carrying an **IP header**. This is the version of the data that gets routed across different networks (the internet).
-- **Frames** are formed at the **data link layer** (Layer 2), where the packet gets wrapped (encapsulated) with an additional header and trailer (like Ethernet header + CRC). Frames are what actually travel over a single physical link between two directly connected devices.
-
-In short: Packet → gets stuffed inside a frame when it's handed down to the local network hardware.
-
-Here are some key fields you'll often see in an **IP packet** (and especially in the context of things like ping or TCP):
-
-- **TTL (Time to Live)** This is basically a "hop limit" counter built into every IP packet to prevent it from looping forever if there's a routing mistake. Each router that forwards the packet decreases the TTL by 1. If it hits 0, the packet gets dropped (and usually an ICMP "time exceeded" message is sent back).
-    
-    Different systems start with different default TTL values:
-    
-    - Linux / macOS → usually starts at **64**
-    - Windows → usually starts at **128**
-    - Many routers (like Cisco) → often **255**
-
-When you ping something (e.g., Google's DNS 8.8.8.8) and see a reply with TTL = 119, you can estimate the number of hops like this: If it's probably a Windows server (assuming initial TTL = 128), then hops ≈ 128 - 119 = 9 hops. (This is just an educated guess because you infer the starting TTL from the OS type.)
-
-**Checksum** (especially in TCP segments) This is an error-detection code. The sender adds up (in a special 16-bit one's complement way) almost everything: the TCP header, the payload (actual data), and even a "pseudo-header" pulled from the IP layer (source/dest IP addresses, protocol number, TCP length).
-
-It flips the bits (one's complement) and puts that value in the checksum field.
-
-The receiver does the exact same calculation. If everything matches perfectly, the final sum (including the received checksum) should be all 1s (0xFFFF). Any other result means corruption happened somewhere along the way → packet gets dropped.
-
-- **Source IP address** Simply the IP of the device that originally sent this packet.
-    
-- **Destination IP address** The IP of the final intended recipient (though routers look at this to decide the _next_ hop).
-
-These fields help packets get delivered reliably, avoid endless loops, detect corruption, and of course know who sent what to whom. The whole encapsulation process (packet → frame → bits on the wire) is what makes modern networking actually work!
