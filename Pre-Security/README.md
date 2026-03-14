@@ -310,3 +310,5 @@ The layer **closest to the user**, i.e. where applications access network servic
 ![image](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Pasted%20image.png)
 
 ---
+
+![]()
