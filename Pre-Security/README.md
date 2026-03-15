@@ -343,3 +343,9 @@ The layer **closest to the user**, i.e. where applications access network servic
 4. Frame is sent over the physical medium (cable, Wi-Fi, etc.)
 5. At next device: Frame is opened → Packet is extracted → and so on
 
+### Key IP Packet Headers (with purpose)
+
+- **Time to Live (TTL)** Starts at ~64 or 128 → decreases by 1 per router If it reaches 0 → packet is dropped (prevents infinite loops)
+- **Checksum** Quick math check on the header (sometimes whole packet) If changed/corrupted → packet is discarded
+- **Source IP Address** Sender’s IP → allows replies to come back
+- **Destination IP Address** Final target → routers use this to forward packet
