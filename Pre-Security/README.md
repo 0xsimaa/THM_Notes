@@ -321,7 +321,6 @@ The layer **closest to the user**, i.e. where applications access network servic
     - Operates at **Layer 3 (Network Layer)**
     - Contains: IP header + actual data (payload)
     - Uses **IP addresses** (source & destination)
-
 - ##### **Frame**
     - Operates at **Layer 2 (Data Link Layer)**
     - Wraps the entire packet inside it
@@ -345,7 +344,7 @@ The layer **closest to the user**, i.e. where applications access network servic
 
 ### Key IP Packet Headers (with purpose)
 
-- **Time to Live (TTL)** Starts at ~64 or 128 → decreases by 1 per router If it reaches 0 → packet is dropped (prevents infinite loops)
+- **Time to Live (TTL)** Starts at 64 or 128 → decreases by 1 per router If it reaches 0 → packet is dropped (prevents infinite loops)
 - **Checksum** Quick math check on the header (sometimes whole packet) If changed/corrupted → packet is discarded
 - **Source IP Address** Sender’s IP → allows replies to come back
 - **Destination IP Address** Final target → routers use this to forward packet
