@@ -348,3 +348,6 @@ The layer **closest to the user**, i.e. where applications access network servic
 - **Checksum** Quick math check on the header (sometimes whole packet) If changed/corrupted → packet is discarded
 - **Source IP Address** Sender’s IP → allows replies to come back
 - **Destination IP Address** Final target → routers use this to forward packet
+
+---
+
