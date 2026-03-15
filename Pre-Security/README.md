@@ -334,3 +334,12 @@ The layer **closest to the user**, i.e. where applications access network servic
 - Sending huge files in one piece → causes major congestion, long delays, and easy failure
 - Instead: break data into small packets → each travels independently (different paths possible) → much lower risk of blocking the whole network → receiver reassembles them in correct order
 - Everyday example: A single photo or video is chopped into dozens/hundreds of packets
+
+### Encapsulation:
+
+1. Application creates the data
+2. Layer 3 adds IP header → becomes a **Packet**
+3. Layer 2 takes the packet, adds its own header & trailer (MAC addresses, error checking) → becomes a **Frame**
+4. Frame is sent over the physical medium (cable, Wi-Fi, etc.)
+5. At next device: Frame is opened → Packet is extracted → and so on
+
