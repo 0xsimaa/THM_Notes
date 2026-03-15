@@ -314,3 +314,17 @@ The layer **closest to the user**, i.e. where applications access network servic
 ![image](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Pasted%20image%20(2).png)
 
 ---
+
+### Packets vs Frames
+
+- #### **Packet**
+    - Operates at **Layer 3 (Network Layer)**
+    - Contains: IP header + actual data (payload)
+    - Uses **IP addresses** (source & destination)
+
+- ##### **Frame**
+    - Operates at **Layer 2 (Data Link Layer)**
+    - Wraps the entire packet inside it
+    - Adds **MAC addresses** (source & destination) for local network delivery
+
+- **Analogy**: Packet = the letter itself, Frame = the envelope that gets it across one local hop
