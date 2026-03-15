@@ -328,3 +328,9 @@ The layer **closest to the user**, i.e. where applications access network servic
     - Adds **MAC addresses** (source & destination) for local network delivery
 
 - **Analogy**: Packet = the letter itself, Frame = the envelope that gets it across one local hop
+
+### Why We Use Small Packets
+
+- Sending huge files in one piece → causes major congestion, long delays, and easy failure
+- Instead: break data into small packets → each travels independently (different paths possible) → much lower risk of blocking the whole network → receiver reassembles them in correct order
+- Everyday example: A single photo or video is chopped into dozens/hundreds of packets
