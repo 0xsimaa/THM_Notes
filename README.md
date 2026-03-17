@@ -1,1 +1,0 @@
-# THM_Notes
