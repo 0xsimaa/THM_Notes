@@ -363,8 +363,16 @@ The layer **closest to the user**, i.e. where applications access network servic
     - Must perform handshake before sending any data
     - Guarantees delivery, correct order, no duplication, and error checking
 
-#### TCP/IP -- Three-Way Handshake:
+- **TCP/IP - Three-Way Handshake:**
+    1. Client → SYN → sends random Initial Sequence Number (ISN)
+    2. Server → SYN + ACK → sends own ISN + acknowledges client’s ISN
+    3. Client → ACK → acknowledges server’s ISN → connection is now open
 
-    1. Client → **SYN** → sends random Initial Sequence Number (ISN)
-    2. Server → **SYN + ACK** → sends own ISN + acknowledges client’s ISN
-    3. Client → **ACK** → acknowledges server’s ISN → connection is now open
+ **Key TCP Header Fields**
+ 
+- **Source Port** → random high-number port chosen by sender
+- **Destination Port** → fixed/well-known port of the service (80, 443, 22…)
+- **Sequence Number** → tracks position of each byte in the data stream
+- **Acknowledgement Number** → tells sender “I received everything up to this number”
+- **Checksum** → mathematical value to detect corrupted data
+- **Flags** → control bits (SYN, ACK, FIN, RST, PSH…) that drive connection behavior
