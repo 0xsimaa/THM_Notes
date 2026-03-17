@@ -351,56 +351,55 @@ The layer **closest to the user**, i.e. where applications access network servic
 
 ---
 
-### TCP/IP Model:
+### TCP/IP
 
-**TCP/IP Model – 4 Layers**
+- **TCP/IP Model – 4 Layers**
+    
+	- Application → HTTP, HTTPS, FTP, SMTP, DNS, etc.
+    - Transport → TCP (reliable) or UDP (fast/unreliable) – reliability decided here
+    - Internet → IP (IPv4/IPv6) – handles routing and logical addressing
+    - Network Interface → Ethernet, Wi-Fi, physical hardware + MAC addresses
 
-    - Application → (HTTP, FTP, SMTP, etc.)
-    - Transport → (TCP or UDP – reliability decided here)
-    - Internet → (IP – routing & addressing)
-    - Network Interface → (Ethernet, Wi-Fi, physical hardware + MAC)
+- **TCP is Connection-Oriented & Reliable**
 
- **TCP is Connection-Oriented & Reliable**
- 
-    - Must perform handshake before sending any data
-    - Guarantees delivery, correct order, no duplication, and error checking
+	- Requires a connection to be established before any data is sent
+    - Guarantees: delivery, correct order, no duplicates, and error detection
 
- **TCP/IP - Three-Way Handshake:**
- 
-    1. Client → SYN → sends random Initial Sequence Number (ISN)
-    2. Server → SYN + ACK → sends own ISN + acknowledges client’s ISN
-    3. Client → ACK → acknowledges server’s ISN → connection is now open
+- **Three-Way Handshake (Connection Setup)**
 
- **Key TCP Header Fields**
- 
-- **Source Port** → random high-number port chosen by sender
-- **Destination Port** → fixed/well-known port of the service (80, 443, 22…)
-- **Sequence Number** → tracks position of each byte in the data stream
-- **Acknowledgement Number** → tells sender “I received everything up to this number”
-- **Checksum** → mathematical value to detect corrupted data
-- **Flags** → control bits (SYN, ACK, FIN, RST, PSH…) that drive connection behavior
+	- Client → Server: SYN (sends random Initial Sequence Number – ISN)
+    - Server → Client: SYN + ACK (sends own ISN + acknowledges client’s ISN)
+    - Client → Server: ACK (acknowledges server’s ISN) → connection is now fully open
 
- **Advantages of TCP**
- 
-    - Guarantees data arrives complete and in order
-    - Built-in flow control prevents overwhelming the receiver
-    - Retransmits lost packets automatically
+- **Key TCP Header Fields**
 
-**Disadvantages of TCP**
+	- Source Port → random high-number (ephemeral) port chosen by the sender
+    - Destination Port → well-known/fixed port of the service (e.g. 80=HTTP, 443=HTTPS, 22=SSH)
+    - Sequence Number → tracks the position of each byte in the data stream
+    - Acknowledgement Number → tells sender “I’ve received everything up to this number”
+    - Checksum → mathematical value used to detect corrupted or damaged data
+    - Flags → control bits (SYN, ACK, FIN, RST, PSH, URG…) that control connection behavior
 
-	- Slower than UDP due to extra headers, acknowledgements & retransmissions
-	- Requires stable connection – poor network causes big delays
-	- Uses more CPU/memory (connection state tracking)
+- **Advantages of TCP**
 
- **Closing a TCP Connection**
- 
-	- Normally uses FIN packets (polite 4-step close)
+	- Guarantees data arrives complete, in order, and without duplication
+    - Built-in flow control prevents fast sender from overwhelming slow receiver
+    - Automatically retransmits any lost or corrupted packets
+
+- **Disadvantages of TCP**
+
+	- Slower than UDP (due to extra headers, acknowledgements, and retransmissions)
+    - Requires a stable connection – poor/unstable networks cause big delays
+    - Uses more CPU and memory (tracks connection state, buffers, etc.)
+
+- **Closing a TCP Connection**
+
+	- Normally uses FIN packets in a polite 4-step (or combined) close sequence
     - FIN → “I have no more data to send”
-    - RST → abrupt reset (used for errors, crashes, or rejected connections)
+    - RST → abrupt/harsh reset (used for errors, crashes, rejected connections, etc.)
 
- **Sequence & Acknowledgement Basics**
+- **Sequence & Acknowledgement Basics**
 
-	- Both sides start with random ISN for security & ordering
-    - Each byte gets a sequence number → receiver uses ACK to confirm receipt
-    - Data is reassembled in correct order even if packets arrive out of sequence
-
+	- Both sides begin with a random Initial Sequence Number (ISN) for security and ordering
+    - Every byte of data is assigned a sequence number
+    - Receiver sends ACK to confirm receipt → data is reassembled in correct order even if packets arrive out of sequence
