@@ -353,17 +353,20 @@ The layer **closest to the user**, i.e. where applications access network servic
 
 ### TCP/IP Model:
 
-- **TCP/IP Model – 4 Layers**
+**TCP/IP Model – 4 Layers**
+
     - Application → (HTTP, FTP, SMTP, etc.)
     - Transport → (TCP or UDP – reliability decided here)
     - Internet → (IP – routing & addressing)
     - Network Interface → (Ethernet, Wi-Fi, physical hardware + MAC)
 
-- **TCP is Connection-Oriented & Reliable**
+ **TCP is Connection-Oriented & Reliable**
+ 
     - Must perform handshake before sending any data
     - Guarantees delivery, correct order, no duplication, and error checking
 
-- **TCP/IP - Three-Way Handshake:**
+ **TCP/IP - Three-Way Handshake:**
+ 
     1. Client → SYN → sends random Initial Sequence Number (ISN)
     2. Server → SYN + ACK → sends own ISN + acknowledges client’s ISN
     3. Client → ACK → acknowledges server’s ISN → connection is now open
