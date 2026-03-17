@@ -379,3 +379,16 @@ The layer **closest to the user**, i.e. where applications access network servic
 - **Acknowledgement Number** → tells sender “I received everything up to this number”
 - **Checksum** → mathematical value to detect corrupted data
 - **Flags** → control bits (SYN, ACK, FIN, RST, PSH…) that drive connection behavior
+
+ **Advantages of TCP**
+ 
+    - Guarantees data arrives complete and in order
+    - Built-in flow control prevents overwhelming the receiver
+    - Retransmits lost packets automatically
+
+**Disadvantages of TCP**
+
+- Slower than UDP due to extra headers, acknowledgements & retransmissions
+- Requires stable connection – poor network causes big delays
+- Uses more CPU/memory (connection state tracking)
+
