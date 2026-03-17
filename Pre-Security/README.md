@@ -388,7 +388,19 @@ The layer **closest to the user**, i.e. where applications access network servic
 
 **Disadvantages of TCP**
 
-- Slower than UDP due to extra headers, acknowledgements & retransmissions
-- Requires stable connection – poor network causes big delays
-- Uses more CPU/memory (connection state tracking)
+	- Slower than UDP due to extra headers, acknowledgements & retransmissions
+	- Requires stable connection – poor network causes big delays
+	- Uses more CPU/memory (connection state tracking)
+
+ **Closing a TCP Connection**
+ 
+	- Normally uses FIN packets (polite 4-step close)
+    - FIN → “I have no more data to send”
+    - RST → abrupt reset (used for errors, crashes, or rejected connections)
+
+ **Sequence & Acknowledgement Basics**
+
+	- Both sides start with random ISN for security & ordering
+    - Each byte gets a sequence number → receiver uses ACK to confirm receipt
+    - Data is reassembled in correct order even if packets arrive out of sequence
 
