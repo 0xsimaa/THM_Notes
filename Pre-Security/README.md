@@ -363,3 +363,8 @@ The layer **closest to the user**, i.e. where applications access network servic
     - Must perform handshake before sending any data
     - Guarantees delivery, correct order, no duplication, and error checking
 
+#### TCP/IP -- Three-Way Handshake:
+
+    1. Client → **SYN** → sends random Initial Sequence Number (ISN)
+    2. Server → **SYN + ACK** → sends own ISN + acknowledges client’s ISN
+    3. Client → **ACK** → acknowledges server’s ISN → connection is now open
