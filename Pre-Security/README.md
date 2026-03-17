@@ -395,7 +395,7 @@ The layer **closest to the user**, i.e. where applications access network servic
 - **Closing a TCP Connection**
 
 	- Normally uses FIN packets in a polite 4-step (or combined) close sequence
-    - FIN → “I have no more data to send”
+    - FIN → “I have no more data to send” (Connection end)
     - RST → abrupt/harsh reset (used for errors, crashes, rejected connections, etc.)
 
 - **Sequence & Acknowledgement Basics**
@@ -403,3 +403,6 @@ The layer **closest to the user**, i.e. where applications access network servic
 	- Both sides begin with a random Initial Sequence Number (ISN) for security and ordering
     - Every byte of data is assigned a sequence number
     - Receiver sends ACK to confirm receipt → data is reassembled in correct order even if packets arrive out of sequence
+
+---
+
