@@ -435,11 +435,22 @@ The **User Datagram Protocol (UDP)** is a stateless transport-layer protocol use
 
 UDP packets are significantly simpler than TCP packets. The following headers are common to both protocols (and always present in UDP):
 
-|Header|Description|
-|---|---|
-|**Time to Live (TTL)**|Sets an expiry timer for the packet so it does not loop endlessly in the network|
-|**Source Address**|IP address of the sending device|
-|**Destination Address**|IP address of the receiving device|
-|**Source Port**|Randomly chosen port (0–65535) on the sender’s device|
-|**Destination Port**|Fixed port on the receiver where the service/application is listening (e.g., port 80 for web server)|
-|**Data**|Actual payload (bytes of the file or message being transmitted)|
+| Header                  | Description                                                                                          |
+| ----------------------- | ---------------------------------------------------------------------------------------------------- |
+| **Time to Live (TTL)**  | Sets an expiry timer for the packet so it does not loop endlessly in the network                     |
+| **Source Address**      | IP address of the sending device                                                                     |
+| **Destination Address** | IP address of the receiving device                                                                   |
+| **Source Port**         | Randomly chosen port (0–65535) on the sender’s device                                                |
+| **Destination Port**    | Fixed port on the receiver where the service/application is listening (e.g., port 80 for web server) |
+| **Data**                | Actual payload (bytes of the file or message being transmitted)                                      |
+
+### Connection Process (UDP)
+
+- UDP is **stateless**, i.e. no connection is ever established.
+- No three-way handshake occurs.
+- No acknowledgements are sent back to the sender.
+- The sender simply fires packets toward the destination port with zero regard for whether they arrive or not.
+- Responsibility for handling lost packets, ordering, or retransmission is left entirely to the application layer.
+
+---
+
