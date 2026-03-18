@@ -406,3 +406,9 @@ The layer **closest to the user**, i.e. where applications access network servic
 
 ---
 
+### The User Datagram Protocol (UDP)
+
+The **User Datagram Protocol (UDP)** is a stateless transport-layer protocol used to send data between devices. Unlike TCP, UDP does **not** require a constant connection, a three-way handshake, or any synchronization between sender and receiver.
+
+> UDP is preferred in scenarios where applications can tolerate packet loss (e.g., video streaming, voice chat, online gaming) or when a stable connection cannot be guaranteed.
+
