@@ -424,9 +424,22 @@ The **User Datagram Protocol (UDP)** is a stateless transport-layer protocol use
 
 ### Advantages and Disadvantages of UDP
 
-|Advantages of UDP|Disadvantages of UDP|
+| Advantages of UDP                                                         | Disadvantages of UDP                                      |
+| ------------------------------------------------------------------------- | --------------------------------------------------------- |
+| Much faster than TCP                                                      | No guarantee that data is received                        |
+| Application controls packet sending rate (highly flexible for developers) | Unstable connections result in poor user experience       |
+| Does not reserve a continuous connection                                  | No data integrity checks or retransmission                |
+| Simpler packet structure (fewer headers)                                  | No safeguards like TCP (no acknowledgements, no ordering) |
+
+### UDP Packet Headers
+
+UDP packets are significantly simpler than TCP packets. The following headers are common to both protocols (and always present in UDP):
+
+|Header|Description|
 |---|---|
-|Much faster than TCP|No guarantee that data is received|
-|Application controls packet sending rate (highly flexible for developers)|Unstable connections result in poor user experience|
-|Does not reserve a continuous connection|No data integrity checks or retransmission|
-|Simpler packet structure (fewer headers)|No safeguards like TCP (no acknowledgements, no ordering)|
+|**Time to Live (TTL)**|Sets an expiry timer for the packet so it does not loop endlessly in the network|
+|**Source Address**|IP address of the sending device|
+|**Destination Address**|IP address of the receiving device|
+|**Source Port**|Randomly chosen port (0–65535) on the sender’s device|
+|**Destination Port**|Fixed port on the receiver where the service/application is listening (e.g., port 80 for web server)|
+|**Data**|Actual payload (bytes of the file or message being transmitted)|
