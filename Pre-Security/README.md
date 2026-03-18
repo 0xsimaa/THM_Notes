@@ -454,3 +454,13 @@ UDP packets are significantly simpler than TCP packets. The following headers ar
 
 ---
 
+## Network Ports
+
+**Ports** act as the entry and exit points for data on a device. Just like a harbour has specific docks for different types of ships, networking devices use ports to enforce strict rules about which applications can send or receive data.
+
+> **Harbour Analogy** A cruise liner cannot dock at a fishing vessel’s port and vice versa. Similarly, data must use the correct port number to reach the intended application or service.
+
+- Ports are **numerical values** ranging from **0 to 65,535**.
+- When a connection is established (as explained in the OSI Model room), all data sent or received travels through these ports.
+
+Because there are 65,536 possible ports, standards were created so applications know exactly where to send/receive data. This ensures compatibility across all software (e.g., every web browser expects web traffic on the same port).
