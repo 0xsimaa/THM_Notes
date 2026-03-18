@@ -487,5 +487,7 @@ These are the **standard ports** reserved for widely used protocols. Application
 - When using a non-standard port, you must explicitly tell the application by adding a colon and the port number (e.g., http://example.com:8080).
 - Most applications assume the standard port is being used unless you specify otherwise.
 
+
+
 ---
 
