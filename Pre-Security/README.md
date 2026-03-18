@@ -414,10 +414,19 @@ The **User Datagram Protocol (UDP)** is a stateless transport-layer protocol use
 
 ### Comparison: TCP vs UDP (Quick Reference)
 
-|Feature|TCP|UDP|
-|---|---|---|
-|Connection type|Connection-oriented|Connectionless / Stateless|
-|Handshake|Three-way handshake required|No handshake|
-|Reliability|Guarantees delivery & order|No guarantee of delivery|
-|Speed|Slower (due to overhead)|Much faster|
-|Use cases|Web, email, file transfer|Streaming, VoIP, DNS, gaming|
+| Feature         | TCP                          | UDP                          |
+| --------------- | ---------------------------- | ---------------------------- |
+| Connection type | Connection-oriented          | Connectionless / Stateless   |
+| Handshake       | Three-way handshake required | No handshake                 |
+| Reliability     | Guarantees delivery & order  | No guarantee of delivery     |
+| Speed           | Slower (due to overhead)     | Much faster                  |
+| Use cases       | Web, email, file transfer    | Streaming, VoIP, DNS, gaming |
+
+### Advantages and Disadvantages of UDP
+
+|Advantages of UDP|Disadvantages of UDP|
+|---|---|
+|Much faster than TCP|No guarantee that data is received|
+|Application controls packet sending rate (highly flexible for developers)|Unstable connections result in poor user experience|
+|Does not reserve a continuous connection|No data integrity checks or retransmission|
+|Simpler packet structure (fewer headers)|No safeguards like TCP (no acknowledgements, no ordering)|
