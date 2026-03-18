@@ -454,7 +454,7 @@ UDP packets are significantly simpler than TCP packets. The following headers ar
 
 ---
 
-## Network Ports
+### Network Ports
 
 **Ports** act as the entry and exit points for data on a device. Just like a harbour has specific docks for different types of ships, networking devices use ports to enforce strict rules about which applications can send or receive data.
 
@@ -464,3 +464,28 @@ UDP packets are significantly simpler than TCP packets. The following headers ar
 - When a connection is established (as explained in the OSI Model room), all data sent or received travels through these ports.
 
 Because there are 65,536 possible ports, standards were created so applications know exactly where to send/receive data. This ensures compatibility across all software (e.g., every web browser expects web traffic on the same port).
+
+### Well-Known / Common Ports (0 – 1,024)
+
+These are the **standard ports** reserved for widely used protocols. Applications expect these defaults unless otherwise specified.
+
+|Protocol|Port Number|Description|
+|---|---|---|
+|**File Transfer Protocol (FTP)**|21|Used for uploading/downloading files in a client-server model|
+|**Secure Shell (SSH)**|22|Secure text-based remote login and system management|
+|**HyperText Transfer Protocol (HTTP)**|80|Powers the World Wide Web – used by browsers to load websites|
+|**HyperText Transfer Protocol Secure (HTTPS)**|443|Same as HTTP but encrypted (secure web browsing)|
+|**Server Message Block (SMB)**|445|File and printer sharing (more advanced than basic FTP)|
+|**Remote Desktop Protocol (RDP)**|3389|Graphical remote desktop access (visual interface, unlike text-based SSH)|
+
+> **Reference** For a complete list of all assigned ports, consult the **Service Name and Transport Protocol Port Number Registry** (IANA).
+
+### Important Note on Non-Standard Ports
+
+- These port numbers are **only standards** — not strict rules.
+- You **can** run services on different ports (e.g., a web server on **8080** instead of **80**).
+- When using a non-standard port, you must explicitly tell the application by adding a colon and the port number (e.g., http://example.com:8080).
+- Most applications assume the standard port is being used unless you specify otherwise.
+
+---
+
