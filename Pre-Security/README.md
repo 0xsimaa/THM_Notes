@@ -491,3 +491,41 @@ These are the **standard ports** reserved for widely used protocols. Application
 
 ---
 
+### Port Forwarding
+
+**Port forwarding** is the process of configuring a router to forward incoming traffic from the Internet to a specific device and port inside the private (local) network.
+
+Without port forwarding, any service (e.g., a web server, game server, or remote desktop) is **only accessible from devices on the same local network** (intranet). It remains invisible to the outside world.
+
+### Example: Local Network (Intranet)
+
+Consider the following private network:
+
+- A web server runs on internal IP: 192.168.1.10:80
+- Only the other computers inside the same network can reach the website.
+- Devices outside this network (on the Internet) have no way to access it.
+
+### Making the Service Public
+
+To allow users from the Internet to reach the web server, the network administrator must set up **port forwarding** on the router:
+
+- The router’s **public IP** (e.g., 82.62.51.70) is used by external devices.
+- The router is told: “Any traffic arriving on port 80 from the Internet should be forwarded to internal IP 192.168.1.10 on port 80.”
+- Result: Anyone on the Internet can now access the server using the public IP (e.g., http://82.62.51.70).
+
+### Port Forwarding vs Firewall (Important Distinction)
+
+| Concept             | Role                                                                                                |
+| ------------------- | --------------------------------------------------------------------------------------------------- |
+| **Port Forwarding** | **Opens** a specific port on the router and directs traffic to the correct internal device and port |
+| **Firewall**        | **Decides** whether the traffic is allowed or blocked (even if the port is forwarded)               |
+
+> Port forwarding only creates the path. The firewall still acts as the security gatekeeper that can permit or deny the actual packets.
+
+### Configuration Note
+
+- Port forwarding rules are always configured on the **router** (not on the server itself).
+- Common use cases: hosting websites, game servers, remote access (RDP/SSH), CCTV cameras, etc.
+
+---
+
