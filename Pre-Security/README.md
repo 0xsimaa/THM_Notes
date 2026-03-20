@@ -541,3 +541,13 @@ Firewalls perform **packet inspection** to evaluate traffic using several key fa
 - Protocol being used (TCP, UDP, etc.)
 
 > Without a firewall, even if ports are forwarded, unwanted traffic can still reach your devices. Port forwarding **opens** the door — the firewall **guards** it.
+
+### Firewall Types and Categories
+
+Firewalls exist in many forms:
+
+- Dedicated hardware appliances (used in large enterprise networks)
+- Built into residential routers (your home router)
+- Software solutions (e.g., **Snort**)
+
+They can be categorised into 2 to 5 types depending on the classification system. The two **primary categories** are:
