@@ -551,3 +551,14 @@ Firewalls exist in many forms:
 - Software solutions (e.g., **Snort**)
 
 They can be categorised into 2 to 5 types depending on the classification system. The two **primary categories** are:
+
+### Stateful vs Stateless Firewalls
+
+|Firewall Type|Description|Key Characteristics|
+|---|---|---|
+|**Stateful**|Tracks the entire connection/context, not just individual packets.|- Dynamic decision-making - Remembers previous packets in a session - Blocks entire device if connection is malicious - Higher resource usage - More intelligent|
+|**Stateless**|Uses a fixed set of rules to inspect each packet in isolation.|- Static rules only - Very low resource usage - Faster for high traffic (e.g., DDoS mitigation) - “Dumber” — only as good as the rules defined - Does not track connection state|
+
+> **Example**: A stateful firewall might allow the first two steps of a TCP handshake but block the third if it looks suspicious. A stateless firewall would evaluate every packet independently.
+
+---
