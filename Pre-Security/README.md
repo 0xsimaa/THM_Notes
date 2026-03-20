@@ -561,4 +561,7 @@ They can be categorised into 2 to 5 types depending on the classification system
 
 > **Example**: A stateful firewall might allow the first two steps of a TCP handshake but block the third if it looks suspicious. A stateless firewall would evaluate every packet independently.
 
+(Firewall operates at 3rd & 4th layer of OSI Model)
+
 ---
+
