@@ -533,3 +533,11 @@ To allow users from the Internet to reach the web server, the network administra
 
 A **firewall** is a network security device (or software) that acts as **border security** for a network. It inspects all incoming and outgoing traffic and decides whether to **permit** or **deny** it based on predefined rules.
 
+Firewalls perform **packet inspection** to evaluate traffic using several key factors:
+
+- Source of the traffic (which network or IP it came from)
+- Destination of the traffic (where it is trying to go)
+- Port number the traffic is using
+- Protocol being used (TCP, UDP, etc.)
+
+> Without a firewall, even if ports are forwarded, unwanted traffic can still reach your devices. Port forwarding **opens** the door — the firewall **guards** it.
