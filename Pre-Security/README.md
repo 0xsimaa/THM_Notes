@@ -529,3 +529,7 @@ To allow users from the Internet to reach the web server, the network administra
 
 ---
 
+### Firewalls
+
+A **firewall** is a network security device (or software) that acts as **border security** for a network. It inspects all incoming and outgoing traffic and decides whether to **permit** or **deny** it based on predefined rules.
+
