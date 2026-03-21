@@ -591,3 +591,11 @@ The devices in Network #3 are still part of their original offices (Network #1 a
 
 > **Note on Anonymity** The level of anonymity depends on the VPN provider. A VPN that logs your activity is no better than not using one at all.
 
+### Why TryHackMe Uses a VPN
+
+TryHackMe connects you to vulnerable machines through their VPN so that:
+
+- You can securely interact with the machines
+- Your ISP does not see you attacking or accessing external systems (avoiding ToS violations)
+- Vulnerable machines stay hidden from the public Internet
+
