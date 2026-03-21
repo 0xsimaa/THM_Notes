@@ -569,3 +569,15 @@ They can be categorised into 2 to 5 types depending on the classification system
 
 A **Virtual Private Network (VPN)** creates a secure, encrypted **tunnel** between devices on separate networks over the Internet. Once connected, these devices behave as if they are on the **same private network**, even if they are thousands of miles apart.
 
+### How a VPN Works – Example
+
+Imagine three separate networks:
+
+1. **Network #1** – Office #1
+2. **Network #2** – Office #2
+3. **Network #3** – Devices connected via VPN
+
+The devices in Network #3 are still part of their original offices (Network #1 and #2), but they also form an isolated private network that **only** VPN-connected devices can communicate over.
+
+> **Key Point** Without a VPN, devices can only talk directly if they are on the **same local network**. A VPN bridges distant networks securely.
+
