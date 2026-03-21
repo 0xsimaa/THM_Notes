@@ -581,3 +581,13 @@ The devices in Network #3 are still part of their original offices (Network #1 a
 
 > **Key Point** Without a VPN, devices can only talk directly if they are on the **same local network**. A VPN bridges distant networks securely.
 
+### Benefits of Using a VPN
+
+|Benefit|Description|
+|---|---|
+|**Geographical Connectivity**|Connects offices or networks in different locations so they can share servers, files, and resources as if they were in the same building|
+|**Privacy**|Encrypts all traffic so it can only be read by the intended sender and receiver. Protects against sniffing, especially on public Wi-Fi|
+|**Anonymity**|Hides your real IP and activity from your ISP and intermediaries. Useful for journalists, activists, and anyone in restricted environments|
+
+> **Note on Anonymity** The level of anonymity depends on the VPN provider. A VPN that logs your activity is no better than not using one at all.
+
