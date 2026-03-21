@@ -601,8 +601,11 @@ TryHackMe connects you to vulnerable machines through their VPN so that:
 
 ### Common VPN Technologies
 
-|VPN Technology|Description|
-|---|---|
-|**PPP** (Point-to-Point Protocol)|Used for authentication and encryption. Requires matching private key + public certificate. Not routable by itself (needs another protocol to leave the network)|
-|**PPTP** (Point-to-Point Tunneling Protocol)|Allows PPP traffic to travel across the Internet. Very easy and quick to set up. Supported on almost all devices. **Weak encryption** compared to modern alternatives|
-|**IPSec** (Internet Protocol Security)|Encrypts data using the existing IP framework. Strong encryption and widely supported. More difficult to configure than PPTP|
+| VPN Technology                               | Description                                                                                                                                                           |
+| -------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **PPP** (Point-to-Point Protocol)            | Used for authentication and encryption. Requires matching private key + public certificate. Not routable by itself (needs another protocol to leave the network)      |
+| **PPTP** (Point-to-Point Tunneling Protocol) | Allows PPP traffic to travel across the Internet. Very easy and quick to set up. Supported on almost all devices. **Weak encryption** compared to modern alternatives |
+| **IPSec** (Internet Protocol Security)       | Encrypts data using the existing IP framework. Strong encryption and widely supported. More difficult to configure than PPTP                                          |
+
+---
+
