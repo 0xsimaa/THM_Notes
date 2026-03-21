@@ -565,3 +565,7 @@ They can be categorised into 2 to 5 types depending on the classification system
 
 ---
 
+### Virtual Private Networks (VPN)
+
+A **Virtual Private Network (VPN)** creates a secure, encrypted **tunnel** between devices on separate networks over the Internet. Once connected, these devices behave as if they are on the **same private network**, even if they are thousands of miles apart.
+
