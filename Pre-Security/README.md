@@ -614,3 +614,9 @@ TryHackMe connects you to vulnerable machines through their VPN so that:
 A **router** is a dedicated networking device whose primary job is to **connect different networks** and forward data between them.
 
 It operates at **Layer 3** of the OSI model and uses **routing** to create optimal paths for data to travel across networks.
+
+### Key Functions of a Router
+
+- Determines the best path for packets to reach their destination
+- Configurable via a web interface or console (allows setting port forwarding, firewall rules, etc.)
+- Routes traffic when multiple paths exist
