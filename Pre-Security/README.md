@@ -637,3 +637,23 @@ A **switch** is a dedicated networking device that connects multiple devices (ty
 
 Switches can operate at **Layer 2** or **Layer 3** of the OSI model (but never both at the same time on the same device).
 
+### Layer 2 Switch
+
+- Forwards **frames** using **MAC addresses**
+- Works only within the same network
+- Encapsulates original IP packets inside frames
+- Fast and simple — no routing capability
+
+### Layer 3 Switch
+
+- Combines Layer 2 functionality with **some** router capabilities
+- Forwards frames using MAC addresses **and** routes packets using **IP addresses**
+- Can handle traffic between different subnets/VLANs
+
+|Feature|Layer 2 Switch|Layer 3 Switch|
+|---|---|---|
+|OSI Layer|Layer 2 only|Layer 2 + Layer 3|
+|Addressing|MAC addresses only|MAC addresses + IP addresses|
+|Routing Capability|None|Can route between subnets/VLANs|
+|Use Case|Connecting devices in one network|Larger networks needing inter-VLAN routing|
+
