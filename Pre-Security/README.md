@@ -609,7 +609,7 @@ TryHackMe connects you to vulnerable machines through their VPN so that:
 
 ---
 
-## Routers
+### Routers
 
 A **router** is a dedicated networking device whose primary job is to **connect different networks** and forward data between them.
 
@@ -620,3 +620,14 @@ It operates at **Layer 3** of the OSI model and uses **routing** to create optim
 - Determines the best path for packets to reach their destination
 - Configurable via a web interface or console (allows setting port forwarding, firewall rules, etc.)
 - Routes traffic when multiple paths exist
+
+### Routing Decision Factors
+
+When multiple paths are available, routers choose the best one based on:
+
+- Shortest path
+- Most reliable path
+- Fastest medium (e.g., fibre vs copper)
+
+> **Routers vs Switches** Routers connect **different networks** together. Switches only connect **devices within the same network**.
+
