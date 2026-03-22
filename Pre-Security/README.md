@@ -631,3 +631,9 @@ When multiple paths are available, routers choose the best one based on:
 
 > **Routers vs Switches** Routers connect **different networks** together. Switches only connect **devices within the same network**.
 
+### Switches
+
+A **switch** is a dedicated networking device that connects multiple devices (typically 3–63) together using Ethernet cables. It forwards data efficiently within a single network.
+
+Switches can operate at **Layer 2** or **Layer 3** of the OSI model (but never both at the same time on the same device).
+
