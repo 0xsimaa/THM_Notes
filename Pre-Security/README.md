@@ -665,3 +665,10 @@ Switches can operate at **Layer 2** or **Layer 3** of the OSI model (but never b
 - But they **cannot** communicate with each other unless routing is explicitly allowed
 - Provides strong **security** through network segmentation
 
+**Example** On the same physical switch:
+
+- Sales Department (VLAN 10)
+- Accounting Department (VLAN 20) Both departments can access the Internet, but **cannot** talk to each other.
+
+---
+
