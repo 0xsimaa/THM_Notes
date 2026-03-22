@@ -657,3 +657,11 @@ Switches can operate at **Layer 2** or **Layer 3** of the OSI model (but never b
 |Routing Capability|None|Can route between subnets/VLANs|
 |Use Case|Connecting devices in one network|Larger networks needing inter-VLAN routing|
 
+### Virtual Local Area Networks (VLANs)
+
+**VLANs** allow a single physical switch to logically divide devices into separate virtual networks.
+
+- Devices in different VLANs can share the same Internet connection
+- But they **cannot** communicate with each other unless routing is explicitly allowed
+- Provides strong **security** through network segmentation
+
