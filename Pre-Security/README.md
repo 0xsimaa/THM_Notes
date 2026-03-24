@@ -706,3 +706,6 @@ DNS stores different types of records for various purposes. The most frequently 
 |**MX**|Specifies mail servers for the domain|alt1.aspmx.l.google.com (with priority)|Includes priority value for failover|
 |**TXT**|Stores arbitrary text information|v=spf1 ip4:192.0.2.0/24 ~all|Used for SPF, DMARC, domain verification, etc.|
 
+### What Happens When You Make a DNS Request (Step-by-Step)
+
+1. **Local Cache Check** Your computer first checks its own DNS cache. If the result is recent, it is used immediately.
