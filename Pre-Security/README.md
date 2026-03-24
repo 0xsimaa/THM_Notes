@@ -676,3 +676,11 @@ Switches can operate at **Layer 2** or **Layer 3** of the OSI model (but never b
 
 ---
 
+### Domain Name System (DNS)
+
+The **Domain Name System (DNS)** translates human-readable domain names (e.g., tryhackme.com) into machine-readable **IP addresses** (e.g., 104.26.10.229).
+
+Every device on the Internet has a unique IP address, but remembering long strings of numbers is impractical. DNS acts as the Internet’s phonebook, allowing us to use friendly names instead.
+
+> **Analogy** Just as every house has a unique postal address, every server has a unique IP address. DNS lets us use the “house name” instead of the full address.
+
