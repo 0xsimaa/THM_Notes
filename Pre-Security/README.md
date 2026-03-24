@@ -693,3 +693,16 @@ A domain name is read from **right to left** and consists of three main parts:
 | **Top-Level Domain (TLD)** | Rightmost            | .com                          | Highest level. Two types: • **gTLD** (Generic) – .com, .org, .net, .online, etc. • **ccTLD** (Country Code) – .ca, .uk, .pk, etc.                               |
 | **Second-Level Domain**    | Left of TLD          | tryhackme                     | The main name you register. Limited to 63 characters (a-z, 0-9, hyphens only; cannot start/end with hyphen or have consecutive hyphens)                         |
 | **Subdomain**              | Left of Second-Level | admin                         | Optional. Can be nested (e.g., jupiter.servers.tryhackme.com). Same 63-character rules. Total domain length ≤ 253 characters. No limit on number of subdomains. |
+
+### Common DNS Record Types
+
+DNS stores different types of records for various purposes. The most frequently used ones are:
+
+|Record Type|Purpose|Example Value|Notes|
+|---|---|---|---|
+|**A**|Maps a domain to an IPv4 address|104.26.10.229|Most common for websites|
+|**AAAA**|Maps a domain to an IPv6 address|2606:4700:20::681a:be5|IPv6 equivalent of A record|
+|**CNAME**|Creates an alias (points to another domain)|store.tryhackme.com → shops.shopify.com|Requires a second lookup|
+|**MX**|Specifies mail servers for the domain|alt1.aspmx.l.google.com (with priority)|Includes priority value for failover|
+|**TXT**|Stores arbitrary text information|v=spf1 ip4:192.0.2.0/24 ~all|Used for SPF, DMARC, domain verification, etc.|
+
