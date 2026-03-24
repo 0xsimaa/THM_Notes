@@ -718,3 +718,9 @@ DNS stores different types of records for various purposes. The most frequently 
 
 > **Why caching matters** Caching dramatically reduces the number of DNS queries and speeds up future requests.
 
+**Room Complete:**
+
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Pasted%20image%20(5).png)
+
+---
+
