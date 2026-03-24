@@ -684,3 +684,12 @@ Every device on the Internet has a unique IP address, but remembering long strin
 
 > **Analogy** Just as every house has a unique postal address, every server has a unique IP address. DNS lets us use the “house name” instead of the full address.
 
+### Domain Name Structure
+
+A domain name is read from **right to left** and consists of three main parts:
+
+| Part                       | Position             | Example (admin.tryhackme.com) | Description                                                                                                                                                     |
+| -------------------------- | -------------------- | ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Top-Level Domain (TLD)** | Rightmost            | .com                          | Highest level. Two types: • **gTLD** (Generic) – .com, .org, .net, .online, etc. • **ccTLD** (Country Code) – .ca, .uk, .pk, etc.                               |
+| **Second-Level Domain**    | Left of TLD          | tryhackme                     | The main name you register. Limited to 63 characters (a-z, 0-9, hyphens only; cannot start/end with hyphen or have consecutive hyphens)                         |
+| **Subdomain**              | Left of Second-Level | admin                         | Optional. Can be nested (e.g., jupiter.servers.tryhackme.com). Same 63-character rules. Total domain length ≤ 253 characters. No limit on number of subdomains. |
