@@ -708,13 +708,3 @@ DNS stores different types of records for various purposes. The most frequently 
 
 ---
 
-### What Happens When You Make a DNS Request (Step-by-Step)
-
-1. **Local Cache Check** Your computer first checks its own DNS cache. If the result is recent, it is used immediately.
-2. **Recursive DNS Server** If not found locally, the request goes to your **Recursive DNS Server** (usually provided by your ISP, or you can use public ones like Google/Cloudflare). This server also has a cache. If it has the answer, it returns it. Otherwise, it begins the full lookup.
-3. **Root DNS Servers** The recursive server queries one of the Internet’s **root servers**. The root server redirects the query to the correct **Top-Level Domain (TLD) server** (e.g., the .com server).
-4. **TLD Server** The TLD server tells the recursive server which **Authoritative Name Server** (nameserver) is responsible for the domain (e.g., kip.ns.cloudflare.com and uma.ns.cloudflare.com for TryHackMe).
-5. **Authoritative DNS Server** The authoritative server holds the actual DNS records for the domain. It returns the requested record (A, MX, TXT, etc.) to the recursive server. The recursive server caches the result (using the record’s **TTL** – Time To Live value in seconds) and sends it back to your computer.
-
-> **Why caching matters** Caching dramatically reduces the number of DNS queries and speeds up future requests.
-
