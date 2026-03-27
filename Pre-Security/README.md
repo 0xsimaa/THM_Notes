@@ -751,3 +751,15 @@ A **URL** is an address that tells your browser exactly how and where to retriev
 ### Making an HTTP Request
 
 A simple request can be as short as one line, but real requests include **headers** with extra information.
+
+### Example Request
+
+http
+
+```
+GET / HTTP/1.1
+Host: tryhackme.com
+User-Agent: Mozilla/5.0 Firefox/87.0
+Referer: https://tryhackme.com/
+```
+
