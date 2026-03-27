@@ -763,3 +763,10 @@ User-Agent: Mozilla/5.0 Firefox/87.0
 Referer: https://tryhackme.com/
 ```
 
+**Breakdown:**
+
+- Line 1: GET method + path (/) + HTTP version
+- Host: Target domain
+- User-Agent: Browser and version
+- Referer: Where the request came from
+- Blank line at the end signals the request is complete
