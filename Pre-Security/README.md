@@ -738,12 +738,16 @@ A **URL** is an address that tells your browser exactly how and where to retriev
 
 ### URL Components
 
-|Component|Description|Example|
-|---|---|---|
-|**Scheme**|Protocol to use|https://|
-|**User**|Optional username and password for authentication|user:pass@|
-|**Host**|Domain name or IP address of the server|tryhackme.com|
-|**Port**|Port number (default: 80 for HTTP, 443 for HTTPS)|:8080|
-|**Path**|Location of the specific file or page|/blog/post-1|
-|**Query String**|Extra parameters sent to the server|?id=1&category=news|
-|**Fragment**|Reference to a specific part of the page (client-side)|#section-2|
+| Component        | Description                                            | Example             |
+| ---------------- | ------------------------------------------------------ | ------------------- |
+| **Scheme**       | Protocol to use                                        | https://            |
+| **User**         | Optional username and password for authentication      | user:pass@          |
+| **Host**         | Domain name or IP address of the server                | tryhackme.com       |
+| **Port**         | Port number (default: 80 for HTTP, 443 for HTTPS)      | :8080               |
+| **Path**         | Location of the specific file or page                  | /blog/post-1        |
+| **Query String** | Extra parameters sent to the server                    | ?id=1&category=news |
+| **Fragment**     | Reference to a specific part of the page (client-side) | #section-2          |
+
+### Making an HTTP Request
+
+A simple request can be as short as one line, but real requests include **headers** with extra information.
