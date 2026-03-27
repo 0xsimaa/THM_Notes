@@ -770,3 +770,7 @@ Referer: https://tryhackme.com/
 - User-Agent: Browser and version
 - Referer: Where the request came from
 - Blank line at the end signals the request is complete
+
+### HTTP Response
+
+After receiving a request, the server sends back a response.
