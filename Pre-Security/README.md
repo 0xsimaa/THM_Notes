@@ -724,3 +724,6 @@ DNS stores different types of records for various purposes. The most frequently 
 
 ---
 
+### HTTP (HyperText Transfer Protocol)
+
+**HTTP** is the protocol used to communicate with web servers and transfer webpage data (HTML, images, videos, etc.). It was developed by Tim Berners-Lee and his team between 1989–1991.
