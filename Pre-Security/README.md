@@ -731,3 +731,7 @@ DNS stores different types of records for various purposes. The most frequently 
 ### HTTPS (HyperText Transfer Protocol Secure)
 
 **HTTPS** is the encrypted and secure version of HTTP. It protects data from being read in transit and verifies that you are communicating with the legitimate server (not an impersonator).
+
+### Uniform Resource Locator (URL)
+
+A **URL** is an address that tells your browser exactly how and where to retrieve a resource on the Internet.
