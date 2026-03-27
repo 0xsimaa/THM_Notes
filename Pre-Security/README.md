@@ -796,3 +796,11 @@ Content-Length: 98
 </html>
 ```
 
+**Breakdown:**
+
+- Line 1: HTTP version + **Status Code** (200 OK = success)
+- Server: Web server software and version
+- Date: Current date/time on the server
+- Content-Type: Type of data being sent (HTML, image, PDF, etc.)
+- Content-Length: Size of the response body (in bytes)
+- Blank line separates headers from the actual content
