@@ -821,3 +821,6 @@ HTTP methods tell the web server what action the client wants to perform.
 > **Note** 
 > The vast majority of your daily web activity uses only **GET** and **POST**.
 
+### HTTP Status Codes
+
+Every HTTP response starts with a **status code** that tells the client the result of the request.
