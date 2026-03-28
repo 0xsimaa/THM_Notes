@@ -804,3 +804,9 @@ Content-Length: 98
 - Content-Type: Type of data being sent (HTML, image, PDF, etc.)
 - Content-Length: Size of the response body (in bytes)
 - Blank line separates headers from the actual content
+
+---
+
+## HTTP Methods
+
+HTTP methods tell the web server what action the client wants to perform.
