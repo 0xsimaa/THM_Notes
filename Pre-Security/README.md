@@ -810,3 +810,11 @@ Content-Length: 98
 ## HTTP Methods
 
 HTTP methods tell the web server what action the client wants to perform.
+
+|Method|Description|Common Use Case|
+|---|---|---|
+|**GET**|Retrieve data from the server|Loading a webpage|
+|**POST**|Submit data to the server (creates new records)|Submitting forms, login, etc.|
+|**PUT**|Update existing data on the server|Editing a profile or post|
+|**DELETE**|Delete data/records from the server|Removing a user or blog post|
+
