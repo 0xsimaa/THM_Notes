@@ -849,19 +849,6 @@ Every HTTP response starts with a **status code** that tells the client the resu
 | **405** | Method Not Allowed    | Wrong HTTP method used for this resource       |
 | **500** | Internal Server Error | Server encountered an unexpected error         |
 | **503** | Service Unavailable   | Server overloaded or down for maintenance      |
-|Code|Name|Meaning|
-|---|---|---|
-|**200**|OK|Request successful|
-|**201**|Created|New resource successfully created|
-|**301**|Moved Permanently|Resource permanently moved to new URL|
-|**302**|Found|Temporary redirect|
-|**400**|Bad Request|Request is malformed or missing required data|
-|**401**|Unauthorized|Authentication required (login needed)|
-|**403**|Forbidden|You do not have permission (even if logged in)|
-|**404**|Not Found|Page or resource does not exist|
-|**405**|Method Not Allowed|Wrong HTTP method used for this resource|
-|**500**|Internal Server Error|Server encountered an unexpected error|
-|**503**|Service Unavailable|Server overloaded or down for maintenance|
 
 > **Tip for Visual Learners** 
 > Check out [http.cat](https://http.cat) for fun visual explanations of every status code.
