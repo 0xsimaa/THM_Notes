@@ -853,3 +853,5 @@ Every HTTP response starts with a **status code** that tells the client the resu
 > **Tip for Visual Learners** 
 > Check out [http.cat](https://http.cat) for fun visual explanations of every status code.
 
+---
+
