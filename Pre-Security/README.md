@@ -827,10 +827,12 @@ Every HTTP response starts with a **status code** that tells the client the resu
 
 ### Status Code Ranges
 
-|Range|Category|Meaning|
-|---|---|---|
-|**100–199**|Informational|First part of request received; continue sending the rest (rare today)|
-|**200–299**|Success|Request completed successfully|
-|**300–399**|Redirection|Client should go to a different URL|
-|**400–499**|Client Error|Something wrong with the client’s request|
-|**500–599**|Server Error|Problem on the server side|
+| Range       | Category      | Meaning                                                                |
+| ----------- | ------------- | ---------------------------------------------------------------------- |
+| **100–199** | Informational | First part of request received; continue sending the rest (rare today) |
+| **200–299** | Success       | Request completed successfully                                         |
+| **300–399** | Redirection   | Client should go to a different URL                                    |
+| **400–499** | Client Error  | Something wrong with the client’s request                              |
+| **500–599** | Server Error  | Problem on the server side                                             |
+### **Common HTTP Status Codes**
+
