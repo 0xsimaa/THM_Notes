@@ -869,5 +869,11 @@ Headers are additional metadata sent with HTTP requests and responses. They are 
 | **Accept-Encoding** | Compression methods the browser supports                                                 |
 | **Cookie**          | Previously saved cookie data sent back to the server                                     |
 
-### **Common Response Headers (Server → Client)**
+### Common Response Headers (Server → Client)
 
+|Header|Description|
+|---|---|
+|**Set-Cookie**|Instructs the browser to save a cookie|
+|**Cache-Control**|How long the browser should cache the response|
+|**Content-Type**|Type of data being returned (HTML, CSS, JS, image, PDF, etc.)|
+|**Content-Encoding**|Compression method used on the response|
