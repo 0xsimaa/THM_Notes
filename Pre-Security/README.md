@@ -855,5 +855,6 @@ Every HTTP response starts with a **status code** that tells the client the resu
 
 ---
 
-### **HTTP Headers**
+### HTTP Headers
 
+Headers are additional metadata sent with HTTP requests and responses. They are not strictly required, but without them most websites will not function correctly.
