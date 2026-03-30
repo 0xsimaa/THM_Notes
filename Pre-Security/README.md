@@ -861,10 +861,13 @@ Headers are additional metadata sent with HTTP requests and responses. They are 
 
 ### Common Request Headers (Client → Server)
 
-|Header|Description|
-|---|---|
-|**Host**|Tells the server which website to serve (important when one server hosts multiple sites)|
-|**User-Agent**|Browser name and version (helps the server format the page correctly)|
-|**Content-Length**|Size of the data being sent (used with POST/PUT)|
-|**Accept-Encoding**|Compression methods the browser supports|
-|**Cookie**|Previously saved cookie data sent back to the server|
+| Header              | Description                                                                              |
+| ------------------- | ---------------------------------------------------------------------------------------- |
+| **Host**            | Tells the server which website to serve (important when one server hosts multiple sites) |
+| **User-Agent**      | Browser name and version (helps the server format the page correctly)                    |
+| **Content-Length**  | Size of the data being sent (used with POST/PUT)                                         |
+| **Accept-Encoding** | Compression methods the browser supports                                                 |
+| **Cookie**          | Previously saved cookie data sent back to the server                                     |
+
+### **Common Response Headers (Server → Client)**
+
