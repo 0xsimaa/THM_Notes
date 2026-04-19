@@ -900,3 +900,12 @@ This below shows a typical cookie flow when a user submits a name form:
 - Cookies are most commonly used for **authentication** (login sessions).
 - The cookie value is usually a **token** (not plain-text password).
 - Cookies are sent automatically with every request to the same domain.
+
+### Viewing Cookies in Your Browser
+
+1. Open Developer Tools (F12 or right-click → Inspect)
+2. Go to the **Network** tab
+3. Refresh the page or interact with the site
+4. Click any request → switch to the **Cookies** tab
+
+You will see exactly which cookies are being sent and received.
