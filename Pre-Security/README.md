@@ -881,4 +881,7 @@ Headers are additional metadata sent with HTTP requests and responses. They are 
 ### Cookies
 
 Cookies are small pieces of data stored in your browser. They are created when the server sends a ***Set-Cookie*** header and are automatically sent back by the browser on every future request to the same domain.
+
 Because HTTP is **stateless**, cookies allow the server to remember who you are, your preferences, or your login session.
+
+### Cookie Exchange Example (Visual Flow)
