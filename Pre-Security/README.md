@@ -884,7 +884,7 @@ Cookies are small pieces of data stored in your browser. They are created when t
 
 Because HTTP is **stateless**, cookies allow the server to remember who you are, your preferences, or your login session.
 
-### Cookie Exchange Example (Visual Flow)
+### Cookie Exchange Example
 
 This below shows a typical cookie flow when a user submits a name form:
 
@@ -894,3 +894,9 @@ This below shows a typical cookie flow when a user submits a name form:
 4. **Server responds** with Set-Cookie: name=adam
 5. **Next GET /** → Browser automatically sends Cookie: name=adam
 6. **Server responds** with personalized message (“Welcome back adam”) instead of the form
+
+**Key Points:**
+
+- Cookies are most commonly used for **authentication** (login sessions).
+- The cookie value is usually a **token** (not plain-text password).
+- Cookies are sent automatically with every request to the same domain.
