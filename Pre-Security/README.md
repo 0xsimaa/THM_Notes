@@ -879,3 +879,5 @@ Headers are additional metadata sent with HTTP requests and responses. They are 
 | **Content-Encoding** | Compression method used on the response                       |
 
 ### Cookies
+
+Cookies are small pieces of data stored in your browser. They are created when the server sends a ***Set-Cookie*** header and are automatically sent back by the browser on every future request to the same domain.
