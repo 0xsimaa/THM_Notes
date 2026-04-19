@@ -885,3 +885,12 @@ Cookies are small pieces of data stored in your browser. They are created when t
 Because HTTP is **stateless**, cookies allow the server to remember who you are, your preferences, or your login session.
 
 ### Cookie Exchange Example (Visual Flow)
+
+This below shows a typical cookie flow when a user submits a name form:
+
+1. **GET /** → Browser requests the webpage
+2. **Server responds** with HTML form asking for name
+3. **POST /** → Browser submits the form (name=adam)
+4. **Server responds** with Set-Cookie: name=adam
+5. **Next GET /** → Browser automatically sends Cookie: name=adam
+6. **Server responds** with personalized message (“Welcome back adam”) instead of the form
