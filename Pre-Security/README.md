@@ -909,3 +909,4 @@ This below shows a typical cookie flow when a user submits a name form:
 4. Click any request → switch to the **Cookies** tab
 
 You will see exactly which cookies are being sent and received.
+
