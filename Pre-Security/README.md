@@ -910,3 +910,9 @@ This below shows a typical cookie flow when a user submits a name form:
 
 You will see exactly which cookies are being sent and received.
 
+**Room Completion:**
+
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Screenshot%20from%202026-04-24%2020-17-41.png)
+
+---
+
