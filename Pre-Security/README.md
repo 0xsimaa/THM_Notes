@@ -918,3 +918,4 @@ You will see exactly which cookies are being sent and received.
 
 ### How Websites Work
 
+When you visit a website, your browser sends a request to a web server (a dedicated computer somewhere on the Internet). The server responds with data, and your browser renders the page you see.
