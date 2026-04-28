@@ -966,6 +966,14 @@ Websites are primarily built using three languages:
 ### HTML Attributes
 
 Attributes provide extra information about an element.
-- class – Used for styling (multiple elements can share the same class)
-- id – Unique identifier for a single element (used for styling and JavaScript)
-- src – Used with <img> to specify image location
+- ***class***: Used for styling (multiple elements can share the same class)
+- ***id***: Unique identifier for a single element (used for styling and JavaScript)
+- ***src***: Used with <img> to specify image location
+
+**Examples:**
+
+```html
+<p class="bold-text">This paragraph has a class</p>
+<p id="example">This paragraph has a unique ID</p>
+<img src="img/cat.jpg" alt="A cute cat">
+```
