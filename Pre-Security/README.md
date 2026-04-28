@@ -977,3 +977,6 @@ Attributes provide extra information about an element.
 <p id="example">This paragraph has a unique ID</p>
 <img src="img/cat.jpg" alt="A cute cat">
 ```
+
+> ***Tip***
+> You can view the raw HTML of any website by right-clicking anywhere on the page and selecting View Page Source (Chrome) or Show Page Source (Safari).
