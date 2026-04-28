@@ -928,3 +928,4 @@ When you visit a website, your browser sends a request to a web server (a dedica
 | **Back End**  | Server-Side | The server that processes your request and generates the response             |
 ### Core Web Technologies
 
+Websites are primarily built using three languages:
