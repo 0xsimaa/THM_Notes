@@ -932,3 +932,6 @@ Websites are primarily built using three languages:
 - **HTML**; Defines the structure and content of the page
 - **CSS**; Adds styling, colours, layout, and visual appearance
 - **JavaScript**; Adds interactivity and dynamic behaviour
+
+### HyperText Markup Language (HTML)
+
