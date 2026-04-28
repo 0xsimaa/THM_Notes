@@ -922,7 +922,9 @@ When you visit a website, your browser sends a request to a web server (a dedica
 
 ### Two Major Components of a Website
 
-|Component|Side|Description|
-|---|---|---|
-|**Front End**|Client-Side|Everything your browser renders and displays (what you see and interact with)|
-|**Back End**|Server-Side|The server that processes your request and generates the response|
+| Component     | Side        | Description                                                                   |
+| ------------- | ----------- | ----------------------------------------------------------------------------- |
+| **Front End** | Client-Side | Everything your browser renders and displays (what you see and interact with) |
+| **Back End**  | Server-Side | The server that processes your request and generates the response             |
+### Core Web Technologies
+
