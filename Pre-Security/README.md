@@ -921,3 +921,8 @@ You will see exactly which cookies are being sent and received.
 When you visit a website, your browser sends a request to a web server (a dedicated computer somewhere on the Internet). The server responds with data, and your browser renders the page you see.
 
 ### Two Major Components of a Website
+
+|Component|Side|Description|
+|---|---|---|
+|**Front End**|Client-Side|Everything your browser renders and displays (what you see and interact with)|
+|**Back End**|Server-Side|The server that processes your request and generates the response|
