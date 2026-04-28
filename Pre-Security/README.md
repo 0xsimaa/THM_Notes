@@ -954,12 +954,18 @@ Websites are primarily built using three languages:
 
 ### Key HTML Components
 
-|Element|Purpose|
-|---|---|
-|`<!DOCTYPE html>`|Declares the document as HTML5|
-|`<html>`|Root element — contains all other elements|
-|`<head>`|Contains meta information (title, links, etc.) — **not visible**|
-|`<body>`|Contains all visible content of the page|
-|`<h1>` to `<h6>`|Headings (largest to smallest)|
-|`<p>`|Paragraphs|
-|`<button>`, `<img>`, `<ul>`, `<li>`, etc.|Other common elements|
+| Element                                   | Purpose                                                          |
+| ----------------------------------------- | ---------------------------------------------------------------- |
+| `<!DOCTYPE html>`                         | Declares the document as HTML5                                   |
+| `<html>`                                  | Root element — contains all other elements                       |
+| `<head>`                                  | Contains meta information (title, links, etc.) — **not visible** |
+| `<body>`                                  | Contains all visible content of the page                         |
+| `<h1>` to `<h6>`                          | Headings (largest to smallest)                                   |
+| `<p>`                                     | Paragraphs                                                       |
+| `<button>`, `<img>`, `<ul>`, `<li>`, etc. | Other common elements                                            |
+### HTML Attributes
+
+Attributes provide extra information about an element.
+- class – Used for styling (multiple elements can share the same class)
+- id – Unique identifier for a single element (used for styling and JavaScript)
+- src – Used with <img> to specify image location
