@@ -929,3 +929,6 @@ When you visit a website, your browser sends a request to a web server (a dedica
 ### Core Web Technologies
 
 Websites are primarily built using three languages:
+- **HTML**; Defines the structure and content of the page
+- **CSS**; Adds styling, colours, layout, and visual appearance
+- **JavaScript**; Adds interactivity and dynamic behaviour
