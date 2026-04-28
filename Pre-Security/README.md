@@ -938,3 +938,16 @@ Websites are primarily built using three languages:
 **HTML** is the standard language used to create the structure of web pages. It uses **elements** (also called tags) to tell the browser how to display content.
 
 ### Basic HTML Document Structure
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+        <h1>Large Heading</h1>
+        <p>This is a paragraph.</p>
+    </body>
+</html>
+```
