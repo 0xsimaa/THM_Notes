@@ -951,3 +951,15 @@ Websites are primarily built using three languages:
     </body>
 </html>
 ```
+
+### Key HTML Components
+
+|Element|Purpose|
+|---|---|
+|`<!DOCTYPE html>`|Declares the document as HTML5|
+|`<html>`|Root element — contains all other elements|
+|`<head>`|Contains meta information (title, links, etc.) — **not visible**|
+|`<body>`|Contains all visible content of the page|
+|`<h1>` to `<h6>`|Headings (largest to smallest)|
+|`<p>`|Paragraphs|
+|`<button>`, `<img>`, `<ul>`, `<li>`, etc.|Other common elements|
