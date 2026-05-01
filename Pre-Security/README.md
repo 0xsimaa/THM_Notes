@@ -989,3 +989,5 @@ Attributes provide extra information about an element.
 - JS can change content, styles, and behaviour based on user actions (clicks, hovers, form submissions, etc.).
 
 ### How JavaScript is Added to a Page
+
+JavaScript can be included in two ways:
