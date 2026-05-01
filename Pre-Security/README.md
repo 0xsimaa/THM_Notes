@@ -991,3 +991,15 @@ Attributes provide extra information about an element.
 ### How JavaScript is Added to a Page
 
 JavaScript can be included in two ways:
+
+- **Inline** (inside the HTML):
+```HTML
+<script>
+    document.getElementById("demo").innerHTML = "Hack the Planet";
+</script>
+```
+
+- **External file**:
+```HTML
+<script src="/location/of/javascript_file.js"></script>
+```
