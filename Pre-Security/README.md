@@ -984,3 +984,5 @@ Attributes provide extra information about an element.
 ### JavaScript (JS)
 
 **JavaScript** is the programming language that adds **interactivity** to websites. While HTML provides structure and CSS provides styling, JavaScript makes pages dynamic and responsive in real time.
+
+- Without JavaScript, websites would be completely static.
