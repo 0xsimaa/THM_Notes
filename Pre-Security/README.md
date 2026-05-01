@@ -987,3 +987,5 @@ Attributes provide extra information about an element.
 
 - Without JavaScript, websites would be completely static.
 - JS can change content, styles, and behaviour based on user actions (clicks, hovers, form submissions, etc.).
+
+### How JavaScript is Added to a Page
