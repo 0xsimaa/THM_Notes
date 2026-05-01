@@ -980,3 +980,6 @@ Attributes provide extra information about an element.
 
 > ***Tip***
 > You can view the raw HTML of any website by right-clicking anywhere on the page and selecting View Page Source (Chrome) or Show Page Source (Safari).
+
+### JavaScript (JS)
+
