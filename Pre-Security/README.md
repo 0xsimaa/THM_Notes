@@ -1034,3 +1034,8 @@ Developers sometimes leave behind:
 ### Real-World Impact
 - An attacker can simply **right-click → View Page Source** and discover exposed credentials.
 - These credentials may grant access to other parts of the application or even backend systems.
+
+> ***Security Tip***
+>  One of the first steps when assessing any web application is to **review the page source** (right-click -> View Page Source). Look for comments, hidden fields, or JavaScript variables that may contain credentials or sensitive paths.
+
+
