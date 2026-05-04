@@ -1010,3 +1010,9 @@ Elements can trigger JavaScript when certain events occur (e.g., clicking a butt
 
 **Example:**
 
+```HTML
+<button onclick='document.getElementById("demo").innerHTML = "Button Clicked";'>
+    Click Me!
+</button>
+```
+
