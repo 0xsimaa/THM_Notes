@@ -1021,3 +1021,7 @@ Elements can trigger JavaScript when certain events occur (e.g., clicking a butt
 ### Sensitive Data Exposure
 
 **Sensitive Data Exposure** occurs when a website accidentally leaks sensitive information in its **front-end source code** (HTML, JavaScript, or comments) that should never be visible to users.
+
+#### Why It Happens
+
+Developers sometimes leave behind:
