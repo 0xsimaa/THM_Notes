@@ -1038,3 +1038,5 @@ Developers sometimes leave behind:
 > ***Security Tip***
 >  One of the first steps when assessing any web application is to **review the page source** (right-click -> View Page Source). Look for comments, hidden fields, or JavaScript variables that may contain credentials or sensitive paths.
 
+### HTML Injection
+
