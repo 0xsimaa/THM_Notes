@@ -1071,3 +1071,9 @@ Developers must **sanitize** all user input before using it on the page. Common 
 - Use proper output encoding.
 
 > **Note** HTML Injection is a **client-side** vulnerability. It is different from database/server-side injections (covered in later rooms).
+
+**Room Completion:**
+
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Pasted%20image%20(6).png)
+
+---
