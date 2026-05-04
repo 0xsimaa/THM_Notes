@@ -1040,3 +1040,6 @@ Developers sometimes leave behind:
 
 ### HTML Injection
 
+**HTML Injection** is a vulnerability that occurs when a website fails to properly **sanitize** (filter) user input before displaying it on the page.
+
+If user-supplied data is inserted directly into the page without filtering, an attacker can inject arbitrary **HTML** (and sometimes JavaScript) code that the browser will render as real content.
