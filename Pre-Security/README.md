@@ -1057,3 +1057,6 @@ If user-supplied data is inserted directly into the page without filtering, an a
 - Entering <h1>Hacked!</h1> or other HTML/JS will be rendered as actual HTML.
 
 ### Why It’s Dangerous
+
+- Attacker can change the appearance and behaviour of the page.
+- Can be used to deface the site, create fake login forms, or prepare for more advanced attacks (e.g., XSS).
