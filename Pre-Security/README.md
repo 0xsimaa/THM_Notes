@@ -1003,3 +1003,5 @@ JavaScript can be included in two ways:
 ```HTML
 <script src="/location/of/javascript_file.js"></script>
 ```
+
+### JavaScript Events
