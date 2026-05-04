@@ -1032,3 +1032,5 @@ Developers sometimes leave behind:
 - Comments containing sensitive data
 
 ### Real-World Impact
+- An attacker can simply **right-click → View Page Source** and discover exposed credentials.
+- These credentials may grant access to other parts of the application or even backend systems.
