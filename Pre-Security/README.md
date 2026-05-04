@@ -1030,3 +1030,5 @@ Developers sometimes leave behind:
 - Hidden links to admin panels or private areas
 - Temporary passwords or debug information
 - Comments containing sensitive data
+
+### Real-World Impact
