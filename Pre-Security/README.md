@@ -1016,3 +1016,4 @@ Elements can trigger JavaScript when certain events occur (e.g., clicking a butt
 </button>
 ```
 
+>  Events can also be defined inside <script> tags instead of directly on HTML elements.
