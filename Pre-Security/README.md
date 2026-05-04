@@ -1025,3 +1025,8 @@ Elements can trigger JavaScript when certain events occur (e.g., clicking a butt
 #### Why It Happens
 
 Developers sometimes leave behind:
+- Login credentials
+- API keys
+- Hidden links to admin panels or private areas
+- Temporary passwords or debug information
+- Comments containing sensitive data
