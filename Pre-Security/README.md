@@ -1049,3 +1049,9 @@ If user-supplied data is inserted directly into the page without filtering, an a
 - A user submits input through a form or field.
 - The website passes this input directly into the page (often via JavaScript).
 - The browser interprets the input as legitimate HTML.
+
+**Example Scenario**
+- A form asks “What’s your name?”
+- The input is passed to a JavaScript function (sayHi()).
+- Whatever the user types is output directly onto the page.
+- Entering <h1>Hacked!</h1> or other HTML/JS will be rendered as actual HTML.
