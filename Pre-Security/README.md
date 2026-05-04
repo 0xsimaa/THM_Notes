@@ -1060,3 +1060,14 @@ If user-supplied data is inserted directly into the page without filtering, an a
 
 - Attacker can change the appearance and behaviour of the page.
 - Can be used to deface the site, create fake login forms, or prepare for more advanced attacks (e.g., XSS).
+
+### Prevention
+
+> **Golden Rule**: Never trust user input.
+
+Developers must **sanitize** all user input before using it on the page. Common fix:
+
+- Strip or escape HTML tags (<, >, &, etc.).
+- Use proper output encoding.
+
+> **Note** HTML Injection is a **client-side** vulnerability. It is different from database/server-side injections (covered in later rooms).
