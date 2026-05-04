@@ -1055,3 +1055,5 @@ If user-supplied data is inserted directly into the page without filtering, an a
 - The input is passed to a JavaScript function (sayHi()).
 - Whatever the user types is output directly onto the page.
 - Entering <h1>Hacked!</h1> or other HTML/JS will be rendered as actual HTML.
+
+### Why It’s Dangerous
