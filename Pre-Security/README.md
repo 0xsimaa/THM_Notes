@@ -1007,3 +1007,6 @@ JavaScript can be included in two ways:
 ### JavaScript Events
 
 Elements can trigger JavaScript when certain events occur (e.g., clicking a button).
+
+**Example:**
+
