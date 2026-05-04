@@ -1016,4 +1016,8 @@ Elements can trigger JavaScript when certain events occur (e.g., clicking a butt
 </button>
 ```
 
->  Events can also be defined inside <script> tags instead of directly on HTML elements.
+> Events can also be defined inside <script> tags instead of directly on HTML elements. </script>
+
+### Sensitive Data Exposure
+
+**Sensitive Data Exposure** occurs when a website accidentally leaks sensitive information in its **front-end source code** (HTML, JavaScript, or comments) that should never be visible to users.
