@@ -1081,3 +1081,6 @@ Developers must **sanitize** all user input before using it on the page. Common 
 ### Putting It All Together
 
 When you request a webpage, several systems work together behind the scenes:
+
+- Your computer uses **DNS** to resolve the domain name to an IP address.
+- It then communicates with the web server using the **HTTP/HTTPS** protocol.
