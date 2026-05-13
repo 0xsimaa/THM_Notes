@@ -1080,3 +1080,4 @@ Developers must **sanitize** all user input before using it on the page. Common 
 
 ### Putting It All Together
 
+When you request a webpage, several systems work together behind the scenes:
