@@ -1086,3 +1086,6 @@ When you request a webpage, several systems work together behind the scenes:
 - It then communicates with the web server using the **HTTP/HTTPS** protocol.
 - The server responds with **HTML**, **CSS**, **JavaScript**, images, and other assets.
 - Your browser renders everything into the final webpage you see.
+
+### Additional Components That Power Modern Websites
+
