@@ -1077,3 +1077,6 @@ Developers must **sanitize** all user input before using it on the page. Common 
 ![](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Pasted%20image%20(6).png)
 
 ---
+
+### Putting It All Together
+
