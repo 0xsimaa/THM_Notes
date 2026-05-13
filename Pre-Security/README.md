@@ -1097,4 +1097,4 @@ When you request a webpage, several systems work together behind the scenes:
 | **WAF (Web Application Firewall)** | Protects the web server from attacks                                     | - Sits between the user and the server - Blocks common attack patterns - Detects bots vs real browsers - Uses **rate limiting** to prevent abuse (e.g., too many requests from one IP)                                                                |
 
 > ***Summary***
-> 
+> Load balancers and CDNs improve performance and reliability.
