@@ -1098,3 +1098,4 @@ When you request a webpage, several systems work together behind the scenes:
 
 > ***Summary***
 > Load balancers and CDNs improve performance and reliability.
+> Databases handle data storage.
