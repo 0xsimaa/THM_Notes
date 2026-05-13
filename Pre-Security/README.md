@@ -1089,9 +1089,12 @@ When you request a webpage, several systems work together behind the scenes:
 
 ### Additional Components That Power Modern Websites
 
-|Component|Purpose|Key Features|
-|---|---|---|
-|**Load Balancer**|Distributes incoming traffic across multiple web servers|- Handles high traffic - Provides failover (if one server fails, traffic is routed elsewhere) - Uses algorithms such as **round-robin** (cycles through servers) or **weighted** (sends to least busy server) - Performs **health checks** on servers|
-|**CDN (Content Delivery Network)**|Delivers static files (JS, CSS, images, videos) faster|- Hosts files on thousands of servers worldwide - Automatically serves content from the server physically closest to the user - Dramatically reduces load on the origin web server|
-|**Database**|Stores and retrieves dynamic data (user accounts, posts, settings, etc.)|- Common types: MySQL, PostgreSQL, MongoDB, MSSQL - Ranges from simple files to complex clustered systems|
-|**WAF (Web Application Firewall)**|Protects the web server from attacks|- Sits between the user and the server - Blocks common attack patterns - Detects bots vs real browsers - Uses **rate limiting** to prevent abuse (e.g., too many requests from one IP)|
+| Component                          | Purpose                                                                  | Key Features                                                                                                                                                                                                                                          |
+| ---------------------------------- | ------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Load Balancer**                  | Distributes incoming traffic across multiple web servers                 | - Handles high traffic - Provides failover (if one server fails, traffic is routed elsewhere) - Uses algorithms such as **round-robin** (cycles through servers) or **weighted** (sends to least busy server) - Performs **health checks** on servers |
+| **CDN (Content Delivery Network)** | Delivers static files (JS, CSS, images, videos) faster                   | - Hosts files on thousands of servers worldwide - Automatically serves content from the server physically closest to the user - Dramatically reduces load on the origin web server                                                                    |
+| **Database**                       | Stores and retrieves dynamic data (user accounts, posts, settings, etc.) | - Common types: MySQL, PostgreSQL, MongoDB, MSSQL - Ranges from simple files to complex clustered systems                                                                                                                                             |
+| **WAF (Web Application Firewall)** | Protects the web server from attacks                                     | - Sits between the user and the server - Blocks common attack patterns - Detects bots vs real browsers - Uses **rate limiting** to prevent abuse (e.g., too many requests from one IP)                                                                |
+
+> ***Summary***
+> 
