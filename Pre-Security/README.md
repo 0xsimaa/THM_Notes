@@ -1135,3 +1135,10 @@ Web servers can host **multiple websites** on a single machine using **virtual h
 - two.com → /var/www/website_two
 
 There is no limit to the number of virtual hosts you can configure.
+
+### Static vs Dynamic Content
+
+|Type|Description|Examples|Changes per Request?|
+|---|---|---|---|
+|**Static**|Files served exactly as they are stored on disk|Images, CSS, JS, plain HTML|No|
+|**Dynamic**|Content generated on-the-fly by the server|Blog homepage, search results, user dashboards|Yes|
