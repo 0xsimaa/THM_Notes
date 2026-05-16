@@ -1115,7 +1115,8 @@ A **web server** is software that listens for incoming HTTP/HTTPS connections an
 
 Web servers serve files from a **root directory** (also called document root):
 
-|Web Server|Default Root Directory (Linux)|Default Root Directory (Windows)|
-|---|---|---|
-|Apache / Nginx|`/var/www/html`|—|
-|IIS|—|`C:\inetpub\wwwroot`|
+| Web Server     | Default Root Directory (Linux) | Default Root Directory (Windows) |
+| -------------- | ------------------------------ | -------------------------------- |
+| Apache / Nginx | `/var/www/html`                | —                                |
+| IIS            | —                              | `C:\inetpub\wwwroot`             |
+Example: Requesting http://www.example.com/picture.jpg serves the file /var/www/html/picture.jpg from the server’s hard drive.
