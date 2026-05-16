@@ -1114,3 +1114,8 @@ A **web server** is software that listens for incoming HTTP/HTTPS connections an
 - **NodeJS**
 
 Web servers serve files from a **root directory** (also called document root):
+
+|Web Server|Default Root Directory (Linux)|Default Root Directory (Windows)|
+|---|---|---|
+|Apache / Nginx|`/var/www/html`|—|
+|IIS|—|`C:\inetpub\wwwroot`|
