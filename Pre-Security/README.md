@@ -1173,3 +1173,7 @@ Request: http://example.com/index.php?name=adam
 
 **Room Completed:**
 
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Screenshot%20from%202026-05-17%2001-55-49.png)
+
+---
+
