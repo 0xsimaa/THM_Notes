@@ -1133,3 +1133,5 @@ Web servers can host **multiple websites** on a single machine using **virtual h
 
 - one.com → /var/www/website_one
 - two.com → /var/www/website_two
+
+There is no limit to the number of virtual hosts you can configure.
