@@ -1138,7 +1138,8 @@ There is no limit to the number of virtual hosts you can configure.
 
 ### Static vs Dynamic Content
 
-|Type|Description|Examples|Changes per Request?|
-|---|---|---|---|
-|**Static**|Files served exactly as they are stored on disk|Images, CSS, JS, plain HTML|No|
-|**Dynamic**|Content generated on-the-fly by the server|Blog homepage, search results, user dashboards|Yes|
+| Type        | Description                                     | Examples                                       | Changes per Request? |
+| ----------- | ----------------------------------------------- | ---------------------------------------------- | -------------------- |
+| **Static**  | Files served exactly as they are stored on disk | Images, CSS, JS, plain HTML                    | No                   |
+| **Dynamic** | Content generated on-the-fly by the server      | Blog homepage, search results, user dashboards | Yes                  |
+Dynamic content is processed in the **backend** using scripting languages. The user only sees the final result in the browser (**frontend**).
