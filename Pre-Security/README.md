@@ -1100,3 +1100,7 @@ When you request a webpage, several systems work together behind the scenes:
 > Load balancers and CDNs improve performance and reliability.
 > Databases handle data storage.
 > WAFs provide an extra layer of security against hacking attempts.
+
+
+### How Web Servers Work
+
