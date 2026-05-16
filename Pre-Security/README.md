@@ -1171,4 +1171,5 @@ Request: http://example.com/index.php?name=adam
 
 > **Important Note** The client never sees the actual PHP code — it runs entirely on the server (backend). This powerful interactivity also introduces many security risks if the application is not built securely.
 
----
+**Room Completed:**
+
