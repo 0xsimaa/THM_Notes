@@ -1120,3 +1120,11 @@ Web servers serve files from a **root directory** (also called document root):
 | Apache / Nginx | `/var/www/html`                | —                                |
 | IIS            | —                              | `C:\inetpub\wwwroot`             |
 Example: Requesting http://www.example.com/picture.jpg serves the file /var/www/html/picture.jpg from the server’s hard drive.
+
+### Virtual Hosts
+
+Web servers can host **multiple websites** on a single machine using **virtual hosts**.
+
+- The server reads the Host header from the HTTP request.
+- It matches the requested domain name to the correct virtual host configuration.
+- Each virtual host can have its own root directory.
