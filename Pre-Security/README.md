@@ -1128,3 +1128,8 @@ Web servers can host **multiple websites** on a single machine using **virtual h
 - The server reads the Host header from the HTTP request.
 - It matches the requested domain name to the correct virtual host configuration.
 - Each virtual host can have its own root directory.
+
+**Example:**
+
+- one.com → /var/www/website_one
+- two.com → /var/www/website_two
