@@ -1143,3 +1143,12 @@ There is no limit to the number of virtual hosts you can configure.
 | **Static**  | Files served exactly as they are stored on disk | Images, CSS, JS, plain HTML                    | No                   |
 | **Dynamic** | Content generated on-the-fly by the server      | Blog homepage, search results, user dashboards | Yes                  |
 Dynamic content is processed in the **backend** using scripting languages. The user only sees the final result in the browser (**frontend**).
+
+### Scripting & Backend Languages
+
+Backend languages allow websites to become interactive and dynamic. They can:
+
+- Interact with databases
+- Process user input
+- Call external APIs
+- Generate custom responses
