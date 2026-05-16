@@ -1112,3 +1112,5 @@ A **web server** is software that listens for incoming HTTP/HTTPS connections an
 - **Nginx**
 - **IIS** (Internet Information Services – Microsoft)
 - **NodeJS**
+
+Web servers serve files from a **root directory** (also called document root):
