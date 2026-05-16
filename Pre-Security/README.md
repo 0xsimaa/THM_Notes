@@ -1152,3 +1152,14 @@ Backend languages allow websites to become interactive and dynamic. They can:
 - Process user input
 - Call external APIs
 - Generate custom responses
+
+**Common Backend Languages:** PHP, Python, Ruby, NodeJS, Perl, etc.
+
+**PHP Example:**
+
+Request: http://example.com/index.php?name=adam
+
+```php
+<html><body>Hello <?php echo $_GET["name"]; ?></body></html>
+```
+
