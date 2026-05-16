@@ -1107,3 +1107,8 @@ When you request a webpage, several systems work together behind the scenes:
 A **web server** is software that listens for incoming HTTP/HTTPS connections and delivers web content (HTML, images, CSS, JS, etc.) to clients.
 
 **Common Web Servers:**
+
+- **Apache**
+- **Nginx**
+- **IIS** (Internet Information Services – Microsoft)
+- **NodeJS**
