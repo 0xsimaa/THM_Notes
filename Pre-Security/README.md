@@ -1181,7 +1181,10 @@ Request: http://example.com/index.php?name=adam
 
 Every computer system consists of the same fundamental building blocks that work together to function.
 
-> **Analogy**: The human body — each component has a specific role, just like organs in our body.
+> **Analogy**: The human body; each component has a specific role, just like organs in our body.
 
 ### Core Components of a Computer System
 
+### The Boot Process
+
+When you press the power button, a computer goes through a structured sequence before loading the Operating System.
