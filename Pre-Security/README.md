@@ -1188,3 +1188,11 @@ Every computer system consists of the same fundamental building blocks that work
 ### The Boot Process
 
 When you press the power button, a computer goes through a structured sequence before loading the Operating System.
+
+|Step|Name|Description|
+|---|---|---|
+|**1**|Press the Power Button|Signal sent to the Power Supply Unit (PSU) to start providing power to all components.|
+|**2**|Firmware Starts|UEFI (Unified Extensible Firmware Interface) initializes hardware components. **Note**: BIOS is the older equivalent, mostly replaced by UEFI.|
+|**3**|Power-On Self Test (POST)|Firmware checks if all critical components are present, correctly configured, and functioning properly.|
+|**4**|Select Boot Device|UEFI checks its boot order list and selects the device (SSD, HDD, USB, etc.) that contains the Operating System.|
+|**5**|Initiate Bootloader|Bootloader loads the Operating System from the boot device into RAM. Once loaded, control is handed over from UEFI to the OS.|
