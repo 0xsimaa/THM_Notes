@@ -1200,3 +1200,5 @@ When you press the power button, a computer goes through a structured sequence b
 > ***Key Takeaway***
 > Understanding the boot process is crucial in cybersecurity, as it is often targeted by malware, bootkits, and rootkits.
 
+**Room Complete:**
+
