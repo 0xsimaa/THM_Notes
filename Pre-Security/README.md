@@ -1177,3 +1177,5 @@ Request: http://example.com/index.php?name=adam
 
 ---
 
+### Computer Fundamentals: Core Components & Boot Process
+
