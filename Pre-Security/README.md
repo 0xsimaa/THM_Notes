@@ -1202,3 +1202,7 @@ When you press the power button, a computer goes through a structured sequence b
 
 **Room Complete:**
 
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Screenshot%20from%202026-05-26%2016-00-56.png)
+
+---
+
