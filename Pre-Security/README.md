@@ -1183,3 +1183,5 @@ Every computer system consists of the same fundamental building blocks that work
 
 > **Analogy**: The human body — each component has a specific role, just like organs in our body.
 
+### Core Components of a Computer System
+
