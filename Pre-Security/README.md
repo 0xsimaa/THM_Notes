@@ -1180,3 +1180,6 @@ Request: http://example.com/index.php?name=adam
 ### Computer Fundamentals: Core Components & Boot Process
 
 Every computer system consists of the same fundamental building blocks that work together to function.
+
+> **Analogy**: The human body — each component has a specific role, just like organs in our body.
+
