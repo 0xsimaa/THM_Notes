@@ -1196,3 +1196,7 @@ When you press the power button, a computer goes through a structured sequence b
 |**3**|Power-On Self Test (POST)|Firmware checks if all critical components are present, correctly configured, and functioning properly.|
 |**4**|Select Boot Device|UEFI checks its boot order list and selects the device (SSD, HDD, USB, etc.) that contains the Operating System.|
 |**5**|Initiate Bootloader|Bootloader loads the Operating System from the boot device into RAM. Once loaded, control is handed over from UEFI to the OS.|
+
+> ***Key Takeaway***
+> Understanding the boot process is crucial in cybersecurity, as it is often targeted by malware, bootkits, and rootkits.
+
