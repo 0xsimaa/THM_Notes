@@ -1242,3 +1242,10 @@ Computers come in many forms. Each type is designed with specific trade-offs bet
 
 > ***IoT vs Embedded***
 >  Both are usually small and single-purpose. The main difference is connectivity: IoT devices communicate over a network, while embedded computers often operate silently inside a device without network access.
+
+**ROOM COMPLETE:**
+
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Pasted%20image%20(7).png)
+
+---
+
