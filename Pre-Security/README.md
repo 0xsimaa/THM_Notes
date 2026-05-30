@@ -1235,7 +1235,10 @@ Computers come in many forms. Each type is designed with specific trade-offs bet
 
 ### IoT and Embedded Systems
 
-|Type|Description|Examples|
-|---|---|---|
-|**IoT Device**|Network-connected device built for a single purpose|Smart thermostat, doorbell, fitness tracker|
-|**Embedded Computer**|Computer built into another device (may or may not connect to a network)|Controller in a coffee machine, automatic door sensor, car ECU|
+| Type                  | Description                                                              | Examples                                                       |
+| --------------------- | ------------------------------------------------------------------------ | -------------------------------------------------------------- |
+| **IoT Device**        | Network-connected device built for a single purpose                      | Smart thermostat, doorbell, fitness tracker                    |
+| **Embedded Computer** | Computer built into another device (may or may not connect to a network) | Controller in a coffee machine, automatic door sensor, car ECU |
+
+> ***IoT vs Embedded***
+>  Both are usually small and single-purpose. The main difference is connectivity: IoT devices communicate over a network, while embedded computers often operate silently inside a device without network access.
