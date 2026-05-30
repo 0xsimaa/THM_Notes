@@ -1206,3 +1206,5 @@ When you press the power button, a computer goes through a structured sequence b
 
 ---
 
+### Computer Types
+
