@@ -1227,3 +1227,15 @@ Computers come in many forms. Each type is designed with specific trade-offs bet
 - **Servers** run 24/7, have no direct user interface, and are built to handle requests from many users simultaneously.
 
 ### Portable and Everyday Devices
+
+|Type|Description|Examples|
+|---|---|---|
+|**Smartphone**|Pocket-sized computer optimized for battery life and connectivity|iPhone, Android phones|
+|**Tablet**|Touch-first computer with a larger screen|iPad, drawing tablets|
+
+### IoT and Embedded Systems
+
+|Type|Description|Examples|
+|---|---|---|
+|**IoT Device**|Network-connected device built for a single purpose|Smart thermostat, doorbell, fitness tracker|
+|**Embedded Computer**|Computer built into another device (may or may not connect to a network)|Controller in a coffee machine, automatic door sensor, car ECU|
