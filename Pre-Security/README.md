@@ -1212,3 +1212,9 @@ Computers come in many forms. Each type is designed with specific trade-offs bet
 
 ### Computers You Sit in Front Of
 
+|Computer Type|Screen & Keyboard|Main Purpose|
+|---|---|---|
+|**Laptop**|Yes|Portable everyday computing|
+|**Desktop**|Yes|Sustained performance at a fixed location|
+|**Workstation**|Yes|Precision and reliability for professional tasks|
+|**Server**|No|Providing services to many users over a network|
