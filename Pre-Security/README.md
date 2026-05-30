@@ -1209,3 +1209,6 @@ When you press the power button, a computer goes through a structured sequence b
 ### Computer Types
 
 Computers come in many forms. Each type is designed with specific trade-offs between portability, performance, reliability, and purpose.
+
+### Computers You Sit in Front Of
+
