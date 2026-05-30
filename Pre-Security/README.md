@@ -1218,3 +1218,6 @@ Computers come in many forms. Each type is designed with specific trade-offs bet
 |**Desktop**|Yes|Sustained performance at a fixed location|
 |**Workstation**|Yes|Precision and reliability for professional tasks|
 |**Server**|No|Providing services to many users over a network|
+
+**Key Differences:**
+
