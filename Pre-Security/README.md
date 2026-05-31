@@ -1267,3 +1267,60 @@ Most computer systems operate using the **client-server model**.
 |**Port**|Number used to identify a specific service on a server (each service listens on its own port)|
 |**DNS**|Resolves human-readable domain names (e.g., `www.example.com`) into IP addresses|
 
+### HyperText Transfer Protocol (HTTP/HTTPS)
+
+**HTTP** is the most common protocol used on the World Wide Web. **HTTPS** is the secure, encrypted version of HTTP.
+
+- HTTP is **stateless**: Each request is independent; the server does not remember previous requests.
+- Modern web applications use cookies or tokens to maintain session state (e.g., keeping you logged in).
+
+### HTTP Methods
+
+HTTP defines several methods (also called verbs). The most commonly used are:
+
+- **GET** – Retrieve data from the server
+- **POST** – Send data to the server (e.g., form submission)
+- **PUT** – Update data
+- **DELETE** – Delete data
+
+(Other methods include PATCH, HEAD, OPTIONS, CONNECT, and TRACE)
+
+### GET Method in Practice
+
+The **GET** method is used to request a resource from a web server.
+
+**Example:**
+
+- GET https://tryhackme.com/index.php
+
+When you type a URL into a browser:
+
+1. The browser (client) constructs a GET request.
+2. The server responds with a **status code** and the requested content.
+
+### Inspecting a GET Request (Practical)
+
+To view real HTTP requests and responses:
+
+1. Open Firefox (or any browser)
+2. Press **F12** or right-click → **Inspect**
+3. Go to the **Network** tab
+4. Reload the page (Ctrl + R)
+5. Click on any request to see details:
+    - **Scheme**: http or https
+    - **Host**: Domain name of the server
+    - **Filename**: Requested file/path (e.g., / usually means index.html)
+    - **Address**: IP address of the server
+    - **Status**: Response code (e.g., 200 OK = success)
+
+The response contains:
+
+- **Headers** (metadata)
+- **Body** (actual content — usually HTML)
+
+**ROOM COMPLETE:**
+
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Pasted%20image%20(8).png)
+
+---
+
