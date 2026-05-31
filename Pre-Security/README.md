@@ -1257,3 +1257,13 @@ Most computer systems operate using the **client-server model**.
 - **Server**: The system that receives the request, processes it, and sends back a response.
 - The client always starts the communication.
 
+### Key Concepts
+
+|Concept|Description|
+|---|---|
+|**Request**|Message sent by the client asking for a resource or action|
+|**Response**|Message sent back by the server containing the result or data|
+|**Protocol**|Set of rules defining how clients and servers communicate (commands, structure, syntax, responses)|
+|**Port**|Number used to identify a specific service on a server (each service listens on its own port)|
+|**DNS**|Resolves human-readable domain names (e.g., `www.example.com`) into IP addresses|
+
