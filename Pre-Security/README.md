@@ -1249,3 +1249,11 @@ Computers come in many forms. Each type is designed with specific trade-offs bet
 
 ---
 
+### Client-Server Model
+
+Most computer systems operate using the **client-server model**.
+
+- **Client**: The device or program that initiates a request (e.g., a web browser).
+- **Server**: The system that receives the request, processes it, and sends back a response.
+- The client always starts the communication.
+
