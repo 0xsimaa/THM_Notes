@@ -1336,3 +1336,5 @@ Before virtualization, the standard practice was to run one application per phys
 - **Difficult to scale** — Adding more resources often required purchasing additional hardware.
 
 ### What is Virtualization?
+
+Virtualization allows **multiple operating systems and applications** to run on a single physical server by creating isolated virtual environments.
