@@ -1406,3 +1406,6 @@ Key differences from VMs:
 |Isolation|Strong (separate OS)|Good (process-level)|
 |Best for|Running different OSes|Running multiple instances of apps|
 **Docker** is the most popular platform for building, shipping, and running containers.
+
+> ***Summary***
+> VMs provide strong isolation and flexibility (like full apartments). Containers provide speed and efficiency for running applications (like rooms inside an apartment).
