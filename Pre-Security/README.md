@@ -1395,3 +1395,13 @@ Common Type 2 hypervisors for personal use:
 ### Containers
 
 A **container** is a lightweight, isolated environment that packages an application and all its dependencies.
+
+Key differences from VMs:
+
+|Feature|Virtual Machine|Container|
+|---|---|---|
+|Includes full OS|Yes|No (shares host kernel)|
+|Resource usage|Higher|Very low|
+|Startup time|Minutes|Seconds|
+|Isolation|Strong (separate OS)|Good (process-level)|
+|Best for|Running different OSes|Running multiple instances of apps|
