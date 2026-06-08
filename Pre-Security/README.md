@@ -1328,3 +1328,4 @@ The response contains:
 
 ### Traditional Approach: One Server = One Application
 
+Before virtualization, the standard practice was to run one application per physical server. This approach created several problems:
