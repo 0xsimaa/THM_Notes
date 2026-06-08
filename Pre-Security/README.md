@@ -1358,3 +1358,8 @@ It performs the following tasks:
 - Manages VM lifecycle (start, stop, pause, clone, delete)
 
 #### Types of Hypervisors
+
+|Hypervisor Type|Runs On|Best For|Examples|
+|---|---|---|---|
+|**Type 1**|Directly on hardware|Production servers, data centers|VMware ESXi, Hyper-V, KVM|
+|**Type 2**|Inside a host OS|Testing, learning, development|VirtualBox, VMware Workstation|
