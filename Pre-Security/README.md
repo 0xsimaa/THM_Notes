@@ -1331,3 +1331,4 @@ The response contains:
 Before virtualization, the standard practice was to run one application per physical server. This approach created several problems:
 
 - **High cost** — Multiple physical servers meant high expenses for hardware, power, cooling, and maintenance.
+- **Low utilization** — Most servers ran at only 5–20% capacity, wasting resources.
