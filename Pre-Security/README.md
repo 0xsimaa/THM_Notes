@@ -1334,3 +1334,5 @@ Before virtualization, the standard practice was to run one application per phys
 - **Low utilization** — Most servers ran at only 5–20% capacity, wasting resources.
 - **Slow deployment** — Setting up new physical servers could take days or weeks.
 - **Difficult to scale** — Adding more resources often required purchasing additional hardware.
+
+### What is Virtualization?
