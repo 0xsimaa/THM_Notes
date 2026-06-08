@@ -1349,3 +1349,10 @@ Just like multiple apartments share the building’s infrastructure (electricity
 
 ### Hypervisor
 
+A **hypervisor** is the software layer that creates, manages, and isolates virtual machines on a physical host.
+
+It performs the following tasks:
+
+- Divides physical resources (CPU, RAM, storage) among VMs
+- Keeps VMs isolated from each other
+- Manages VM lifecycle (start, stop, pause, clone, delete)
