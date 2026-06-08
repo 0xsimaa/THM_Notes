@@ -1326,3 +1326,5 @@ The response contains:
 
 ### Virtualization
 
+### Traditional Approach: One Server = One Application
+
