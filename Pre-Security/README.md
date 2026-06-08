@@ -1333,3 +1333,4 @@ Before virtualization, the standard practice was to run one application per phys
 - **High cost** — Multiple physical servers meant high expenses for hardware, power, cooling, and maintenance.
 - **Low utilization** — Most servers ran at only 5–20% capacity, wasting resources.
 - **Slow deployment** — Setting up new physical servers could take days or weeks.
+- **Difficult to scale** — Adding more resources often required purchasing additional hardware.
