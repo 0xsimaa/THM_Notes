@@ -1340,3 +1340,4 @@ Before virtualization, the standard practice was to run one application per phys
 Virtualization allows **multiple operating systems and applications** to run on a single physical server by creating isolated virtual environments.
 
 **Building Analogy**:
+- The **building** = Physical server
