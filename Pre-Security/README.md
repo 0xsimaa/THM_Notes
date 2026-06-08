@@ -1386,3 +1386,8 @@ Characteristics:
 - Can run any operating system (Windows, Linux, etc.)
 - Fully isolated from other VMs
 - If one VM crashes or gets compromised, others remain unaffected
+
+Common Type 2 hypervisors for personal use:
+
+- Oracle VirtualBox
+- VMware Workstation
