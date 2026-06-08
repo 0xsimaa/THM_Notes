@@ -1375,3 +1375,14 @@ It performs the following tasks:
 | Testing Malicious Files      | Type 2 (with isolation) |
 
 > **Security Note:** When testing malicious files in a VM, use a different operating system for the guest than the host, and keep the VM isolated from the host network.
+
+### Virtual Machines (Lab Machines / VMs)
+
+A **Virtual Machine (VM)** is a complete virtual computer created by the hypervisor.
+
+Characteristics:
+
+- Has its own virtual CPU, RAM, storage, and network
+- Can run any operating system (Windows, Linux, etc.)
+- Fully isolated from other VMs
+- If one VM crashes or gets compromised, others remain unaffected
