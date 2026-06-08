@@ -1344,3 +1344,5 @@ Virtualization allows **multiple operating systems and applications** to run on 
 - The **apartments** = Virtual Machines (VMs)
 - The **tenants** = Operating systems / Applications
 - The **building manager** = Hypervisor
+
+Just like multiple apartments share the building’s infrastructure (electricity, water, elevators) while remaining private and independent, multiple VMs share the physical server’s hardware while staying isolated.
