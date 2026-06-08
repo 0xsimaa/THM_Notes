@@ -1412,3 +1412,7 @@ Key differences from VMs:
 
 **ROOM COMPLETE:**
 
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Pasted%20image%20(9).png)
+
+---
+
