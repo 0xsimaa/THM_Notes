@@ -1366,10 +1366,12 @@ It performs the following tasks:
 
 **Recommended Use Cases**:
 
-|Use Case|Preferred Hypervisor|
-|---|---|
-|Production / Database Server|Type 1|
-|Data Center|Type 1|
-|Software Testing|Type 2|
-|Kali Linux / Learning|Type 2|
-|Testing Malicious Files|Type 2 (with isolation)|
+| Use Case                     | Preferred Hypervisor    |
+| ---------------------------- | ----------------------- |
+| Production / Database Server | Type 1                  |
+| Data Center                  | Type 1                  |
+| Software Testing             | Type 2                  |
+| Kali Linux / Learning        | Type 2                  |
+| Testing Malicious Files      | Type 2 (with isolation) |
+
+> **Security Note:** When testing malicious files in a VM, use a different operating system for the guest than the host, and keep the VM isolated from the host network.
