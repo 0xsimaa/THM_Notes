@@ -1341,3 +1341,6 @@ Virtualization allows **multiple operating systems and applications** to run on 
 
 **Building Analogy**:
 - The **building** = Physical server
+- The **apartments** = Virtual Machines (VMs)
+- The **tenants** = Operating systems / Applications
+- The **building manager** = Hypervisor
