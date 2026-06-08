@@ -1405,3 +1405,4 @@ Key differences from VMs:
 |Startup time|Minutes|Seconds|
 |Isolation|Strong (separate OS)|Good (process-level)|
 |Best for|Running different OSes|Running multiple instances of apps|
+**Docker** is the most popular platform for building, shipping, and running containers.
