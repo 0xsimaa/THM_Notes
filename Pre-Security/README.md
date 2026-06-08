@@ -1391,3 +1391,7 @@ Common Type 2 hypervisors for personal use:
 
 - Oracle VirtualBox
 - VMware Workstation
+
+### Containers
+
+A **container** is a lightweight, isolated environment that packages an application and all its dependencies.
