@@ -1409,3 +1409,6 @@ Key differences from VMs:
 
 > ***Summary***
 > VMs provide strong isolation and flexibility (like full apartments). Containers provide speed and efficiency for running applications (like rooms inside an apartment).
+
+**ROOM COMPLETE:**
+
