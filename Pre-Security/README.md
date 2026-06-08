@@ -1356,3 +1356,5 @@ It performs the following tasks:
 - Divides physical resources (CPU, RAM, storage) among VMs
 - Keeps VMs isolated from each other
 - Manages VM lifecycle (start, stop, pause, clone, delete)
+
+#### Types of Hypervisors
