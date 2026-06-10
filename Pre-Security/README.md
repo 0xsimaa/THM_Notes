@@ -1451,3 +1451,5 @@ Cloud computing offers several key advantages:
 | **Public Cloud**  | Resources owned and managed by a third-party provider and shared with many users | Startups, websites, most general use cases                        |
 | **Private Cloud** | Dedicated infrastructure for a single organization                               | Banks, healthcare, government (sensitive data)                    |
 | **Hybrid Cloud**  | Combination of public and private clouds                                         | Companies needing both control and scalability (e.g., e-commerce) |
+
+### Cloud Service Models
