@@ -1428,3 +1428,5 @@ This approach created several problems:
 - Low resource utilization (often only 5–20%)
 - Slow deployment times
 - Difficult and expensive to scale
+
+Cloud computing evolved to solve these issues by allowing multiple applications to share computing resources over the internet in a flexible, on-demand way.
