@@ -1455,3 +1455,9 @@ Cloud computing offers several key advantages:
 ### Cloud Service Models
 
 Cloud services are offered in different layers of responsibility:
+
+| Model    | Full Form                   | What You Manage                      | What Provider Manages                     | Analogy                       |
+| -------- | --------------------------- | ------------------------------------ | ----------------------------------------- | ----------------------------- |
+| **IaaS** | Infrastructure as a Service | Operating System, Applications, Data | Physical hardware, virtualization         | Renting an empty apartment    |
+| **PaaS** | Platform as a Service       | Applications and data                | OS, runtime, servers, storage             | Renting a furnished apartment |
+| **SaaS** | Software as a Service       | Only your data and usage             | Everything (application + infrastructure) | Renting a hotel room          |
