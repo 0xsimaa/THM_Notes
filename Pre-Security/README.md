@@ -1453,3 +1453,5 @@ Cloud computing offers several key advantages:
 | **Hybrid Cloud**  | Combination of public and private clouds                                         | Companies needing both control and scalability (e.g., e-commerce) |
 
 ### Cloud Service Models
+
+Cloud services are offered in different layers of responsibility:
