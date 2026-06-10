@@ -1480,3 +1480,8 @@ Cloud services are offered in different layers of responsibility:
 ### Real-World Cloud Usage
 
 Major companies rely on the cloud for scalability, reliability, and cost efficiency:
+
+- **Netflix** — Runs entirely on AWS for global streaming and handling massive traffic spikes.
+- **Spotify** — Uses the cloud to manage millions of songs and users with fast scaling.
+- **Instagram** — Stores and delivers huge amounts of photos/videos globally with high speed.
+- **E-commerce platforms** — Handle sudden traffic surges (e.g., Black Friday) without owning permanent infrastructure.
