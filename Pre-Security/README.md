@@ -1418,3 +1418,5 @@ Key differences from VMs:
 ---
 
 ### Cloud Computing
+
+### Evolution of Servers to Cloud
