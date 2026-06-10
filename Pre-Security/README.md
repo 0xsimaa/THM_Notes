@@ -1430,3 +1430,5 @@ This approach created several problems:
 - Difficult and expensive to scale
 
 Cloud computing evolved to solve these issues by allowing multiple applications to share computing resources over the internet in a flexible, on-demand way.
+
+### Cloud Benefits and Characteristics
