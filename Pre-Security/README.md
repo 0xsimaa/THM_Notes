@@ -1422,3 +1422,5 @@ Key differences from VMs:
 ### Evolution of Servers to Cloud
 
 Before cloud computing, organizations followed the **“one server = one application”** model. Each physical server was dedicated to a single purpose.
+
+This approach created several problems:
