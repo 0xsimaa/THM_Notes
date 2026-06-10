@@ -1434,3 +1434,13 @@ Cloud computing evolved to solve these issues by allowing multiple applications 
 ### Cloud Benefits and Characteristics
 
 Cloud computing offers several key advantages:
+
+|Benefit|Description|
+|---|---|
+|**Scalability**|Easily increase or decrease resources as needed|
+|**On-demand self-service**|Provision or remove servers and storage instantly|
+|**Pay-as-you-go**|Pay only for the resources you actually use|
+|**Security**|Cloud providers maintain strong infrastructure security|
+|**High availability**|Systems remain operational even if parts fail|
+|**Global access**|Applications can be accessed from anywhere in the world|
+
