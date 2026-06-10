@@ -1466,3 +1466,5 @@ Cloud services are offered in different layers of responsibility:
 - **IaaS**: Amazon EC2, DigitalOcean Droplets
 - **PaaS**: Heroku, Google App Engine
 - **SaaS**: Gmail, Zoom, Netflix, Microsoft 365
+
+### Major Cloud Providers
