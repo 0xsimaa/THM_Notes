@@ -1468,3 +1468,12 @@ Cloud services are offered in different layers of responsibility:
 - **SaaS**: Gmail, Zoom, Netflix, Microsoft 365
 
 ### Major Cloud Providers
+
+|Provider|Strengths|Notable For|
+|---|---|---|
+|**AWS**|Largest market share, most services|Industry leader|
+|**Microsoft Azure**|Strong enterprise & hybrid cloud support|Business integration|
+|**Google Cloud (GCP)**|Powerful data analytics, AI, and ML tools|Data & AI workloads|
+|**Alibaba Cloud**|Strong presence in Asia|Global expansion in Asia|
+|**IBM Cloud**|Hybrid cloud and AI solutions|Enterprise AI|
+|**Oracle Cloud**|Enterprise applications and databases|Database-heavy workloads|
