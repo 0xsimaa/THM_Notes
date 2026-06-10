@@ -1444,3 +1444,4 @@ Cloud computing offers several key advantages:
 |**High availability**|Systems remain operational even if parts fail|
 |**Global access**|Applications can be accessed from anywhere in the world|
 
+### Types of Cloud Deployment
