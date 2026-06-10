@@ -1424,3 +1424,7 @@ Key differences from VMs:
 Before cloud computing, organizations followed the **“one server = one application”** model. Each physical server was dedicated to a single purpose.
 
 This approach created several problems:
+- High hardware, power, cooling, and maintenance costs
+- Low resource utilization (often only 5–20%)
+- Slow deployment times
+- Difficult and expensive to scale
