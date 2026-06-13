@@ -1477,3 +1477,4 @@ Cloud services are offered in different layers of responsibility:
 | **Alibaba Cloud**      | Strong presence in Asia                   | Global expansion in Asia |
 | **IBM Cloud**          | Hybrid cloud and AI solutions             | Enterprise AI            |
 | **Oracle Cloud**       | Enterprise applications and databases     | Database-heavy workloads |
+**ROOM COMPLETE:**
