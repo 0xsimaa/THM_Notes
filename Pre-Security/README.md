@@ -1489,3 +1489,5 @@ Cloud services are offered in different layers of responsibility:
 ### What is an Operating System?
 
 An **Operating System (OS)** is the core software that manages all hardware and software on a computer. It acts as the central coordinator between the user, applications, and physical hardware.
+
+**Airport Analogy**:
