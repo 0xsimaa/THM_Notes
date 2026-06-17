@@ -1491,3 +1491,7 @@ Cloud services are offered in different layers of responsibility:
 An **Operating System (OS)** is the core software that manages all hardware and software on a computer. It acts as the central coordinator between the user, applications, and physical hardware.
 
 **Airport Analogy**:
+
+- **Hardware** (CPU, RAM, storage, devices) = Runways, airplanes, radar, and physical infrastructure
+- **Applications** = Airlines and passengers requesting services
+- **Operating System** = Air traffic control system that schedules, manages traffic, resolves conflicts, and ensures everything runs safely and efficiently
