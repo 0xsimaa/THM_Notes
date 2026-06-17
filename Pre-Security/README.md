@@ -1531,3 +1531,5 @@ This separation ensures:
 | **Device Management**      | Loads drivers and provides a universal interface for hardware                                     | Plugging in a mouse, printer, or USB drive and having it work immediately   |
 
 ### Operating System Security
+
+The OS provides fundamental security even before any antivirus or firewall is installed:
