@@ -1497,3 +1497,5 @@ An **Operating System (OS)** is the core software that manages all hardware and 
 - **Operating System** = Air traffic control system that schedules, manages traffic, resolves conflicts, and ensures everything runs safely and efficiently
 
 ### Why We Need an Operating System
+
+Without an OS, every application would need direct access to hardware (CPU, memory, files, devices). This would lead to conflicts, crashes, and security issues. The OS acts as the central manager that:
