@@ -1503,3 +1503,5 @@ Without an OS, every application would need direct access to hardware (CPU, memo
 - Coordinates hardware and software
 - Prevents applications from interfering with each other
 - Provides a stable and secure environment for users and programs
+
+### System Privilege Layers
