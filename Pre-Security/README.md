@@ -1505,3 +1505,5 @@ Without an OS, every application would need direct access to hardware (CPU, memo
 - Provides a stable and secure environment for users and programs
 
 ### System Privilege Layers
+
+Modern operating systems separate operations into two privilege levels:
