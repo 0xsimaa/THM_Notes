@@ -1507,3 +1507,8 @@ Without an OS, every application would need direct access to hardware (CPU, memo
 ### System Privilege Layers
 
 Modern operating systems separate operations into two privilege levels:
+
+|Layer|Description|Access Level|
+|---|---|---|
+|**Kernel Space**|The core of the OS. Manages hardware and system resources directly|Highest (unrestricted)|
+|**User Space**|Where regular applications run. Applications cannot access hardware directly|Restricted (must use system calls)|
