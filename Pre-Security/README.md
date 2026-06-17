@@ -1522,10 +1522,12 @@ This separation ensures:
 
 ### Core Responsibilities of an Operating System
 
-|Responsibility|What the OS Does|Example|
-|---|---|---|
-|**Process Management**|Creates, schedules, prioritizes, and terminates running programs|Running browser, music player, and chat app simultaneously without freezing|
-|**Memory Management**|Allocates RAM to processes, protects memory between apps, and uses virtual memory when RAM is low|Opening multiple apps while keeping them isolated|
-|**File System Management**|Organizes files and folders, handles permissions, naming, and metadata|Creating folders, saving files, setting read-only permissions|
-|**User Management**|Manages user accounts, authentication, and access permissions|Logging in with a password and keeping files private from other users|
-|**Device Management**|Loads drivers and provides a universal interface for hardware|Plugging in a mouse, printer, or USB drive and having it work immediately|
+| Responsibility             | What the OS Does                                                                                  | Example                                                                     |
+| -------------------------- | ------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| **Process Management**     | Creates, schedules, prioritizes, and terminates running programs                                  | Running browser, music player, and chat app simultaneously without freezing |
+| **Memory Management**      | Allocates RAM to processes, protects memory between apps, and uses virtual memory when RAM is low | Opening multiple apps while keeping them isolated                           |
+| **File System Management** | Organizes files and folders, handles permissions, naming, and metadata                            | Creating folders, saving files, setting read-only permissions               |
+| **User Management**        | Manages user accounts, authentication, and access permissions                                     | Logging in with a password and keeping files private from other users       |
+| **Device Management**      | Loads drivers and provides a universal interface for hardware                                     | Plugging in a mouse, printer, or USB drive and having it work immediately   |
+
+### Operating System Security
