@@ -1514,3 +1514,8 @@ Modern operating systems separate operations into two privilege levels:
 | **User Space**   | Where regular applications run. Applications cannot access hardware directly | Restricted (must use system calls) |
 
 **System Calls**: When an application needs to access hardware (e.g., save a file, play sound, connect to Wi-Fi), it sends a request to the kernel through a **system call**. The kernel then performs the action on behalf of the application.
+
+This separation ensures:
+
+- One faulty or malicious app cannot crash the entire system
+- Better security and stability
