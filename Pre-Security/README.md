@@ -1485,3 +1485,5 @@ Cloud services are offered in different layers of responsibility:
 ---
 
 ### Operating Systems
+
+### What is an Operating System?
