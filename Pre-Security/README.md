@@ -1533,3 +1533,8 @@ This separation ensures:
 ### Operating System Security
 
 The OS provides fundamental security even before any antivirus or firewall is installed:
+
+- **Authentication**: Verifies user identity (passwords, biometrics, PIN)
+- **Permissions**: Controls what each user and application can read, write, or execute
+- **Isolation**: Keeps processes in separate protected memory spaces
+- **System Protection**: Prevents unauthorized changes to critical system files and settings
