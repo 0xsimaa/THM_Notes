@@ -1519,3 +1519,5 @@ This separation ensures:
 
 - One faulty or malicious app cannot crash the entire system
 - Better security and stability
+
+### Core Responsibilities of an Operating System
