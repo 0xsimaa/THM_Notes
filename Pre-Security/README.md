@@ -1508,7 +1508,9 @@ Without an OS, every application would need direct access to hardware (CPU, memo
 
 Modern operating systems separate operations into two privilege levels:
 
-|Layer|Description|Access Level|
-|---|---|---|
-|**Kernel Space**|The core of the OS. Manages hardware and system resources directly|Highest (unrestricted)|
-|**User Space**|Where regular applications run. Applications cannot access hardware directly|Restricted (must use system calls)|
+| Layer            | Description                                                                  | Access Level                       |
+| ---------------- | ---------------------------------------------------------------------------- | ---------------------------------- |
+| **Kernel Space** | The core of the OS. Manages hardware and system resources directly           | Highest (unrestricted)             |
+| **User Space**   | Where regular applications run. Applications cannot access hardware directly | Restricted (must use system calls) |
+
+**System Calls**: When an application needs to access hardware (e.g., save a file, play sound, connect to Wi-Fi), it sends a request to the kernel through a **system call**. The kernel then performs the action on behalf of the application.
