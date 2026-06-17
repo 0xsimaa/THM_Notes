@@ -1499,3 +1499,7 @@ An **Operating System (OS)** is the core software that manages all hardware and 
 ### Why We Need an Operating System
 
 Without an OS, every application would need direct access to hardware (CPU, memory, files, devices). This would lead to conflicts, crashes, and security issues. The OS acts as the central manager that:
+
+- Coordinates hardware and software
+- Prevents applications from interfering with each other
+- Provides a stable and secure environment for users and programs
