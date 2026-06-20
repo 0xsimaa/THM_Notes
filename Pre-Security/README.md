@@ -1556,3 +1556,11 @@ Users interact with an operating system through two main interfaces:
 - Offers greater precision, speed, and control
 - Ideal for automation, scripting, and advanced system administration
 - Requires knowledge of commands and syntax
+
+|Feature|GUI|CLI|
+|---|---|---|
+|Interaction Style|Visual (icons, windows, menus)|Text-based commands|
+|Ease of Use|High (beginner-friendly)|Steeper learning curve|
+|Speed & Precision|Slower for complex/repetitive tasks|Much faster and more precise|
+|Resource Usage|Higher|Very low|
+|Best For|Everyday use, file browsing, settings|Scripting, automation, server management|
