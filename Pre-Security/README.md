@@ -1540,3 +1540,5 @@ The OS provides fundamental security even before any antivirus or firewall is in
 - **System Protection**: Prevents unauthorized changes to critical system files and settings
 
 ### OS Interfaces
+
+Users interact with an operating system through two main interfaces:
