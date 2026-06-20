@@ -1551,3 +1551,8 @@ Users interact with an operating system through two main interfaces:
 - Requires more system resources
 
 ### Command-Line Interface (CLI)
+
+- Text-based interface where commands are typed
+- Offers greater precision, speed, and control
+- Ideal for automation, scripting, and advanced system administration
+- Requires knowledge of commands and syntax
