@@ -1549,3 +1549,5 @@ Users interact with an operating system through two main interfaces:
 - User-friendly and intuitive
 - Best for everyday tasks and general users
 - Requires more system resources
+
+### Command-Line Interface (CLI)
