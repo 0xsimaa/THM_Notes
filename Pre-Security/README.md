@@ -1542,3 +1542,5 @@ The OS provides fundamental security even before any antivirus or firewall is in
 ### OS Interfaces
 
 Users interact with an operating system through two main interfaces:
+
+### Graphical User Interface (GUI)
