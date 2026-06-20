@@ -1544,3 +1544,8 @@ The OS provides fundamental security even before any antivirus or firewall is in
 Users interact with an operating system through two main interfaces:
 
 ### Graphical User Interface (GUI)
+
+- Visual, icon-based interface (windows, menus, icons)
+- User-friendly and intuitive
+- Best for everyday tasks and general users
+- Requires more system resources
