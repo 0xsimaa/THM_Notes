@@ -1573,10 +1573,12 @@ Different devices and use cases require different types of operating systems.
 
 ### Types of Operating Systems
 
-|OS Type|Primary Use Case|Key Characteristics|
-|---|---|---|
-|**Desktop**|Personal computers, work, gaming|Rich GUI, multitasking, user-focused|
-|**Server**|Web hosting, databases, cloud services|Headless (no GUI), high uptime, multi-user|
-|**Mobile**|Smartphones and tablets|Touch interface, power efficient, app sandboxing|
-|**Embedded**|Appliances, cars, IoT, routers, smart TVs|Very small footprint, specialized purpose|
-|**Virtual/Cloud**|VMs, containers, cloud instances|Lightweight, scalable, fast deployment|
+| OS Type           | Primary Use Case                          | Key Characteristics                              |
+| ----------------- | ----------------------------------------- | ------------------------------------------------ |
+| **Desktop**       | Personal computers, work, gaming          | Rich GUI, multitasking, user-focused             |
+| **Server**        | Web hosting, databases, cloud services    | Headless (no GUI), high uptime, multi-user       |
+| **Mobile**        | Smartphones and tablets                   | Touch interface, power efficient, app sandboxing |
+| **Embedded**      | Appliances, cars, IoT, routers, smart TVs | Very small footprint, specialized purpose        |
+| **Virtual/Cloud** | VMs, containers, cloud instances          | Lightweight, scalable, fast deployment           |
+
+### Major Operating System Families
