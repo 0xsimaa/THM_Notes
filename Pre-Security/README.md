@@ -1594,3 +1594,9 @@ Different devices and use cases require different types of operating systems.
 
 #### Server Operating Systems
 
+- **Windows Server**: Used in corporate networks and data centers 
+	- Server 2016, 2019, 2022, 2025
+- **Linux**: Dominant in web servers and cloud infrastructure 
+	- Ubuntu Server, Debian, CentOS, Red Hat
+- **Unix**: Used in large enterprises, finance, and government 
+	- IBM AIX, Oracle Solaris
