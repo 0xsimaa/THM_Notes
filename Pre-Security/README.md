@@ -1591,3 +1591,6 @@ Different devices and use cases require different types of operating systems.
 	- Sonoma, Sequoia, Tahoe
 - **Linux:** Family of open-source distributions
 	- Ubuntu, Debian, Fedora
+
+#### Server Operating Systems
+
