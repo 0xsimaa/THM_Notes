@@ -1586,3 +1586,5 @@ Different devices and use cases require different types of operating systems.
 #### Desktop Operating Systems
 
 - **Windows**: Most widely used desktop OS Windows 10, Windows 11
+- **macOS**: Apple’s desktop OS (known for polished GUI and ecosystem integration) 
+	- Sonoma, Sequoia, Tahoe
