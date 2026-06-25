@@ -1568,3 +1568,5 @@ Users interact with an operating system through two main interfaces:
 > Both ***GUI*** and ***CLI*** can perform the same tasks. The CLI is simply more direct and powerful for advanced users.
 
 ### Operating System Landscape
+
+Different devices and use cases require different types of operating systems.
