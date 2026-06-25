@@ -1602,3 +1602,8 @@ Different devices and use cases require different types of operating systems.
 	- IBM AIX, Oracle Solaris
 
 #### Mobile Operating Systems
+
+- **Android**: Most widely used mobile OS 
+	- Android 14–16 (and manufacturer versions)
+- **iOS**: Apple’s mobile OS for iPhone and iPad 
+	- iOS 17, 18, 26
