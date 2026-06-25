@@ -1589,3 +1589,4 @@ Different devices and use cases require different types of operating systems.
 - **macOS**: Apple’s desktop OS (known for polished GUI and ecosystem integration) 
 	- Sonoma, Sequoia, Tahoe
 - **Linux:** Family of open-source distributions
+	- Ubuntu, Debian, Fedora
