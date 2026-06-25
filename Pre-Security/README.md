@@ -1582,3 +1582,7 @@ Different devices and use cases require different types of operating systems.
 | **Virtual/Cloud** | VMs, containers, cloud instances          | Lightweight, scalable, fast deployment           |
 
 ### Major Operating System Families
+
+#### Desktop Operating Systems
+
+- **Windows**: Most widely used desktop OS Windows 10, Windows 11
