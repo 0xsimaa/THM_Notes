@@ -1600,3 +1600,5 @@ Different devices and use cases require different types of operating systems.
 	- Ubuntu Server, Debian, CentOS, Red Hat
 - **Unix**: Used in large enterprises, finance, and government 
 	- IBM AIX, Oracle Solaris
+
+#### Mobile Operating Systems
