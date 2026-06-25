@@ -1566,3 +1566,5 @@ Users interact with an operating system through two main interfaces:
 | Best For          | Everyday use, file browsing, settings | Scripting, automation, server management |
 
 > Both ***GUI*** and ***CLI*** can perform the same tasks. The CLI is simply more direct and powerful for advanced users.
+
+### Operating System Landscape
