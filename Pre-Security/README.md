@@ -1616,3 +1616,6 @@ Different devices and use cases require different types of operating systems.
 	- FreeRTOS, VxWorks, QNX
 
 #### Virtual & Cloud Operating Systems
+
+- **Cloud / VM OS:** Used in data centers and virtual machines
+	- 
