@@ -1609,3 +1609,5 @@ Different devices and use cases require different types of operating systems.
 	- iOS 17, 18, 26
 
 #### Embedded & IoT Operating Systems
+
+- **Embedded Linux:** Lightweight Linux for specialized devices
