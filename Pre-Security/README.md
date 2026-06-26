@@ -1613,3 +1613,4 @@ Different devices and use cases require different types of operating systems.
 - **Embedded Linux:** Lightweight Linux for specialized devices
 	- OpenWrt, Ubuntu Core, Yocto Project
 - **Real-Time Operating Systems (RTOS):** For systems requiring guaranteed response times
+	- FreeRTOS, VxWorks, QNX
