@@ -1611,3 +1611,4 @@ Different devices and use cases require different types of operating systems.
 #### Embedded & IoT Operating Systems
 
 - **Embedded Linux:** Lightweight Linux for specialized devices
+	- OpenWrt, Ubuntu Core, Yocto Project
