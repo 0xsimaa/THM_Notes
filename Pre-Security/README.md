@@ -1607,3 +1607,5 @@ Different devices and use cases require different types of operating systems.
 	- Android 14–16 (and manufacturer versions)
 - **iOS**: Apple’s mobile OS for iPhone and iPad 
 	- iOS 17, 18, 26
+
+#### Embedded & IoT Operating Systems
