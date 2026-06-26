@@ -1614,3 +1614,5 @@ Different devices and use cases require different types of operating systems.
 	- OpenWrt, Ubuntu Core, Yocto Project
 - **Real-Time Operating Systems (RTOS):** For systems requiring guaranteed response times
 	- FreeRTOS, VxWorks, QNX
+
+#### Virtual & Cloud Operating Systems
