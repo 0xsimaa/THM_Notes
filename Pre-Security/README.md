@@ -1620,3 +1620,4 @@ Different devices and use cases require different types of operating systems.
 - **Cloud / VM OS:** Used in data centers and virtual machines
 	- Ubuntu LTS, Amazon Linux, Rocky Linux
 - **Container-optimized OS:** Lightweight systems designed for containers
+	- Alpine Linux, Bottlerocket, Flatcar Linux
