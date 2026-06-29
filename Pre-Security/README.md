@@ -1623,6 +1623,6 @@ Different devices and use cases require different types of operating systems.
 	- Alpine Linux, Bottlerocket, Flatcar Linux
 
 **ROOM COMPLETE:**
-![]()
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Pasted%20image%20(11).png)
 
 ---
