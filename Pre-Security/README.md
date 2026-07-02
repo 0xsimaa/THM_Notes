@@ -1702,3 +1702,22 @@ Windows uses a **hierarchical folder structure** to organize files and folders.
 
 ### Windows Applications & Security
 
+### Updating Applications
+
+Keeping Windows and applications updated is essential for security and stability.
+
+**Windows Update**
+
+- Built-in tool that updates the operating system, security features, and some native apps.
+- Can install updates automatically.
+- Accessed via **Settings → Windows Update**.
+
+**Application Updates**
+
+- Built-in apps often update automatically.
+- Third-party apps may have their own update mechanisms or prompt users on launch.
+- Some require manual download and installation of new versions.
+
+### Installing Applications
+
+Windows supports multiple installation methods:
