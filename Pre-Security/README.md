@@ -1791,3 +1791,37 @@ Advanced settings allow users to view and create inbound/outbound rules.
 
 ---
 
+### Linux Terminal Basics
+
+The **terminal** (also called CLI) is a text-based interface used to control a Linux system. It is faster, more powerful, and often required for security tools and automation.
+
+### Core Navigation Commands
+
+|Command|Description|Example|
+|---|---|---|
+|pwd|Print Working Directory — shows your current location|pwd → /home/ubuntu|
+|ls|List files and folders in the current directory|ls|
+|ls -l|List with details (permissions, size, date, owner)|ls -l|
+|ls -al|List **all** files including **hidden** ones (files starting with .)|ls -al|
+|cd|Change Directory|cd Documents|
+|cd ..|Go up one directory level|cd ..|
+|find|Search for files and directories|find ~ -name mission_brief.txt|
+|cat|Display the contents of a file|cat mission_brief.txt|
+
+### Command Breakdown
+
+**pwd** — Print Working Directory Shows the full path of the folder you are currently in.
+
+**ls** — List Directory Contents
+
+- ls → Simple list
+- ls -l → Detailed view (permissions, size, modification date, owner)
+- ls -al → Shows **hidden files** (files starting with a dot .)
+
+**cd** — Change Directory
+
+- cd foldername → Enter a folder
+- cd .. → Go back to the parent folder
+- cd ~ → Go to your home directory
+
+**find** — Search for Files Used to locate files by name across the filesystem.
