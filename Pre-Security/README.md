@@ -1767,9 +1767,27 @@ Windows includes built-in security tools that are enabled by default.
 
 Central dashboard for system protection with four main sections:
 
-|Section|Purpose|
-|---|---|
-|**Virus & threat protection**|Real-time malware detection and customizable scans|
-|**Firewall & network protection**|Controls inbound and outbound network traffic|
-|**App & browser control**|Protects against unsafe apps, files, and websites|
-|**Device security**|Hardware-based security features|
+| Section                           | Purpose                                            |
+| --------------------------------- | -------------------------------------------------- |
+| **Virus & threat protection**     | Real-time malware detection and customizable scans |
+| **Firewall & network protection** | Controls inbound and outbound network traffic      |
+| **App & browser control**         | Protects against unsafe apps, files, and websites  |
+| **Device security**               | Hardware-based security features                   |
+#### Windows Defender Firewall
+
+Built-in firewall that monitors network connections and applies rules.
+
+It uses three network profiles:
+
+- **Domain** — Connected to an organization’s domain
+- **Private** — Trusted networks (home or lab)
+- **Public** — Untrusted networks (public Wi-Fi)
+
+Advanced settings allow users to view and create inbound/outbound rules.
+
+**ROOM COMPLETE:**
+
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Pasted%20image%20(12).png)
+
+---
+
