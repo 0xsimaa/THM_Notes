@@ -1658,3 +1658,44 @@ After logging in, users are presented with the **Desktop**, which serves as the 
 8. **Notifications** — Shows system and application notifications
 
 **Taskbar**: The horizontal bar at the bottom that provides access to the Start Menu, pinned applications, and system tray.
+
+### Start Menu
+
+The **Start Menu** (accessed by clicking the Windows icon) acts as a central hub. It provides quick access to:
+
+- Installed applications
+- Settings
+- Power options (Shut down, Restart, Sleep)
+- Recently used files and folders
+
+### Built-in Tools and Applications
+
+Windows includes several useful built-in tools:
+
+- **File Explorer** — Navigate and manage files and folders
+- **Notepad** — Simple text editing
+- **Settings** — Configure system options and view system information
+- **Task Manager** — Monitor running processes and performance
+- **Control Panel** — Advanced system configuration (legacy)
+
+### File Explorer and File Management
+
+Windows uses a **hierarchical folder structure** to organize files and folders.
+
+**Key Locations:**
+
+- Desktop
+- Documents
+- Downloads
+- Pictures
+- Music
+- Videos
+
+**File Explorer Features:**
+
+- Navigate through folders using the address bar (shows full path, e.g., C:\Users\Administrator\Desktop)
+- Search for files and folders within the current location
+- View, copy, move, delete, and share files
+- Change view modes (Details, Icons, List, etc.)
+
+> **Tip**: The full path in File Explorer helps you understand exactly where a file or folder is located in the system.
