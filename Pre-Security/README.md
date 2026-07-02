@@ -1825,3 +1825,29 @@ The **terminal** (also called CLI) is a text-based interface used to control a L
 - cd ~ → Go to your home directory
 
 **find** — Search for Files Used to locate files by name across the filesystem.
+
+**Example:**
+
+```Bash
+find ~ -name mission_brief.txt
+```
+
+**cat** — View File Contents Displays the full content of a text file in the terminal.
+
+**Example:**
+
+```Bash
+cat mission_brief.txt
+```
+
+### Quick Reference
+
+|Goal|Command Example|
+|---|---|
+|See where you are|pwd|
+|See what’s in the current folder|ls or ls -l|
+|See hidden files too|ls -al|
+|Go into a folder|cd Documents|
+|Go back one level|cd ..|
+|Find a specific file|find ~ -name filename.txt|
+|Read the contents of a file|cat filename.txt|
