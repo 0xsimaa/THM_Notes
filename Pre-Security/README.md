@@ -1737,3 +1737,39 @@ Windows offers several ways to remove installed programs:
 - Application’s own built-in uninstaller
 
 ### Windows Settings vs Control Panel
+
+| Tool                 | Description                                            | Best For                            |
+| -------------------- | ------------------------------------------------------ | ----------------------------------- |
+| **Windows Settings** | Modern, centralized interface for system configuration | Most everyday and advanced settings |
+| **Control Panel**    | Legacy interface with older administrative tools       | Specific legacy or advanced tasks   |
+
+Both tools allow users to manage display, audio, user accounts, apps, network, accessibility, and security settings.
+
+### Task Manager
+
+**Task Manager** provides real-time monitoring of system performance and running processes.
+
+It contains five main tabs:
+
+| Tab             | Purpose                                                            |
+| --------------- | ------------------------------------------------------------------ |
+| **Processes**   | View running apps and background processes with resource usage     |
+| **Performance** | Graphs and statistics for CPU, memory, disk, and network           |
+| **Users**       | Shows currently logged-in users and their resource consumption     |
+| **Details**     | Technical view of processes with Process IDs (PIDs)                |
+| **Services**    | View Windows services and their current status (Running / Stopped) |
+
+### Native Windows Security
+
+Windows includes built-in security tools that are enabled by default.
+
+#### Windows Security
+
+Central dashboard for system protection with four main sections:
+
+|Section|Purpose|
+|---|---|
+|**Virus & threat protection**|Real-time malware detection and customizable scans|
+|**Firewall & network protection**|Controls inbound and outbound network traffic|
+|**App & browser control**|Protects against unsafe apps, files, and websites|
+|**Device security**|Hardware-based security features|
