@@ -1721,3 +1721,8 @@ Keeping Windows and applications updated is essential for security and stability
 ### Installing Applications
 
 Windows supports multiple installation methods:
+
+|Method|Description|File Type|Notes|
+|---|---|---|---|
+|**Microsoft Store**|Curated and safe source for apps|Store apps|Not available by default on Windows Server|
+|**From the Internet**|Download installer directly from the vendor’s website|`.exe` or `.msi`|Most common method for third-party software|
