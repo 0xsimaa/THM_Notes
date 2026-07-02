@@ -1699,3 +1699,6 @@ Windows uses a **hierarchical folder structure** to organize files and folders.
 - Change view modes (Details, Icons, List, etc.)
 
 > **Tip**: The full path in File Explorer helps you understand exactly where a file or folder is located in the system.
+
+### Windows Applications & Security
+
