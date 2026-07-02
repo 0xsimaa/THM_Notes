@@ -1630,3 +1630,12 @@ Different devices and use cases require different types of operating systems.
 
 ### Windows Operating System
 
+### User Accounts and Authentication
+
+Before accessing the Windows Desktop, users must authenticate. Windows uses different account types with varying permission levels:
+
+|Account Type|Permissions|Best For|
+|---|---|---|
+|**Guest**|Very limited access; cannot change system settings|Temporary users|
+|**Standard**|Can run applications and change personal settings, but cannot modify system-wide settings|Everyday users|
+|**Administrator**|Full control over the system (install software, change settings, manage users)|System administration|
