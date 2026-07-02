@@ -1722,7 +1722,18 @@ Keeping Windows and applications updated is essential for security and stability
 
 Windows supports multiple installation methods:
 
-|Method|Description|File Type|Notes|
-|---|---|---|---|
-|**Microsoft Store**|Curated and safe source for apps|Store apps|Not available by default on Windows Server|
-|**From the Internet**|Download installer directly from the vendor’s website|`.exe` or `.msi`|Most common method for third-party software|
+| Method                | Description                                           | File Type        | Notes                                       |
+| --------------------- | ----------------------------------------------------- | ---------------- | ------------------------------------------- |
+| **Microsoft Store**   | Curated and safe source for apps                      | Store apps       | Not available by default on Windows Server  |
+| **From the Internet** | Download installer directly from the vendor’s website | `.exe` or `.msi` | Most common method for third-party software |
+
+### Uninstalling Applications
+
+Windows offers several ways to remove installed programs:
+
+- Microsoft Store (for Store apps)
+- **Settings → Apps → Installed apps**
+- **Control Panel → Programs and Features**
+- Application’s own built-in uninstaller
+
+### Windows Settings vs Control Panel
