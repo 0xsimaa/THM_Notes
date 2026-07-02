@@ -1,4 +1,4 @@
-## Introduction to Cyber Security
+### Introduction to Cyber Security
 
 ### **Gobuster**
 
@@ -1627,3 +1627,6 @@ Different devices and use cases require different types of operating systems.
 ![](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Pasted%20image%20(11).png)
 
 ---
+
+### Windows Operating System
+
