@@ -1634,8 +1634,27 @@ Different devices and use cases require different types of operating systems.
 
 Before accessing the Windows Desktop, users must authenticate. Windows uses different account types with varying permission levels:
 
-|Account Type|Permissions|Best For|
-|---|---|---|
-|**Guest**|Very limited access; cannot change system settings|Temporary users|
-|**Standard**|Can run applications and change personal settings, but cannot modify system-wide settings|Everyday users|
-|**Administrator**|Full control over the system (install software, change settings, manage users)|System administration|
+| Account Type      | Permissions                                                                               | Best For              |
+| ----------------- | ----------------------------------------------------------------------------------------- | --------------------- |
+| **Guest**         | Very limited access; cannot change system settings                                        | Temporary users       |
+| **Standard**      | Can run applications and change personal settings, but cannot modify system-wide settings | Everyday users        |
+| **Administrator** | Full control over the system (install software, change settings, manage users)            | System administration |
+
+Windows verifies identity using passwords, PINs, or other methods during login.
+
+### The Windows Desktop
+
+After logging in, users are presented with the **Desktop**, which serves as the main workspace.
+
+**Core Components of the Windows Desktop:**
+
+1. **Desktop Icons** — Shortcuts to files, folders, and applications (fully customizable)
+2. **Start Menu** — Primary access point for applications, settings, and power options
+3. **Search** — Quickly find apps, files, folders, and settings
+4. **Task View** — View and switch between all open windows
+5. **Pinned Apps & Folders** — Quick access to frequently used items
+6. **Network & Audio Settings** — Quick access to connectivity and sound options
+7. **Date & Time** — Displays current date/time and opens a calendar
+8. **Notifications** — Shows system and application notifications
+
+**Taskbar**: The horizontal bar at the bottom that provides access to the Start Menu, pinned applications, and system tray.
