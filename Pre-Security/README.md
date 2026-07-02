@@ -1898,3 +1898,7 @@ cat /etc/os-release
 | Disk space usage           | df -h               |
 | Linux distribution details | cat /etc/os-release |
 | Just the kernel name       | uname               |
+
+**ROOM COMPLETE**
+
+![]()
