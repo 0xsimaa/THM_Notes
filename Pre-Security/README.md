@@ -1851,3 +1851,50 @@ cat mission_brief.txt
 |Go back one level|cd ..|
 |Find a specific file|find ~ -name filename.txt|
 |Read the contents of a file|cat filename.txt|
+### Linux System Information
+
+### Gathering Basic System Information
+
+When working in Linux, it is important to quickly understand the environment you are operating in. The following commands help you collect essential system details.
+
+### Key Commands
+
+|Command|Purpose|Example Output / Use Case|
+|---|---|---|
+|whoami|Shows the username you are currently logged in as|ubuntu|
+|uname -a|Displays full system information (kernel, hostname, architecture)|Linux tryhackme ... x86_64 GNU/Linux|
+|uname|Shows just the kernel name|Linux|
+|df -h|Shows disk space usage in human-readable format|Lists mounted filesystems with size, used, available space|
+|cat /etc/os-release|Displays detailed information about the Linux distribution|Shows distribution name, version, codename, etc.|
+
+### Command Breakdown
+
+**whoami** Prints the current logged-in username.
+
+**uname -a** Provides detailed system information including:
+
+- Kernel name
+- Hostname
+- Kernel version
+- Architecture (x86_64)
+- Operating system type (GNU/Linux)
+
+**df -h** (Disk Free) Shows disk usage for all mounted filesystems in a human-readable format (-h = human readable). Useful for checking available storage before running tools or saving large files.
+
+**/etc/os-release** A standard file that contains detailed information about the Linux distribution (name, version, codename, support URLs, etc.). This is often clearer than the output of uname.
+
+**Example:**
+
+```Bash
+cat /etc/os-release
+```
+
+### Quick Reference Table
+
+| Information Needed         | Command             |
+| -------------------------- | ------------------- |
+| Current username           | whoami              |
+| Kernel & system details    | uname -a            |
+| Disk space usage           | df -h               |
+| Linux distribution details | cat /etc/os-release |
+| Just the kernel name       | uname               |
