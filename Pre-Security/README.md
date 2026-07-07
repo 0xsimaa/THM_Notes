@@ -1906,3 +1906,15 @@ cat /etc/os-release
 ---
 
 ### Windows Command Prompt Basics
+
+The **Command Prompt** (CLI) is a text-based interface for interacting with Windows. It is faster and more powerful than the GUI for many tasks, especially in cybersecurity and system administration.
+
+### Navigating the Filesystem
+
+|Command|Description|Example|
+|---|---|---|
+|`cd`|Shows current directory or changes directory|`cd Documents`|
+|`dir`|Lists files and folders in the current directory|`dir`|
+|`dir /a`|Lists **all** files, including **hidden** ones|`dir /a`|
+|`dir /s`|Searches recursively through subfolders|`dir /s task_brief.txt`|
+|`cd ..`|Moves up one directory level|`cd ..`|
