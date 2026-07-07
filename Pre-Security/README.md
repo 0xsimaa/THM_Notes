@@ -1966,3 +1966,34 @@ An **Operating System (OS)** is the core software that sits between the computer
 - **Operating System**: Acts as the manager that controls hardware access for applications according to defined rules.
 
 Without an OS, applications cannot directly and safely use the hardware.
+
+### Types of Operating Systems
+
+|Type|Examples|Primary Use Case|
+|---|---|---|
+|**Desktop**|Windows, macOS, Linux|Personal computers, work, gaming|
+|**Mobile**|Android, iOS|Smartphones and tablets|
+|**Server**|Windows Server, Linux distributions, Unix (AIX, Solaris)|Web hosting, databases, cloud services|
+|**Embedded**|Specialized systems|IoT devices, cars, appliances|
+
+### Security Principles (CIA Triad)
+
+Security aims to protect three core principles:
+
+|Principle|Goal|Example of Failure|
+|---|---|---|
+|**Confidentiality**|Ensure data is only accessible to authorized users|Unauthorized access to private files|
+|**Integrity**|Ensure data is not tampered with|Files being modified without permission|
+|**Availability**|Ensure systems and data are accessible when needed|Ransomware encrypting files|
+
+### Common Weaknesses in Operating Systems
+
+#### 1. Authentication and Weak Passwords
+
+**Authentication** verifies a user’s identity. Common methods include:
+
+- Something you **know** (password, PIN)
+- Something you **are** (fingerprint, face ID)
+- Something you **have** (phone for SMS)
+
+Passwords remain the most common (and most attacked) method. Many users choose weak or reused passwords.
