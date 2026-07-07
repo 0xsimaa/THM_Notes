@@ -2048,3 +2048,10 @@ In real-world attacks, attackers often:
 - Use ssh username@target to attempt login.
 - If successful, use commands like whoami, ls, and cat to explore the system.
 - Weak passwords like dragon are still surprisingly effective due to poor user habits.
+
+**ROOM COMPLETE:**
+
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Pasted%20image%20(15).png)
+
+---
+
