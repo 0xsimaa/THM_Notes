@@ -1997,3 +1997,54 @@ Security aims to protect three core principles:
 - Something you **have** (phone for SMS)
 
 Passwords remain the most common (and most attacked) method. Many users choose weak or reused passwords.
+
+**Top 20 Most Common Passwords** (NCSC):
+
+|Rank|Password|Rank|Password|
+|---|---|---|---|
+|1|123456|11|1234567890|
+|2|123456789|12|123123|
+|3|qwerty|13|000000|
+|4|password|14|iloveyou|
+|5|111111|15|1234|
+|6|12345678|16|1q2w3e4r5t|
+|7|abc123|17|qwertyuiop|
+|8|1234567|18|123|
+|9|password1|19|monkey|
+|10|12345|20|dragon|
+
+**Key Lesson**: Use strong, unique passwords for different accounts.
+
+#### 2. Weak File Permissions
+
+The **principle of least privilege** states that users and applications should only have access to what they need.
+
+Weak file permissions can lead to:
+
+- **Confidentiality** breaches (unauthorized reading of files)
+- **Integrity** breaches (unauthorized modification of files)
+
+#### 3. Malicious Programs
+
+Malicious software can attack all three security principles:
+
+|Type of Malware|Impact|Example|
+|---|---|---|
+|**Trojan Horse**|Gives attacker remote access|Backdoors|
+|**Ransomware**|Encrypts files and demands payment|CryptoLocker, WannaCry|
+|**Spyware**|Steals sensitive information|Keyloggers|
+
+### Practical Example: Exploiting Weak Passwords
+
+In real-world attacks, attackers often:
+
+1. Discover usernames (sometimes left on sticky notes or through other means).
+2. Try common or leaked passwords (e.g., dragon).
+3. Attempt to log in via services like SSH.
+4. Escalate privileges to root (Linux/macOS) or Administrator (Windows) for full control.
+
+**Example Attack Flow (Linux)**:
+
+- Use ssh username@target to attempt login.
+- If successful, use commands like whoami, ls, and cat to explore the system.
+- Weak passwords like dragon are still surprisingly effective due to poor user habits.
