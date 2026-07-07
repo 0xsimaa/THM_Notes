@@ -1937,14 +1937,14 @@ The **Command Prompt** (CLI) is a text-based interface for interacting with Wind
 
 ### Quick Reference
 
-|Goal|Command|
-|---|---|
-|Check current location|cd|
-|List files and folders|dir|
-|Show hidden files too|dir /a|
-|Search for a file recursively|dir /s filename|
-|Read a text file|type filename|
-|See who you are logged in as|whoami|
-|Get computer name|hostname|
-|Get detailed Windows version & system info|systeminfo|
-|View network configuration|ipconfig|
+| Goal                                       | Command         |
+| ------------------------------------------ | --------------- |
+| Check current location                     | cd              |
+| List files and folders                     | dir             |
+| Show hidden files too                      | dir /a          |
+| Search for a file recursively              | dir /s filename |
+| Read a text file                           | type filename   |
+| See who you are logged in as               | whoami          |
+| Get computer name                          | hostname        |
+| Get detailed Windows version & system info | systeminfo      |
+| View network configuration                 | ipconfig        |
