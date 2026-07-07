@@ -1955,3 +1955,14 @@ The **Command Prompt** (CLI) is a text-based interface for interacting with Wind
 
 ---
 
+### Operating System Security
+
+### What is an Operating System?
+
+An **Operating System (OS)** is the core software that sits between the computer **hardware** and the **applications** you use.
+
+- **Hardware**: Physical components you can touch (CPU, RAM, storage, keyboard, screen, etc.).
+- **Applications**: Programs like web browsers, messaging apps, games, etc.
+- **Operating System**: Acts as the manager that controls hardware access for applications according to defined rules.
+
+Without an OS, applications cannot directly and safely use the hardware.
