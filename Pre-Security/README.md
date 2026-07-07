@@ -1911,10 +1911,40 @@ The **Command Prompt** (CLI) is a text-based interface for interacting with Wind
 
 ### Navigating the Filesystem
 
+| Command  | Description                                      | Example                 |
+| -------- | ------------------------------------------------ | ----------------------- |
+| `cd`     | Shows current directory or changes directory     | `cd Documents`          |
+| `dir`    | Lists files and folders in the current directory | `dir`                   |
+| `dir /a` | Lists **all** files, including **hidden** ones   | `dir /a`                |
+| `dir /s` | Searches recursively through subfolders          | `dir /s task_brief.txt` |
+| `cd ..`  | Moves up one directory level                     | `cd ..`                 |
+
+### Finding and Reading Files
+
 |Command|Description|Example|
 |---|---|---|
-|`cd`|Shows current directory or changes directory|`cd Documents`|
-|`dir`|Lists files and folders in the current directory|`dir`|
-|`dir /a`|Lists **all** files, including **hidden** ones|`dir /a`|
-|`dir /s`|Searches recursively through subfolders|`dir /s task_brief.txt`|
-|`cd ..`|Moves up one directory level|`cd ..`|
+|dir /s filename|Searches for a file in the current directory and all subdirectories|dir /s task_brief.txt|
+|type filename|Displays the contents of a text file|type task_brief.txt|
+
+### Gathering System Information
+
+|Command|Purpose|Useful Information Provided|
+|---|---|---|
+|whoami|Shows the current logged-in username|Username|
+|hostname|Shows the computer’s name|Computer name|
+|systeminfo|Displays detailed system information|OS Name, Version, System Type (32/64-bit)|
+|ipconfig|Shows network configuration|IPv4 Address, Default Gateway|
+
+### Quick Reference
+
+|Goal|Command|
+|---|---|
+|Check current location|cd|
+|List files and folders|dir|
+|Show hidden files too|dir /a|
+|Search for a file recursively|dir /s filename|
+|Read a text file|type filename|
+|See who you are logged in as|whoami|
+|Get computer name|hostname|
+|Get detailed Windows version & system info|systeminfo|
+|View network configuration|ipconfig|
