@@ -1948,3 +1948,10 @@ The **Command Prompt** (CLI) is a text-based interface for interacting with Wind
 | Get computer name                          | hostname        |
 | Get detailed Windows version & system info | systeminfo      |
 | View network configuration                 | ipconfig        |
+
+**ROOM COMPLETE:**
+
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Pasted%20image%20(14).png)
+
+---
+
