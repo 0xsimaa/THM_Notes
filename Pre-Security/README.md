@@ -2081,3 +2081,91 @@ Computers represent colors using the **RGB** model (Red, Green, Blue).
 |111|All on|White|
 
 A group of **8 bits** is called a **byte** (or octet). A 24-bit color = **3 bytes** (one byte each for Red, Green, and Blue).
+
+### Hexadecimal Representation of Colors
+
+Hexadecimal (base-16) is used because it is much more compact and readable than binary.
+
+- Every **4 bits** = 1 hexadecimal digit
+- One byte (8 bits) = **2 hexadecimal digits**
+
+**Hexadecimal Digits:**
+
+|Decimal|Hex|Binary|Decimal|Hex|Binary|
+|---|---|---|---|---|---|
+|0|0|0000|8|8|1000|
+|1|1|0001|9|9|1001|
+|2|2|0010|10|A|1010|
+|3|3|0011|11|B|1011|
+|4|4|0100|12|C|1100|
+|5|5|0101|13|D|1101|
+|6|6|0110|14|E|1110|
+|7|7|0111|15|F|1111|
+
+**Example:**
+
+- Binary color: 10100011 11101010 00101010
+- Hexadecimal: A3EA2A
+
+This is the standard way colors are written in web design and graphics software (e.g., #A3EA2A).
+
+### Binary Numbers
+
+Computers use the **binary (base-2)** system. Each digit is either **0** or **1**, and each position represents a power of 2.
+
+### Binary to Decimal Conversion
+
+**Example:** Convert 1101 to decimal
+
+11012=1×23+1×22+0×21+1×20=8+4+0+1=13101101_2 = 1 \times 2^3 + 1 \times 2^2 + 0 \times 2^1 + 1 \times 2^0 = 8 + 4 + 0 + 1 = 13_{10}11012​=1×23+1×22+0×21+1×20=8+4+0+1=1310​
+
+**Quick Reference:**
+
+|Binary|Decimal|Binary|Decimal|
+|---|---|---|---|
+|0000|0|1000|8|
+|0001|1|1001|9|
+|0010|2|1010|10|
+|0011|3|1011|11|
+|0100|4|1100|12|
+|0101|5|1101|13|
+|0110|6|1110|14|
+|0111|7|1111|15|
+
+### Hexadecimal Numbers
+
+**Hexadecimal (base-16)** is widely used in computing because it is a compact way to represent binary data.
+
+- Each hex digit represents exactly **4 bits**
+- One byte = **2 hex digits**
+
+### Hexadecimal to Decimal Conversion (Optional)
+
+**Example:** Convert 9BDF to decimal
+
+9BDF16=9×163+11×162+13×161+15×1609BDF_{16} = 9 \times 16^3 + 11 \times 16^2 + 13 \times 16^1 + 15 \times 16^09BDF16​=9×163+11×162+13×161+15×160
+
+=9×4096+11×256+13×16+15×1=39,903= 9 \times 4096 + 11 \times 256 + 13 \times 16 + 15 \times 1 = 39,903=9×4096+11×256+13×16+15×1=39,903
+
+### Optional: Octal Numbers
+
+**Octal (base-8)** uses digits from 0 to 7. Each octal digit represents **3 bits**.
+
+|Decimal|Octal|Binary|
+|---|---|---|
+|0|0|000|
+|1|1|001|
+|2|2|010|
+|3|3|011|
+|4|4|100|
+|5|5|101|
+|6|6|110|
+|7|7|111|
+
+Octal is rarely used today compared to hexadecimal.
+
+**ROOM COMPLETE**
+
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Pasted%20image%20(16).png)
+
+---
