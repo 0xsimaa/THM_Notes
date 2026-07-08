@@ -2055,3 +2055,29 @@ In real-world attacks, attackers often:
 
 ---
 
+### Data Representation
+#### Representing Colors in Computers
+
+Computers represent colors using the **RGB** model (Red, Green, Blue).
+
+### From 8 Colors to 16 Million Colors
+
+|Color Depth|Bits per Channel|Total Bits|Total Colors|Description|
+|---|---|---|---|---|
+|**8 colors**|1 bit|3 bits|8|Each color channel is either **on** or **off**|
+|**16+ million colors**|8 bits|24 bits|16,777,216|Each color channel has 256 levels (0–255)|
+
+**Example of 8-color representation:**
+
+|Binary|Meaning|Color|
+|---|---|---|
+|000|All off|Black|
+|001|Blue only|Blue|
+|010|Green only|Green|
+|100|Red only|Red|
+|011|Green + Blue|Cyan|
+|101|Red + Blue|Magenta|
+|110|Red + Green|Yellow|
+|111|All on|White|
+
+A group of **8 bits** is called a **byte** (or octet). A 24-bit color = **3 bytes** (one byte each for Red, Green, and Blue).
