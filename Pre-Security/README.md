@@ -2169,3 +2169,72 @@ Octal is rarely used today compared to hexadecimal.
 ![](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Pasted%20image%20(16).png)
 
 ---
+### Character Encoding
+
+Computers store everything as numbers (bits). **Character encoding** is the agreed mapping between numbers and characters (letters, digits, punctuation, emojis, etc.).
+
+- **Representation**: Data stored as bits and numbers in memory.
+- **Encoding**: The standard that defines which number corresponds to which character.
+
+If two systems use different encodings, text appears as **gibberish**.
+
+### ASCII (American Standard Code for Information Interchange)
+
+One of the earliest standards (1963). Uses **7 bits** (128 characters).
+
+- English letters (A–Z, a–z)
+- Digits (0–9)
+- Punctuation and control characters
+
+**Examples** (selected):
+
+|Decimal|Hex|Binary|Character|
+|---|---|---|---|
+|48|30|00110000|0|
+|65|41|01000001|A|
+|97|61|01100001|a|
+|127|7F|01111111|DEL|
+
+**"TryHackMe" in ASCII** (hex): 54 72 79 48 61 63 6B 4D 65
+
+### Limitations of ASCII & ISO-8859
+
+ASCII only supports English. To support European languages, extensions like **ISO-8859** were created (8 bits = 256 characters).
+
+Examples:
+
+- **ISO-8859-1 (Latin-1)**: Western European (é, ç, ñ, ü, ß)
+- **ISO-8859-2 (Latin-2)**: Central/Eastern European (č, ř, ł, ș, ț)
+
+If a file saved in one encoding is opened with another, special characters appear incorrectly.
+
+### Unicode & UTF Encodings
+
+**Unicode** is the universal standard that assigns a unique number (code point) to every character in every language, plus emojis and symbols.
+
+**UTF** (Unicode Transformation Format) defines how these code points are stored as bytes:
+
+|Encoding|Bits per Character|Description|Common Use|
+|---|---|---|---|
+|**UTF-8**|1–4 bytes|Most efficient and widely used. Backward compatible with ASCII|Web, files, Linux, modern systems|
+|**UTF-16**|2 or 4 bytes|Common characters use 2 bytes; rare ones use 4 bytes|Windows, Java|
+|**UTF-32**|4 bytes (fixed)|Simplest but wastes space|Rare (internal use)|
+
+**UTF-8** is the most popular encoding today because it balances efficiency and compatibility.
+
+**Examples** (Unicode code points):
+
+|Character|Unicode|UTF-8 (hex)|Notes|
+|---|---|---|---|
+|A|U+0041|41|ASCII compatible|
+|🔥|U+1F525|F0 9F 94 A5|Emoji|
+|龍|U+9F8D|E9 BE 8D|Chinese|
+|😊|U+1F60A|F0 9F 98 8A|Emoji|
+|ツ|U+30C4|E3 83 84|Japanese|
+|ت|U+062A|D8 AA|Arabic|
+
+**ROOM COMPLETE:**
+
+![]()
+
+---
