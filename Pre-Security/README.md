@@ -2235,6 +2235,6 @@ If a file saved in one encoding is opened with another, special characters appea
 
 **ROOM COMPLETE:**
 
-![]()
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Pasted%20image%20(17).png)
 
 ---
