@@ -2238,3 +2238,88 @@ If a file saved in one encoding is opened with another, special characters appea
 ![](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Pasted%20image%20(17).png)
 
 ---
+
+### Guess the Number Game (Python)
+
+This simple game demonstrates core programming concepts:
+
+- Random number generation
+- User input and type conversion
+- Conditional logic (if/elif/else)
+- Loops (while)
+- Variable tracking
+
+### Version 1 – Basic Setup
+
+```python
+import random
+
+secret = random.randint(1, 20)  # pick secret number
+tries = 0
+guess = 0                       # start outside valid range
+
+print("I'm thinking of a number between 1 and 20")
+
+text = input("Take a guess: ")  # input() returns text
+guess = int(text)               # convert to integer
+
+tries = tries + 1
+```
+
+### Version 2 – Adding Feedback
+
+```Python
+# ... (same setup as Version 1)
+
+if guess < 1 or guess > 20:
+    print("That number is out of range. Try again.")
+elif guess < secret:
+    print("Too low, try again.")
+elif guess > secret:
+    print("Too high, try again.")
+else:
+    print("You got it in", tries, "tries!")
+```
+
+### Version 3 – Full Game with Loop
+
+```Python
+import random
+
+secret = random.randint(1, 20)
+tries = 0
+guess = 0
+
+print("I'm thinking of a number between 1 and 20")
+
+while guess != secret:               # repeat until correct
+    text = input("Take a guess: ")
+    guess = int(text)
+    
+    tries = tries + 1
+    
+    if guess < 1 or guess > 20:
+        print("That number is out of range. Try again.")
+    elif guess < secret:
+        print("Too low, try again.")
+    elif guess > secret:
+        print("Too high, try again.")
+    else:
+        print("You got it in", tries, "tries!")
+```
+
+### Key Concepts Demonstrated
+
+|Concept|How It’s Used in the Game|
+|---|---|
+|**Variables**|secret, guess, tries|
+|**Input**|input() + int() conversion|
+|**Loop**|while guess != secret|
+|**Conditionals**|if / elif / else for feedback|
+|**Random**|random.randint(1, 20)|
+
+**ROOM COMPLETE:**
+
+![]()
+
+---
