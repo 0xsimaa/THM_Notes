@@ -2541,7 +2541,7 @@ Ensures authorized users can access data and services when needed.
 
 **ROOM COMPLETE:**
 
-![]()
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Pasted%20image%20(21).png)
 
 ---
 
