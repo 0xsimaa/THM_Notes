@@ -2320,6 +2320,96 @@ while guess != secret:               # repeat until correct
 
 **ROOM COMPLETE:**
 
-![]()
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Pasted%20image%20(18).png)
 
 ---
+
+### Guess the Number Game (JavaScript)
+
+This simple program demonstrates core JavaScript concepts:
+
+- Variables and constants
+- User input with readline
+- Random number generation
+- Conditional logic (if / else if / else)
+- Loops (while)
+- Type conversion (parseInt)
+
+### Version 1 – Basic Setup
+
+```JavaScript
+import * as readline from "node:readline/promises";
+import { stdin as input, stdout as output } from "node:process";
+
+const rl = readline.createInterface({ input, output });
+
+try {
+    const secret = Math.floor(Math.random() * 20) + 1; // 1 <= secret <= 20
+    let tries = 0;
+    let guess = 0;
+
+    console.log("I'm thinking of a number between 1 and 20");
+
+    const text = await rl.question("Take a guess: ");
+    guess = parseInt(text, 10);
+    tries = tries + 1;
+
+} finally {
+    rl.close();
+}
+```
+
+### Version 2 – Adding Feedback
+
+```JavaScript
+// ... (same setup as Version 1)
+
+    // Give a hint using if / else if / else.
+    if (guess < 1 || guess > 20) {
+        console.log("That number is out of range. Try again.");
+    } else if (guess < secret) {
+        console.log("Too low, try again.");
+    } else if (guess > secret) {
+        console.log("Too high, try again.");
+    } else {
+        console.log("You got it in", tries, "tries!");
+    }
+```
+
+### Version 3 – Full Game with Loop
+
+```JavaScript
+// ... (same setup as Version 1)
+
+    // Repeat until the user guesses the secret number.
+    while (guess !== secret) {
+        const text = await rl.question("Take a guess: ");
+        guess = parseInt(text, 10);
+
+        tries = tries + 1;
+
+        // Give a hint using if / else if / else.
+        if (guess < 1 || guess > 20) {
+            console.log("That number is out of range. Try again.");
+        } else if (guess < secret) {
+            console.log("Too low, try again.");
+        } else if (guess > secret) {
+            console.log("Too high, try again.");
+        } else {
+            console.log("You got it in", tries, "tries!");
+        }
+    }
+```
+
+### Key Concepts Demonstrated
+
+|Concept|How It’s Used in the Game|
+|---|---|
+|**Constants**|const secret (value never changes)|
+|**Variables**|let tries, let guess|
+|**User Input**|rl.question() + parseInt() conversion|
+|**Loop**|while (guess !== secret)|
+|**Conditional Logic**|if / else if / else for feedback|
+|**Random Number**|Math.floor(Math.random() * 20) + 1|
+
+**ROOM COMPLETE:**
