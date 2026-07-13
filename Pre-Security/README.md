@@ -2413,3 +2413,8 @@ try {
 |**Random Number**|Math.floor(Math.random() * 20) + 1|
 
 **ROOM COMPLETE:**
+
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Pasted%20image%20(19).png)
+
+---
+
