@@ -2418,3 +2418,74 @@ try {
 
 ---
 
+### Databases & SQL Basics
+
+### What is a Database?
+
+A **database** is an organized way for a computer to store and manage information. It allows fast searching, sorting, and filtering even with large amounts of data.
+
+Think of it as a digital notebook that never runs out of pages.
+
+### Tables, Columns, and Rows
+
+|Component|Description|Café Example|
+|---|---|---|
+|**Table**|A collection of related records|Orders or Menu|
+|**Column**|A specific type of information|drink, price, time|
+|**Row**|One complete record|One customer order|
+
+- One **row** = one complete record
+- One **column** = one type of data
+
+### SQL (Structured Query Language)
+
+SQL is the language used to ask questions (queries) to a database.
+
+|Clause|Purpose|Example|
+|---|---|---|
+|**SELECT**|Choose which columns to show|SELECT * or SELECT drink, price|
+|**FROM**|Specify which table to use|FROM Orders|
+|**WHERE**|Filter rows based on a condition|WHERE drink = 'Coffee'|
+|**ORDER BY**|Sort results (add DESC for descending order)|ORDER BY price DESC|
+
+### Common SQL Queries
+
+**1. Show everything in a table**
+
+```SQL
+SELECT * FROM Orders;
+```
+
+**2. Show specific columns**
+
+```SQL
+SELECT drink, price FROM Orders;
+```
+
+**3. Filter results**
+
+```SQL
+SELECT * FROM Orders WHERE drink = 'Coffee';
+```
+
+**4. Sort results**
+
+```SQL
+SELECT * FROM Orders ORDER BY price;           -- ascending
+SELECT * FROM Orders ORDER BY price DESC;      -- descending
+```
+
+**5. Combine filtering and sorting**
+
+```SQL
+SELECT * FROM Orders 
+WHERE drink = 'Coffee' 
+ORDER BY price DESC;
+```
+
+**ROOM COMPLETE:**
+
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Pasted%20image%20(20).png)
+
+---
+
