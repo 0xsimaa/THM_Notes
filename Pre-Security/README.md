@@ -2489,3 +2489,59 @@ ORDER BY price DESC;
 
 ---
 
+### CIA Triad in Cybersecurity
+
+The **CIA Triad** represents the three core principles of cybersecurity. Almost every security concept revolves around protecting or attacking one or more of these pillars.
+
+|Principle|Goal|Example of Failure|
+|---|---|---|
+|**Confidentiality**|Ensure data is only accessible to authorized users|Unauthorized person reads private files|
+|**Integrity**|Ensure data is not tampered with or altered|Unauthorized changes to records|
+|**Availability**|Ensure data and services are accessible when needed|System or data becomes unreachable|
+
+### Confidentiality
+
+Protects sensitive data from unauthorized access.
+
+**Real-world examples where confidentiality is achieved:**
+
+- Internal company documents accessible only to authorized employees
+- Private messages visible only to intended recipients
+
+**Real-world examples where confidentiality is broken:**
+
+- Credentials written on sticky notes
+- Personal documents leaked online
+
+### Integrity
+
+Ensures data remains accurate and unaltered by unauthorized parties.
+
+**Real-world examples where integrity is achieved:**
+
+- Data changes only through authorized approval processes
+
+**Real-world examples where integrity is broken:**
+
+- Student attendance records changed after submission
+- Order price modified before checkout
+
+### Availability
+
+Ensures authorized users can access data and services when needed.
+
+**Real-world examples where availability is achieved:**
+
+- All systems accessible to employees during working hours
+
+**Real-world examples where availability is broken:**
+
+- Critical services disrupted by software installation
+- Company website offline during business hours
+
+**ROOM COMPLETE:**
+
+![]()
+
+---
+
