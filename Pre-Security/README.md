@@ -2755,6 +2755,7 @@ This demonstrates how small issues (exposed paths + weak passwords) can be chain
 
 **ROOM COMPLETE:**
 
-
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Pasted%20image%20(23).png)
 
 ---
+
