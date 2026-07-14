@@ -2652,3 +2652,109 @@ HTTPS uses a **hybrid approach**:
 
 ---
 
+### Ethical Hacking & Web Application Assessment
+
+### Core Offensive Security Terms
+
+|Term|Definition|Key Point|
+|---|---|---|
+|**Red Teaming**|Authorized, realistic attack simulation to test defenses|Full adversary simulation|
+|**Penetration Test**|Structured assessment to find and exploit vulnerabilities within scope|Focused and authorized|
+|**Vulnerability**|A weakness or flaw in a system that can be exploited|Flaw that can be abused|
+|**Exploit**|A method or technique used to take advantage of a vulnerability|How the flaw is abused|
+|**Scope**|Clearly defined boundaries of what is allowed during testing|What is in / out of scope|
+
+**Important Rule**: All ethical hacking and penetration testing requires **explicit permission** and must stay within the defined **scope**.
+
+### Assessment Scenario
+
+You were asked to assess Mike’s web application (http://www.onlineshop.thm/) to find any exposed or unintended pages that could pose a security risk.
+
+**Goal**: Identify hidden pages and weak authentication before real attackers do.
+
+### Manual Enumeration
+
+Test common paths by adding them to the base URL:
+
+- http://www.onlineshop.thm/sitemap
+- http://www.onlineshop.thm/mail
+- http://www.onlineshop.thm/register
+- http://www.onlineshop.thm/login
+- http://www.onlineshop.thm/admin
+
+A **404 error** means the page does not exist. A successful page load reveals a hidden or unintended resource.
+
+### Automated Enumeration with Gobuster
+
+When manually testing many paths is impractical, use **Gobuster**:
+
+Bash
+
+```
+gobuster dir --url http://www.onlineshop.thm/ -w /usr/share/wordlists/dirbuster/directory-list.txt
+```
+
+**Breakdown**:
+
+- gobuster dir → Directory and file enumeration mode
+- --url → Target website
+- -w → Wordlist used for guessing paths
+
+### Chaining Weaknesses
+
+A single finding (e.g., a hidden login page) may seem minor on its own. However, when combined with other weaknesses (such as weak passwords), it can lead to significant compromise.
+
+**Key Mindset**:
+
+- Don’t assume features work only as intended
+- Test the unexpected
+- Look for ways to chain small issues into bigger impact
+- Think like an attacker: “How could this be misused?”
+
+### Credential Attacks
+
+Once a login page is discovered, the next step is testing for weak credentials.
+
+#### Manual Testing
+
+Test common usernames (e.g., admin) with weak passwords such as:
+
+- abc123
+- 123456
+- password
+- qwerty
+- 654321
+
+#### Automated Testing with Hydra
+
+Use **Hydra** to perform a dictionary attack:
+
+Bash
+
+```
+hydra -l admin -P passlist.txt www.onlineshop.thm http-post-form "/login:username=^USER^&password=^PASS^:F=incorrect" -V
+```
+
+**Breakdown**:
+
+- -l admin → Username to test
+- -P passlist.txt → Password wordlist
+- http-post-form → Targets a login form
+- F=incorrect → Tells Hydra what failure message looks like
+- -V → Verbose output (shows each attempt)
+
+Hydra is significantly faster than manual testing when dealing with larger wordlists.
+
+### Summary of the Exercise
+
+1. Discovered a hidden login page through manual and automated enumeration.
+2. Identified weak/default credentials through manual and automated password attacks.
+3. Successfully gained access to a privileged area of the application.
+
+This demonstrates how small issues (exposed paths + weak passwords) can be chained to achieve unauthorized access.
+
+**ROOM COMPLETE:**
+
+
+
+---
