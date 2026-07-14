@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pre-Security/Cyber Security 101.md",
+                "file": "Pre-Security/Pre-Security.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cyber Security 101"
+              "title": "Pre-Security"
             }
           }
         ],
@@ -200,10 +200,10 @@
   },
   "active": "5120f5d2eee69b03",
   "lastOpenFiles": [
+    "Pre-Security/Untitled.md",
     "Pre-Security/Pre-Security.md",
     "Pre-Security/Cyber Security 101.md",
     "Cyber Security 101",
-    "Pre-Security/Untitled.md",
     "Pre-Security/Certificate.pdf",
     "Pre-Security/Unconfirmed 86410.crdownload",
     "Pre-Security/Pasted image (24).png",
