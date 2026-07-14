@@ -2545,3 +2545,105 @@ Ensures authorized users can access data and services when needed.
 
 ---
 
+### Symmetric & Asymmetric Encryption
+
+### Core Terms
+
+| Term           | Definition                               | Example               |
+| -------------- | ---------------------------------------- | --------------------- |
+| **Plaintext**  | The original readable message            | HELLO                 |
+| **Ciphertext** | The scrambled, unreadable version        | KHOOR                 |
+| **Key**        | Secret value used to encrypt/decrypt     | Shift value (e.g., 3) |
+| **Algorithm**  | Public set of rules/steps for encryption | Caesar cipher shift   |
+
+**Encryption process:** Plaintext + Algorithm + Key → Ciphertext
+
+**Decryption process:** Ciphertext + Algorithm + Key → Plaintext
+
+### The Lockbox Analogy
+
+- The **algorithm** is how the lock works (public knowledge).
+- The **key** is the physical key (must stay secret).
+- The **plaintext** is the letter inside.
+- The **ciphertext** is the locked box travelling through the mail.
+
+Security comes from keeping the key private — not from hiding how the lock works.
+
+### Caesar Cipher (Symmetric Example)
+
+The Caesar cipher shifts each letter by a fixed number (the **key**).
+
+**Example** (Key = 3):
+
+- HELLO → KHOOR
+
+**How it works:**
+
+- Algorithm: Shift letters forward/backward.
+- Key: The number of positions to shift (e.g., 3).
+
+**Limitation:** Very weak. An attacker can try all 25 possible shifts easily.
+
+### Symmetric Encryption
+
+- Uses **one single key** for both encryption and decryption.
+- Both parties must have the same key.
+- Fast and efficient.
+
+**Advantages:**
+
+- Very fast
+- Good for encrypting large amounts of data (files, network traffic)
+
+**Major Problem – Key Distribution:** How do Alice and Bob securely share the secret key in the first place?
+
+### Asymmetric Encryption (Public-Key Cryptography)
+
+Uses **two mathematically linked keys**:
+
+|Key|Who Can Use It|Purpose|
+|---|---|---|
+|**Public Key**|Anyone (can be shared openly)|Encrypt messages or verify signatures|
+|**Private Key**|Only the owner|Decrypt messages or create signatures|
+
+**Key Properties:**
+
+- Message encrypted with **public key** can only be decrypted with the matching **private key**.
+- Message encrypted with **private key** can be decrypted by anyone with the **public key** (used for digital signatures).
+
+### Mailbox Analogy (Asymmetric)
+
+- **Public key** = Mail slot on the mailbox (anyone can drop a letter in).
+- **Private key** = Key to open the mailbox (only the owner has it).
+
+Alice encrypts a message using Bob’s **public key** → Only Bob can decrypt it with his **private key**.
+
+### Solving the Key Distribution Problem
+
+With asymmetric encryption, Alice and Bob no longer need to secretly exchange a shared key beforehand.
+
+**Simple flow:**
+
+1. Bob creates a public + private key pair.
+2. Bob shares his public key openly.
+3. Alice encrypts her message using Bob’s public key.
+4. Bob decrypts it using his private key.
+
+### Real-World Use: HTTPS
+
+HTTPS uses a **hybrid approach**:
+
+1. Asymmetric encryption is used first to securely agree on a shared secret key.
+2. Then both parties switch to fast **symmetric encryption** for the rest of the session.
+
+### Symmetric vs Asymmetric Encryption
+
+|Feature|Symmetric Encryption|Asymmetric Encryption|
+|---|---|---|
+|Number of keys|One key|Two keys (public + private)|
+|Key sharing|Must be shared secretly|Public key can be shared openly|
+|Speed|Very fast|Slower|
+|Main Use|Bulk data encryption|Key exchange, digital signatures, certificates|
+|Analogy|One key that locks and unlocks|Mailbox (public slot, private door)|
+
+**ROOM COMPLETE: **
