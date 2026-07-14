@@ -2753,7 +2753,7 @@ Hydra is significantly faster than manual testing when dealing with larger wordl
 
 This demonstrates how small issues (exposed paths + weak passwords) can be chained to achieve unauthorized access.
 
-**ROOM COMPLETE:**
+**ROOM COMPLETE: **
 
 ![](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Pasted%20image%20(23).png)
 
