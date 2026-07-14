@@ -2647,3 +2647,8 @@ HTTPS uses a **hybrid approach**:
 |Analogy|One key that locks and unlocks|Mailbox (public slot, private door)|
 
 **ROOM COMPLETE: **
+
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Pasted%20image%20(22).png)
+
+---
+
