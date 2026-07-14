@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pre-Security/README.md",
+                "file": "Pre-Security/Pre-Security.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Pre-Security"
+            }
+          },
+          {
+            "id": "5120f5d2eee69b03",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pre-Security/Cyber Security 101.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cyber Security 101"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,8 +198,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "9d072bbde8001a99",
+  "active": "5120f5d2eee69b03",
   "lastOpenFiles": [
+    "Pre-Security/Pre-Security.md",
+    "Pre-Security/Cyber Security 101.md",
+    "Cyber Security 101",
+    "Pre-Security/Untitled.md",
     "Pre-Security/Certificate.pdf",
     "Pre-Security/Unconfirmed 86410.crdownload",
     "Pre-Security/Pasted image (24).png",
@@ -197,7 +216,6 @@
     "Pre-Security/Pasted image (17).png",
     "Pre-Security/Pasted image (16).png",
     "Pre-Security/Pasted image (15).png",
-    "Pre-Security/README.md",
     "Pre-Security/Untitled.base",
     "Pre-Security/Pre-Security/README.md",
     "Pre-Security/Pre-Security/Introduction to Cyber Security.md",
@@ -217,8 +235,6 @@
     "Tsukiyomi/OS_Security/Assignments/241500_A1_Project_Description_OS.pdf",
     "Tsukiyomi/OS_Security/Assignments/OS_Project.pdf",
     "Tsukiyomi/OS_Security/Final Exam",
-    "Tsukiyomi/OS_Security/Mid Exam",
-    "Tsukiyomi/OS_Security/Project",
     "OS_Security/OS_Security Notes (Defensive Approach).md",
     "Tsukiyomi/Windows-Compliance-Tool-v-2.0/README.md",
     "Tsukiyomi/Windows-Compliance-Tool-v-2.0/QUICK_START.md",
@@ -226,7 +242,6 @@
     "Tsukiyomi/Windows-Compliance-Tool-v-2.0/FIXES_APPLIED.md",
     "Tsukiyomi/Windows-Compliance-Tool-v-2.0/BUILD_INSTRUCTIONS.md",
     "Tsukiyomi/CTFNest/README.md",
-    "Pre-Security/Untitled.md",
     "README.md.md",
     "url.md",
     "Welcome.md"
