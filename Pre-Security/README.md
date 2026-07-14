@@ -2827,5 +2827,3 @@ Defenders apply layered protections across different parts of the infrastructure
 
 #### **Certificate:**
 
-![](https://github.com/0xsimaa/THM_Notes/blob/main/Pre-Security/Certificate.pdf)
-
