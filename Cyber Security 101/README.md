@@ -93,3 +93,7 @@ GitHub is a valuable resource for:
 
 **ROOM COMPLETE:**
 
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Cyber%20Security%20101/Pasted%20image.png)
+
+---
+
