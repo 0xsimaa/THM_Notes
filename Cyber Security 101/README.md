@@ -97,3 +97,104 @@ GitHub is a valuable resource for:
 
 ---
 
+### Linux Fundamentals – Part 1
+
+### What is Linux?
+
+**Linux** is an open-source operating system (based on UNIX) used in a wide variety of devices and environments, including:
+
+- Websites and web servers
+- Android smartphones
+- Supercomputers
+- Cars, smart appliances, and industrial systems
+- Enterprise servers
+
+Linux is lightweight and powerful. Many distributions (also called “flavours”) exist. In this series, we use **Ubuntu**.
+
+### The Terminal
+
+Most Linux servers do **not** have a Graphical User Interface (GUI). Interaction happens through the **Terminal** (command line).
+
+Example prompt:
+
+```Bash
+tryhackme@linux1:~$
+```
+
+### Basic Commands
+
+| Command | Description                          | Example              |
+| ------- | ------------------------------------ | -------------------- |
+| echo    | Prints text to the terminal          | echo "Hello Friend!" |
+| whoami  | Shows the current logged-in username | whoami               |
+
+**Note**: Use double quotes with echo when the text contains spaces.
+
+### Interacting with the Filesystem
+
+| Command | Full Name               | Description                                 |
+| ------- | ----------------------- | ------------------------------------------- |
+| ls      | List                    | List files and directories                  |
+| cd      | Change Directory        | Change to a different directory             |
+| cat     | Concatenate             | Display the contents of a file              |
+| pwd     | Print Working Directory | Show the full path of the current directory |
+
+**Examples:**
+
+```Bash
+ls                    # List current directory
+ls Pictures           # List contents of Pictures without entering it
+
+cd Documents          # Change into Documents folder
+cd ..                 # Go up one directory level
+
+cat todo.txt          # View contents of todo.txt
+cat /home/ubuntu/Documents/todo.txt   # View file using full path
+
+pwd                   # Show current full path (e.g. /home/ubuntu/Documents)
+```
+
+### Searching for Files and Content
+
+#### find – Search for files
+
+```Bash
+find -name passwords.txt          # Find a file by exact name
+find -name "*.txt"                # Find all files with .txt extension
+```
+
+#### grep – Search inside files
+
+```Bash
+grep "81.143.211.90" access.log   # Search for a string in a file
+```
+
+**Recursive search** (search in current directory + all subdirectories):
+
+```Bash
+grep -R "PRETTY_NAME" /etc/
+```
+
+### Shell Operators
+
+| Operator | Name                 | Description                                                | Example                    |
+| -------- | -------------------- | ---------------------------------------------------------- | -------------------------- |
+| &        | Background           | Run a command in the background                            | cp largefile.zip /backup & |
+| &&       | AND                  | Run the next command **only if** the previous one succeeds | cd /tmp && ls              |
+| >        | Redirect (Overwrite) | Send output to a file (overwrites existing content)        | echo "hello" > welcome     |
+| >>       | Redirect (Append)    | Send output to a file (appends to existing content)        | echo "hello" >> welcome    |
+
+**Examples:**
+
+```Bash
+echo hey > welcome          # Create/overwrite file with "hey"
+echo hello >> welcome       # Append "hello" to the file
+
+cat welcome
+# Output:
+# hey
+# hello
+```
+
+**ROOM COMPLETE:**
+
