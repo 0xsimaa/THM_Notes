@@ -198,3 +198,7 @@ cat welcome
 
 **ROOM COMPLETE:**
 
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Cyber%20Security%20101/Pasted%20image%20(2).png)
+
+---
+
