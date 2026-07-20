@@ -207,3 +207,9 @@ cat welcome
 ### What is SSH?
 
 **SSH (Secure Shell)** is a protocol used to securely connect to and interact with the command line of a remote Linux machine.
+
+**Key points:**
+
+- All data sent between devices is **encrypted**.
+- Allows you to remotely execute commands on another machine.
+- Human-readable input is encrypted while travelling over the network and decrypted once it reaches the remote machine.
