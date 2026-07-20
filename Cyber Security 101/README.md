@@ -204,3 +204,6 @@ cat welcome
 
 ### Linux Fundamentals – Part 2
 
+### What is SSH?
+
+**SSH (Secure Shell)** is a protocol used to securely connect to and interact with the command line of a remote Linux machine.
