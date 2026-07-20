@@ -213,3 +213,22 @@ cat welcome
 - All data sent between devices is **encrypted**.
 - Allows you to remotely execute commands on another machine.
 - Human-readable input is encrypted while travelling over the network and decrypted once it reaches the remote machine.
+
+### Connecting with SSH
+
+**Basic Syntax:**
+
+```Bash
+ssh username@IP_ADDRESS
+```
+
+**Example for this room:**
+
+```Bash
+ssh tryhackme@MACHINE_IP
+```
+
+**Login Credentials:**
+
+- Username: tryhackme
+- Password: tryhackme
