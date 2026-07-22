@@ -202,33 +202,107 @@ cat welcome
 
 ---
 
-### Linux Fundamentals – Part 2
+### Linux Fundamentals – Part 2 (Continued)
 
-### What is SSH?
+### Command Flags & Switches
 
-**SSH (Secure Shell)** is a protocol used to securely connect to and interact with the command line of a remote Linux machine.
+Most Linux commands accept **flags** (also called switches or options) that modify their default behaviour.
 
-**Key points:**
+**Common Examples with ls:**
 
-- All data sent between devices is **encrypted**.
-- Allows you to remotely execute commands on another machine.
-- Human-readable input is encrypted while travelling over the network and decrypted once it reaches the remote machine.
+|Command|Description|
+|---|---|
+|ls|List visible files and directories|
+|ls -a|List **all** files (including hidden ones starting with .)|
+|ls --help|Show available options for the command|
 
-### Connecting with SSH
+### Manual Pages (man)
 
-**Basic Syntax:**
+The man command displays the full documentation for a command.
 
-```Bash
-ssh username@IP_ADDRESS
+```bash
+man ls
 ```
 
-**Example for this room:**
+Press q to quit the manual page.
+
+### File & Directory Management Commands
+
+| Command | Full Name        | Purpose                             | Example                |
+| ------- | ---------------- | ----------------------------------- | ---------------------- |
+| touch   | touch            | Create an empty file                | touch note.txt         |
+| mkdir   | make directory   | Create a new directory              | mkdir myfolder         |
+| cp      | copy             | Copy a file or directory            | cp note.txt note2.txt  |
+| mv      | move             | Move or rename a file/directory     | mv note2.txt note3.txt |
+| rm      | remove           | Delete a file                       | rm note.txt            |
+| rm -R   | remove recursive | Delete a directory and its contents | rm -R myfolder         |
+| file    | file             | Determine the type of a file        | file note.txt          |
+
+**Notes:**
+
+- cp and mv require two arguments: source and destination.
+- rm -R is required to delete directories.
+- You can use full paths with all of these commands (e.g. cat /home/ubuntu/Documents/todo.txt).
+
+### File Permissions
+
+View detailed permissions with:
 
 ```Bash
-ssh tryhackme@MACHINE_IP
+ls -lh
 ```
 
-**Login Credentials:**
+Permissions are shown in three groups:
 
-- Username: tryhackme
-- Password: tryhackme
+|Group|Applies To|
+|---|---|
+|First 3|Owner|
+|Next 3|Group|
+|Last 3|Others|
+
+**Permission Letters:**
+
+|Letter|Meaning|Numeric Value|
+|---|---|---|
+|r|Read|4|
+|w|Write|2|
+|x|Execute|1|
+
+**Common Numeric Permissions:**
+
+|Symbolic|Numeric|Meaning|
+|---|---|---|
+|rwxrwxrwx|777|Full access for everyone|
+|rwxr-xr-x|755|Owner: full, Group/Others: read + execute|
+|rw-r--r--|644|Owner: read/write, Others: read only|
+|rwx------|700|Only the owner has access|
+
+**Example:**
+
+```Bash
+chmod 750 system_overview.txt
+```
+
+### Switching Users (su)
+
+```Bash
+su username          # Switch to another user
+su -l username       # Switch and load the user's full environment
+```
+
+You will be prompted for the target user's password (unless you are root).
+
+### Important Linux Directories
+
+| Directory | Purpose                                                    |
+| --------- | ---------------------------------------------------------- |
+| /etc      | System configuration files (e.g. passwd, shadow, sudoers)  |
+| /var      | Variable data (logs, temporary files used by services)     |
+| /root     | Home directory of the root user                            |
+| /tmp      | Temporary files (cleared on reboot, writable by all users) |
+
+**ROOM COMPLETE:**
+
+
+
+---
