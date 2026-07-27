@@ -306,3 +306,4 @@ You will be prompted for the target user's password (unless you are root).
 ![](https://github.com/0xsimaa/THM_Notes/blob/main/Cyber%20Security%20101/Pasted%20image%20(3).png)
 
 ---
+
