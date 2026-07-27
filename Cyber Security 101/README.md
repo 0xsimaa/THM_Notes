@@ -307,3 +307,173 @@ You will be prompted for the target user's password (unless you are root).
 
 ---
 
+## Linux Fundamentals – Part 3
+
+### Terminal Text Editors
+
+#### Nano
+
+Simple and beginner-friendly text editor.
+
+```Bash
+nano filename
+```
+
+**Useful Shortcuts** (Ctrl is shown as ^):
+
+|Shortcut|Action|
+|---|---|
+|Ctrl + O|Save (Write Out)|
+|Ctrl + X|Exit|
+|Ctrl + W|Search|
+|Ctrl + K|Cut line|
+|Ctrl + U|Paste|
+
+#### VIM
+
+More advanced and powerful text editor. Features include:
+
+- Highly customisable
+- Syntax highlighting
+- Available on almost all systems
+
+(TryHackMe has a dedicated room for learning VIM.)
+
+### Transferring Files
+
+#### Download Files with wget
+
+```Bash
+wget https://example.com/file.txt
+```
+
+#### Secure Copy (scp)
+
+**Local → Remote:**
+
+```Bash
+scp important.txt ubuntu@192.168.1.30:/home/ubuntu/transferred.txt
+```
+
+**Remote → Local:**
+
+```bash
+scp ubuntu@192.168.1.30:/home/ubuntu/documents.txt notes.txt
+```
+
+#### Serve Files with Python HTTP Server
+
+```Bash
+python3 -m http.server
+```
+
+- Serves files from the current directory on **port 8000**.
+- Download using:
+
+```Bash
+wget http://MACHINE_IP:8000/filename
+```
+
+> Keep the Python server running in one terminal and use another terminal for wget.
+
+### Processes
+
+Processes are running programs managed by the kernel. Each process has a unique **PID**.
+
+|Command|Description|
+|---|---|
+|ps|Show processes for the current user|
+|ps aux|Show **all** processes (including system ones)|
+|top|Real-time process monitoring|
+|kill PID|Terminate a process|
+
+**Common Signals:**
+
+- SIGTERM → Graceful termination
+- SIGKILL → Force kill
+- SIGSTOP → Pause process
+
+#### Backgrounding & Foregrounding
+
+|Action|Method|
+|---|---|
+|Run in background|Add & at the end|
+|Pause / Send to background|Ctrl + Z|
+|Bring to foreground|fg|
+
+### Managing Services with systemctl
+
+```bash
+systemctl start apache2
+systemctl stop apache2
+systemctl enable apache2      # Start on boot
+systemctl disable apache2
+systemctl status apache2
+```
+
+### Cron Jobs (Scheduled Tasks)
+
+Edit your crontab:
+
+```bash
+crontab -e
+```
+
+**Crontab Format:**
+
+```text
+MIN  HOUR  DOM  MON  DOW  COMMAND
+```
+
+|Field|Meaning|
+|---|---|
+|MIN|Minute (0–59)|
+|HOUR|Hour (0–23)|
+|DOM|Day of Month (1–31)|
+|MON|Month (1–12)|
+|DOW|Day of Week (0–7)|
+|CMD|Command to execute|
+
+**Example** – Backup every 12 hours:
+
+```Bash
+0 */12 * * * cp -R /home/user/Documents /var/backups/
+```
+
+Useful tools: [Crontab Generator](https://crontab-generator.org) and [Cron Guru](https://crontab.guru)
+
+### Package Management (apt)
+
+|Command|Purpose|
+|---|---|
+|apt update|Update package lists|
+|apt install package-name|Install a package|
+|apt remove package-name|Remove a package|
+|add-apt-repository|Add a new repository|
+
+**Adding a third-party repository (example):**
+
+1. Add GPG key
+2. Create a .list file in /etc/apt/sources.list.d/
+3. Run apt update
+4. Install the package with apt install
+
+### Log Files
+
+Located in **/var/log**.
+
+Common important logs:
+
+- Apache access & error logs
+- Fail2ban logs
+- UFW (firewall) logs
+- Authentication logs
+
+These logs are essential for monitoring system health and investigating security incidents.
+
+**ROOM COMPLETE:**
+
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Cyber%20Security%20101/Pasted%20image%20(4).png)
+
+---
+
