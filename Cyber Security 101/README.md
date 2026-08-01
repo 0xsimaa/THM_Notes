@@ -554,3 +554,23 @@ Modern Windows systems use **NTFS** (New Technology File System).
 - %windir% → Points to the Windows directory (usually C:\Windows)
 
 > **Warning:** Be extremely careful when modifying anything inside System32. Deleting files here can make Windows unbootable.
+
+
+### User Accounts
+
+There are two main account types on a local Windows system:
+
+|Account Type|Capabilities|
+|---|---|
+|**Administrator**|Can install software, manage users, change system settings|
+|**Standard User**|Limited to their own files and settings|
+
+**User Profile Location:** C:\Users\Username
+
+**Useful Tool:**
+
+```text
+lusrmgr.msc
+```
+
+Opens **Local Users and Groups** management console.
