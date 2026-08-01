@@ -583,3 +583,11 @@ UAC is a security feature that prevents programs from making unauthorized system
 - The built-in Administrator account is not affected by UAC by default.
 - Programs that require elevation show a **shield icon**.
 
+### Settings vs Control Panel
+
+|Menu|Purpose|
+|---|---|
+|**Settings**|Modern interface (introduced in Windows 8). Primary place for most user changes.|
+|**Control Panel**|Older, more advanced system configuration tools.|
+
+You can often start in **Settings** and be redirected to the **Control Panel** for deeper options (e.g., Network Adapter settings).
