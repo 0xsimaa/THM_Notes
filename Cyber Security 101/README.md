@@ -591,3 +591,20 @@ UAC is a security feature that prevents programs from making unauthorized system
 |**Control Panel**|Older, more advanced system configuration tools.|
 
 You can often start in **Settings** and be redirected to the **Control Panel** for deeper options (e.g., Network Adapter settings).
+
+### Task Manager
+
+**How to open:**
+
+- Right-click the taskbar → **Task Manager**
+- Or press Ctrl + Shift + Esc
+
+**Main Tabs:**
+
+- Processes
+- Performance
+- Users
+- Details
+- Services
+
+Task Manager shows running applications, CPU/RAM usage, and allows you to end unresponsive processes.
