@@ -477,3 +477,18 @@ These logs are essential for monitoring system health and investigating security
 
 ---
 
+### Windows Fundamentals – Part 1
+
+### Brief History of Windows
+
+|Version|Notes|
+|---|---|
+|Windows XP|Extremely popular for many years|
+|Windows Vista|Poorly received and short-lived|
+|Windows 7|Widely adopted after Vista|
+|Windows 8 / 8.1|Short-lived|
+|Windows 10|Long support cycle (support ends Oct 14, 2025)|
+|**Windows 11**|Current desktop OS (Home & Pro editions)|
+|Windows Server 2025|Current server OS|
+
+> The lab machine in this room runs **Windows Server 2019 Standard**.
