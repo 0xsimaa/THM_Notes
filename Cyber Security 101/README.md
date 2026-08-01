@@ -540,3 +540,17 @@ Modern Windows systems use **NTFS** (New Technology File System).
 
 - Legitimate use: Marking files downloaded from the Internet
 - Malicious use: Hiding data (used by some malware)
+
+### Important Folders
+
+|Path|Purpose|
+|---|---|
+|C:\Windows|Contains the operating system files|
+|C:\Windows\System32|Critical system files and tools|
+|C:\Users\|User profile folders|
+
+**Environment Variable:**
+
+- %windir% → Points to the Windows directory (usually C:\Windows)
+
+> **Warning:** Be extremely careful when modifying anything inside System32. Deleting files here can make Windows unbootable.
