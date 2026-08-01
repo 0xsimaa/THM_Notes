@@ -509,3 +509,34 @@ Main components of the Windows Desktop:
 
 - Right-click the desktop to change icon size, arrange icons, or create new items.
 - Right-click the taskbar to customize which components are visible.
+
+### File System: NTFS
+
+Modern Windows systems use **NTFS** (New Technology File System).
+
+|Feature|NTFS|FAT32|
+|---|---|---|
+|Max File Size|Very large|4 GB limit|
+|Permissions|Yes (detailed)|No|
+|Compression|Yes|No|
+|Encryption (EFS)|Yes|No|
+|Journaling|Yes (can recover after crash)|No|
+
+**NTFS Permissions:**
+
+- Full control
+- Modify
+- Read & Execute
+- List folder contents
+- Read
+- Write
+
+**How to view permissions:**
+
+1. Right-click file/folder → **Properties**
+2. Go to the **Security** tab
+
+**Alternate Data Streams (ADS)** NTFS allows files to contain more than one stream of data.
+
+- Legitimate use: Marking files downloaded from the Internet
+- Malicious use: Hiding data (used by some malware)
