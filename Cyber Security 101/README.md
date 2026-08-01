@@ -492,3 +492,20 @@ These logs are essential for monitoring system health and investigating security
 |Windows Server 2025|Current server OS|
 
 > The lab machine in this room runs **Windows Server 2019 Standard**.
+
+### Windows Desktop (GUI)
+
+Main components of the Windows Desktop:
+
+1. **Desktop** – Area for shortcuts, files, and folders
+2. **Start Menu** – Access to apps, settings, and power options
+3. **Search Box** (Cortana)
+4. **Task View** – Switch between open windows
+5. **Taskbar** – Shows open and pinned applications
+6. **Toolbars**
+7. **Notification Area** – Date/time, volume, network icons, etc.
+
+**Useful Tips:**
+
+- Right-click the desktop to change icon size, arrange icons, or create new items.
+- Right-click the taskbar to customize which components are visible.
