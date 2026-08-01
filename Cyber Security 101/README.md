@@ -574,3 +574,12 @@ lusrmgr.msc
 ```
 
 Opens **Local Users and Groups** management console.
+
+### User Account Control (UAC)
+
+UAC is a security feature that prevents programs from making unauthorized system changes.
+
+- When a standard user (or even an admin in a non-elevated session) tries to perform a privileged action, Windows shows a consent prompt.
+- The built-in Administrator account is not affected by UAC by default.
+- Programs that require elevation show a **shield icon**.
+
