@@ -610,3 +610,6 @@ You can often start in **Settings** and be redirected to the **Control Panel** f
 Task Manager shows running applications, CPU/RAM usage, and allows you to end unresponsive processes.
 
 **ROOM COMPLETE:**
+
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Cyber%20Security%20101/Pasted%20image%20(5).png)
+
