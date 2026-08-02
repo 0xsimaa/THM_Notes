@@ -613,3 +613,5 @@ Task Manager shows running applications, CPU/RAM usage, and allows you to end un
 
 ![](https://github.com/0xsimaa/THM_Notes/blob/main/Cyber%20Security%20101/Pasted%20image%20(5).png)
 
+---
+
