@@ -661,9 +661,37 @@ Task Manager shows running applications, CPU/RAM usage, and allows you to end un
 
 UAC has four notification levels:
 
-|Level|Description|
-|---|---|
-|**Always notify**|Highest security – notifies for all changes (Secure Desktop)|
-|**Notify for apps**|Default – notifies only when apps try to make changes|
-|**Notify without dimming**|Same as above, but desktop does not dim|
-|**Never notify**|UAC is effectively disabled (not recommended)|
+| Level                      | Description                                                  |
+| -------------------------- | ------------------------------------------------------------ |
+| **Always notify**          | Highest security – notifies for all changes (Secure Desktop) |
+| **Notify for apps**        | Default – notifies only when apps try to make changes        |
+| **Notify without dimming** | Same as above, but desktop does not dim                      |
+| **Never notify**           | UAC is effectively disabled (not recommended)                |
+
+### Computer Management (compmgmt.msc)
+
+Contains three main sections:
+
+#### 1. System Tools
+
+- **Task Scheduler** → Create and manage automated tasks
+- **Event Viewer** → View system, security, and application logs
+- **Shared Folders** → View current shares, sessions, and open files
+- **Local Users and Groups** (lusrmgr.msc)
+- **Performance Monitor** (perfmon)
+- **Device Manager** → Manage hardware
+
+#### 2. Storage
+
+- **Disk Management** → Create, shrink, extend partitions, change drive letters
+
+#### 3. Services and Applications
+
+- **Services** → View and manage Windows services
+- **WMI Control** → Windows Management Instrumentation settings
+
+**Service Startup Types:**
+
+- Automatic
+- Manual
+- Disabled
