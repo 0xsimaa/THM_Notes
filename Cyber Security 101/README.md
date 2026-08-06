@@ -752,3 +752,9 @@ Central hierarchical database that stores configuration settings for:
 - System settings
 
 > **Warning:** Editing the registry incorrectly can break the system. Only advanced users should modify it.
+
+
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Cyber%20Security%20101/Pasted%20image%20(6).png)
+
+---
+
