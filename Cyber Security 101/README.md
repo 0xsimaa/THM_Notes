@@ -722,3 +722,24 @@ Real-time monitoring tool that shows detailed resource usage.
 - **Network**
 
 Useful for advanced performance troubleshooting.
+
+### Command Prompt Basics
+
+|Command|Description|
+|---|---|
+|hostname|Shows computer name|
+|whoami|Shows current logged-in user|
+|ipconfig|Displays network configuration|
+|ipconfig /?|Shows help for a command|
+|netstat|Shows active network connections|
+|net|Manage network resources (shares, users, sessions, etc.)|
+|cls|Clears the command prompt screen|
+
+**Useful net sub-commands:**
+
+- net user
+- net localgroup
+- net share
+- net session
+
+---
