@@ -695,3 +695,16 @@ Contains three main sections:
 - Automatic
 - Manual
 - Disabled
+
+### System Information (msinfo32)
+
+Provides a comprehensive overview of the system.
+
+**Main sections:**
+
+- **System Summary** – General hardware and OS information
+- **Hardware Resources**
+- **Components** – Details about installed hardware
+- **Software Environment** – Drivers, environment variables, network connections, etc.
+
+You can also search within the tool (e.g., search for “IP address”).
