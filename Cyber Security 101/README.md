@@ -742,4 +742,13 @@ Useful for advanced performance troubleshooting.
 - net share
 - net session
 
----
+### Windows Registry (regedit)
+
+Central hierarchical database that stores configuration settings for:
+
+- User profiles
+- Installed applications
+- Hardware
+- System settings
+
+> **Warning:** Editing the registry incorrectly can break the system. Only advanced users should modify it.
