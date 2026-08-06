@@ -637,3 +637,23 @@ Task Manager shows running applications, CPU/RAM usage, and allows you to end un
 |**Tools**|List of useful system utilities that can be launched|
 
 > On **Windows Server**, startup programs are managed through the **Startup folder** (Win + R → shell:startup) instead of the Startup tab in MSConfig or Task Manager.
+
+### Advanced System Settings
+
+**How to open:** Search for **“View advanced system settings”**
+
+#### Performance Options
+
+- Controls visual effects and virtual memory (page file)
+- Page file is used when physical RAM is full
+
+#### Startup and Recovery
+
+- Configures what happens when Windows crashes (Blue Screen of Death)
+- Crash dump types:
+    - Automatic memory dump
+    - Kernel memory dump
+    - Small memory dump (256 KB)
+    - Complete memory dump
+    - None
+
