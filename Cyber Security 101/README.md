@@ -657,3 +657,13 @@ Task Manager shows running applications, CPU/RAM usage, and allows you to end un
     - Complete memory dump
     - None
 
+### User Account Control (UAC) Settings
+
+UAC has four notification levels:
+
+|Level|Description|
+|---|---|
+|**Always notify**|Highest security – notifies for all changes (Secure Desktop)|
+|**Notify for apps**|Default – notifies only when apps try to make changes|
+|**Notify without dimming**|Same as above, but desktop does not dim|
+|**Never notify**|UAC is effectively disabled (not recommended)|
