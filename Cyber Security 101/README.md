@@ -708,3 +708,17 @@ Provides a comprehensive overview of the system.
 - **Software Environment** – Drivers, environment variables, network connections, etc.
 
 You can also search within the tool (e.g., search for “IP address”).
+
+### Resource Monitor (resmon)
+
+Real-time monitoring tool that shows detailed resource usage.
+
+**Tabs:**
+
+- **Overview**
+- **CPU**
+- **Memory**
+- **Disk**
+- **Network**
+
+Useful for advanced performance troubleshooting.
