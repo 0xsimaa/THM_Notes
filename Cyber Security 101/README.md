@@ -307,7 +307,7 @@ You will be prompted for the target user's password (unless you are root).
 
 ---
 
-## Linux Fundamentals – Part 3
+### Linux Fundamentals – Part 3
 
 ### Terminal Text Editors
 
@@ -615,3 +615,25 @@ Task Manager shows running applications, CPU/RAM usage, and allows you to end un
 
 ---
 
+### Windows Fundamentals – Part 2
+
+### System Configuration (MSConfig)
+
+**Purpose:** Advanced troubleshooting tool, mainly used to diagnose startup issues.
+
+**How to open:**
+
+- Search for msconfig in the Start Menu
+- Requires local administrator rights
+
+**Tabs:**
+
+|Tab|Purpose|
+|---|---|
+|**General**|Choose boot mode: Normal / Diagnostic / Selective|
+|**Boot**|Configure boot options|
+|**Services**|View and manage system services|
+|**Startup**|Shows startup items (on client Windows; limited on Server)|
+|**Tools**|List of useful system utilities that can be launched|
+
+> On **Windows Server**, startup programs are managed through the **Startup folder** (Win + R → shell:startup) instead of the Startup tab in MSConfig or Task Manager.
