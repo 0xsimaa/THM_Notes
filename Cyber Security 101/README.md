@@ -865,3 +865,17 @@ Protects against:
 #### Exploit Protection
 
 Built-in protections against common exploitation techniques.
+
+### Device Security
+
+#### Core Isolation
+
+- **Memory Integrity** → Prevents attacks from injecting malicious code into critical processes.
+
+#### Trusted Platform Module (TPM)
+
+Hardware-based security chip that provides cryptographic functions and helps protect against tampering.
+
+#### BitLocker
+
+Full-disk encryption feature that protects data if the device is lost or stolen. Works best when combined with a TPM.
