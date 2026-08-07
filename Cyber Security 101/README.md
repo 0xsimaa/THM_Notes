@@ -844,3 +844,24 @@ You can:
 **Advanced Settings:** Open with WF.msc
 
 > **Recommendation:** Keep the firewall enabled unless you fully understand the risks.
+
+
+### App & Browser Control
+
+#### Microsoft Defender SmartScreen
+
+Protects against:
+
+- Phishing websites
+- Malicious apps
+- Dangerous downloads
+
+**Options:**
+
+- Warn
+- Block
+- Off
+
+#### Exploit Protection
+
+Built-in protections against common exploitation techniques.
