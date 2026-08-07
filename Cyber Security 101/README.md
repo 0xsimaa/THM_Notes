@@ -776,3 +776,23 @@ Windows Update provides:
 
 - Settings → Windows Update
 - Or run: control /name Microsoft.WindowsUpdate
+
+### Windows Security
+
+Windows Security is the central dashboard for device protection.
+
+**Protection Areas:**
+
+- Virus & threat protection
+- Firewall & network protection
+- App & browser control
+- Device security
+
+**Status Icons:**
+
+|Color|Meaning|
+|---|---|
+|Green|Device is protected|
+|Yellow|Recommendation available|
+|Red|Immediate action required|
+
