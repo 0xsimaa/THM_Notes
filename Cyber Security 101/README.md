@@ -758,4 +758,21 @@ Central hierarchical database that stores configuration settings for:
 
 ---
 
-### Windows Fundamentals – Part 3: Security Features
+### Windows Fundamentals – Part 3: Security Features### Windows Update
+
+Windows Update provides:
+
+- Security updates
+- Feature enhancements
+- Patches for Windows and other Microsoft products (e.g., Microsoft Defender)
+
+**Key points:**
+
+- Updates are usually released on **Patch Tuesday** (2nd Tuesday of each month).
+- Critical updates can be released outside of Patch Tuesday.
+- In modern Windows (10/11), updates cannot be permanently skipped — only postponed.
+
+**How to open:**
+
+- Settings → Windows Update
+- Or run: control /name Microsoft.WindowsUpdate
