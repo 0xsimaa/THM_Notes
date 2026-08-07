@@ -879,3 +879,21 @@ Hardware-based security chip that provides cryptographic functions and helps pro
 #### BitLocker
 
 Full-disk encryption feature that protects data if the device is lost or stolen. Works best when combined with a TPM.
+
+### Volume Shadow Copy Service (VSS)
+
+Also known as **System Protection** or **Shadow Copies**.
+
+**What it does:**
+
+- Creates point-in-time snapshots (restore points) of the system.
+
+**You can:**
+
+- Create a restore point
+- Perform a System Restore
+- Configure restore settings
+- Delete restore points
+
+**Security Note:** Ransomware often tries to delete Volume Shadow Copies to prevent recovery. Having offline/off-site backups is essential.
+
