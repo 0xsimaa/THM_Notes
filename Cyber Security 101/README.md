@@ -897,3 +897,9 @@ Also known as **System Protection** or **Shadow Copies**.
 
 **Security Note:** Ransomware often tries to delete Volume Shadow Copies to prevent recovery. Having offline/off-site backups is essential.
 
+**ROOM COMPLETE:**
+
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Cyber%20Security%20101/Pasted%20image%20(7).png)
+
+---
+
