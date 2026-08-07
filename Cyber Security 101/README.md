@@ -821,3 +821,26 @@ Windows Security is the central dashboard for device protection.
 |**Exclusions**|Files/folders excluded from scanning (use carefully)|
 
 > **Tip:** You can right-click any file/folder → **Scan with Microsoft Defender**.
+
+
+### Firewall & Network Protection
+
+Windows Firewall controls inbound and outbound traffic.
+
+**Firewall Profiles:**
+
+|Profile|Used When|
+|---|---|
+|**Domain**|Connected to a domain network|
+|**Private**|Home or trusted networks|
+|**Public**|Public networks (cafés, airports, etc.)|
+
+You can:
+
+- Turn the firewall on/off per profile
+- Block all incoming connections
+- Allow specific apps through the firewall
+
+**Advanced Settings:** Open with WF.msc
+
+> **Recommendation:** Keep the firewall enabled unless you fully understand the risks.
