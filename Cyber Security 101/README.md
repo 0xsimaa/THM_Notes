@@ -796,3 +796,28 @@ Windows Security is the central dashboard for device protection.
 |Yellow|Recommendation available|
 |Red|Immediate action required|
 
+### Virus & Threat Protection
+
+#### Current Threats
+
+- **Quick Scan** → Scans common locations
+- **Full Scan** → Scans entire system
+- **Custom Scan** → Scans selected files/folders
+
+#### Threat History
+
+- Last scan results
+- Quarantined threats
+- Allowed threats
+
+#### Key Settings
+
+|Setting|Description|
+|---|---|
+|**Real-time protection**|Detects and blocks malware in real time|
+|**Cloud-delivered protection**|Uses latest cloud threat data|
+|**Automatic sample submission**|Sends samples to Microsoft|
+|**Controlled folder access**|Protects important folders from ransomware|
+|**Exclusions**|Files/folders excluded from scanning (use carefully)|
+
+> **Tip:** You can right-click any file/folder → **Scan with Microsoft Defender**.
