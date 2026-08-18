@@ -758,7 +758,8 @@ Central hierarchical database that stores configuration settings for:
 
 ---
 
-### Windows Fundamentals – Part 3: Security Features### Windows Update
+### Windows Fundamentals – Part 3: Security Features
+### Windows Update
 
 Windows Update provides:
 
