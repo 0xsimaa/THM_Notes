@@ -953,8 +953,47 @@ Groups allow you to assign permissions to multiple users/machines at once.
 
 ### Organizational Units (OUs) vs Security Groups
 
-|Feature|Organizational Units (OUs)|Security Groups|
-|---|---|---|
-|**Purpose**|Apply policies (GPOs)|Grant permissions to resources|
-|**Membership**|A user can only be in **one** OU|A user can be in **many** groups|
-|**Typical Use**|Department-based policies|Access to shares, printers, etc.|
+| Feature         | Organizational Units (OUs)       | Security Groups                  |
+| --------------- | -------------------------------- | -------------------------------- |
+| **Purpose**     | Apply policies (GPOs)            | Grant permissions to resources   |
+| **Membership**  | A user can only be in **one** OU | A user can be in **many** groups |
+| **Typical Use** | Department-based policies        | Access to shares, printers, etc. |
+
+### Active Directory Users and Computers
+
+Tool used to manage users, groups, and computers.
+
+**Default Containers:**
+
+- **Builtin** → Default groups
+- **Computers** → New machines join here by default
+- **Domain Controllers** → Contains DCs
+- **Users** → Default domain users and groups
+- **Managed Service Accounts**
+
+**Note:** OUs are protected against accidental deletion by default. To delete an OU:
+
+1. Enable **Advanced Features** (View menu)
+2. Right-click OU → Properties → Object tab
+3. Uncheck “Protect object from accidental deletion”
+
+### Delegation
+
+Delegation allows you to give specific users limited control over an OU without making them Domain Admins.
+
+**Common use case:** Allow IT Support to reset passwords.
+
+**How to delegate:**
+
+1. Right-click the OU → **Delegate Control**
+2. Select the user
+3. Choose the task (e.g., “Reset user passwords and force password change at next logon”)
+
+**Example PowerShell commands (as delegated user):**
+
+```PowerShell
+Set-ADAccountPassword sophie -Reset -NewPassword (Read-Host -AsSecureString -Prompt 'New Password')
+
+Set-ADUser -ChangePasswordAtLogon $true -Identity sophie
+```
+
