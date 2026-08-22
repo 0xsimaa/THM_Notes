@@ -916,3 +916,37 @@ The central repository is called **Active Directory (AD)**. The server that runs
 
 - Centralised identity management
 - Centralised security policy management (via Group Policy)
+
+### Active Directory Objects
+
+Active Directory stores information about objects on the network.
+
+#### Users
+
+Users are **security principals** (can be authenticated and assigned privileges).
+
+Two types:
+
+- **People** → Employees who need access to the network
+- **Services** → Accounts used by services (IIS, MSSQL, etc.)
+
+#### Machines
+
+Every computer that joins the domain gets a **machine account**.
+
+- Naming convention: ComputerName$ (e.g., DC01$)
+- Passwords are automatically rotated and very long (~120 characters)
+
+#### Security Groups
+
+Groups allow you to assign permissions to multiple users/machines at once.
+
+|Group|Description|
+|---|---|
+|**Domain Admins**|Full administrative rights over the entire domain|
+|**Server Operators**|Can administer Domain Controllers|
+|**Backup Operators**|Can access any file (for backups)|
+|**Account Operators**|Can create/modify accounts|
+|**Domain Users**|All user accounts in the domain|
+|**Domain Computers**|All computers in the domain|
+|**Domain Controllers**|All Domain Controllers|
