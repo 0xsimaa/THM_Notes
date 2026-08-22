@@ -1074,5 +1074,6 @@ Multiple trees with **different namespaces** joined together Example: thm.local 
 
 **ROOM COMPLETE:**
 
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Cyber%20Security%20101/Pasted%20image%20(8).png)
 
 ---
