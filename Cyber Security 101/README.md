@@ -941,12 +941,20 @@ Every computer that joins the domain gets a **machine account**.
 
 Groups allow you to assign permissions to multiple users/machines at once.
 
-|Group|Description|
-|---|---|
-|**Domain Admins**|Full administrative rights over the entire domain|
-|**Server Operators**|Can administer Domain Controllers|
-|**Backup Operators**|Can access any file (for backups)|
-|**Account Operators**|Can create/modify accounts|
-|**Domain Users**|All user accounts in the domain|
-|**Domain Computers**|All computers in the domain|
-|**Domain Controllers**|All Domain Controllers|
+| Group                  | Description                                       |
+| ---------------------- | ------------------------------------------------- |
+| **Domain Admins**      | Full administrative rights over the entire domain |
+| **Server Operators**   | Can administer Domain Controllers                 |
+| **Backup Operators**   | Can access any file (for backups)                 |
+| **Account Operators**  | Can create/modify accounts                        |
+| **Domain Users**       | All user accounts in the domain                   |
+| **Domain Computers**   | All computers in the domain                       |
+| **Domain Controllers** | All Domain Controllers                            |
+
+### Organizational Units (OUs) vs Security Groups
+
+|Feature|Organizational Units (OUs)|Security Groups|
+|---|---|---|
+|**Purpose**|Apply policies (GPOs)|Grant permissions to resources|
+|**Membership**|A user can only be in **one** OU|A user can be in **many** groups|
+|**Typical Use**|Department-based policies|Access to shares, printers, etc.|
