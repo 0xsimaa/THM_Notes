@@ -904,3 +904,15 @@ Also known as **System Protection** or **Shadow Copies**.
 
 ---
 
+### Windows Domains & Active Directory
+
+### What is a Windows Domain?
+
+A **Windows Domain** is a group of users and computers managed centrally by a business.
+
+The central repository is called **Active Directory (AD)**. The server that runs Active Directory is called a **Domain Controller (DC)**.
+
+**Main advantages:**
+
+- Centralised identity management
+- Centralised security policy management (via Group Policy)
