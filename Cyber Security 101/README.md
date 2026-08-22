@@ -997,3 +997,12 @@ Set-ADAccountPassword sophie -Reset -NewPassword (Read-Host -AsSecureString -Pro
 Set-ADUser -ChangePasswordAtLogon $true -Identity sophie
 ```
 
+### Organizing Machines
+
+Recommended OU structure for machines:
+
+- **Workstations** → User computers and laptops
+- **Servers** → Servers providing services
+- **Domain Controllers** → Already in their own default OU
+
+Move machines from the default **Computers** container into the appropriate OUs.
