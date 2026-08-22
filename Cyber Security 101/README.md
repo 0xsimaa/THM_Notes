@@ -1071,3 +1071,8 @@ Multiple trees with **different namespaces** joined together Example: thm.local 
 **Important:** A trust relationship does **not** automatically grant access. You still need to explicitly authorize users.
 
 **Enterprise Admins** have administrative rights over **all domains** in a forest.
+
+**ROOM COMPLETE:**
+
+
+---
