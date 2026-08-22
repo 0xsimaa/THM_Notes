@@ -1028,3 +1028,25 @@ GPOs are collections of settings that can be applied to OUs.
 
 - Restrict Control Panel access for non-IT users
 - Auto-lock screens after 5 minutes of inactivity
+
+### Authentication Protocols
+
+#### Kerberos (Default)
+
+1. User authenticates to the **KDC** (usually on the DC) and receives a **TGT** (Ticket Granting Ticket).
+2. User uses the TGT to request a **TGS** (Ticket Granting Service) for a specific service.
+3. User presents the TGS to the service to gain access.
+
+- TGT is encrypted with the krbtgt account hash.
+- TGS is encrypted with the service account’s hash.
+
+#### NetNTLM (Legacy)
+
+Challenge-response protocol kept for compatibility.
+
+1. Client requests authentication.
+2. Server sends a challenge.
+3. Client responds using its NTLM hash.
+4. Server forwards challenge + response to the DC for verification.
+
+> The password (or hash) is never sent over the network.
