@@ -1050,3 +1050,24 @@ Challenge-response protocol kept for compatibility.
 4. Server forwards challenge + response to the DC for verification.
 
 > The password (or hash) is never sent over the network.
+
+### Trees, Forests, and Trusts
+
+#### Trees
+
+Multiple domains that share the same namespace Example: thm.local → uk.thm.local and us.thm.local
+
+#### Forests
+
+Multiple trees with **different namespaces** joined together Example: thm.local + mht.local
+
+#### Trust Relationships
+
+|Trust Type|Description|
+|---|---|
+|**One-way**|Domain A trusts Domain B → Users from B can access resources in A|
+|**Two-way**|Mutual trust (default when domains are in the same tree/forest)|
+
+**Important:** A trust relationship does **not** automatically grant access. You still need to explicitly authorize users.
+
+**Enterprise Admins** have administrative rights over **all domains** in a forest.
