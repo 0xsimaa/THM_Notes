@@ -1006,3 +1006,25 @@ Recommended OU structure for machines:
 - **Domain Controllers** → Already in their own default OU
 
 Move machines from the default **Computers** container into the appropriate OUs.
+
+### Group Policy Objects (GPOs)
+
+GPOs are collections of settings that can be applied to OUs.
+
+**How GPOs work:**
+
+1. Create a GPO under **Group Policy Objects**
+2. Link the GPO to the desired OU(s)
+3. GPOs apply to the linked OU **and all child OUs**
+
+**Important tools:**
+
+- **Group Policy Management** (gpmc.msc)
+- Force update on a machine: gpupdate /force
+
+**GPO Distribution:** GPOs are stored in the **SYSVOL** share (C:\Windows\SYSVOL\sysvol\) on Domain Controllers.
+
+**Example GPOs from the room:**
+
+- Restrict Control Panel access for non-IT users
+- Auto-lock screens after 5 minutes of inactivity
