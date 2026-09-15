@@ -1100,3 +1100,15 @@ Multiple trees with **different namespaces** joined together Example: thm.local 
 > **Tip:** Pipe long output through more to view page-by-page:  
    "**driverquery | more**"
 
+### Networking Commands
+
+|Command|Description|
+|---|---|
+|ipconfig|Basic network configuration (IP, subnet, gateway)|
+|ipconfig /all|Detailed network info (MAC, DHCP, DNS servers)|
+|ping target|Tests connectivity to a host|
+|tracert target|Traces the route to a target|
+|nslookup domain|Resolves domain name to IP address|
+|nslookup domain 1.1.1.1|Lookup using a specific DNS server|
+|netstat|Shows active connections|
+|netstat -abon|All connections + listening ports + process names + PIDs|
