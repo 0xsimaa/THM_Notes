@@ -1163,3 +1163,9 @@ copy *.md C:\Markdown → Copies all Markdown files to the specified folder.
 - Use | more to paginate long output.
 - The Path environment variable determines where Windows looks for executables.
 
+**ROOM COMPLETE:**
+
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Cyber%20Security%20101/Pasted%20image%20(9).png)
+
+---
+
