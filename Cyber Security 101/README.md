@@ -1077,3 +1077,12 @@ Multiple trees with **different namespaces** joined together Example: thm.local 
 ![](https://github.com/0xsimaa/THM_Notes/blob/main/Cyber%20Security%20101/Pasted%20image%20(8).png)
 
 ---
+
+### Windows Command Line (cmd.exe)
+
+### Why Use the CLI?
+
+- **Speed & efficiency** – Faster than clicking through GUIs
+- **Lower resource usage** – Ideal for older hardware or cloud instances
+- **Easy automation** – Simple to create scripts/batch files
+- **Remote management** – Works well over SSH even on slow connections
