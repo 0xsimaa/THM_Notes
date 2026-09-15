@@ -1086,3 +1086,17 @@ Multiple trees with **different namespaces** joined together Example: thm.local 
 - **Lower resource usage** – Ideal for older hardware or cloud instances
 - **Easy automation** – Simple to create scripts/batch files
 - **Remote management** – Works well over SSH even on slow connections
+
+### Basic System Information
+
+| Command    | Description                                              |
+| ---------- | -------------------------------------------------------- |
+| ver        | Shows Windows version                                    |
+| systeminfo | Detailed system information (OS, hardware, memory, etc.) |
+| set        | Displays environment variables (including Path)          |
+| help       | Lists available commands                                 |
+| cls        | Clears the screen                                        |
+
+> **Tip:** Pipe long output through more to view page-by-page:  
+   "**driverquery | more**"
+
