@@ -1115,14 +1115,51 @@ Multiple trees with **different namespaces** joined together Example: thm.local 
 
 ### Working with Directories
 
+| Command          | Description                                            |
+| ---------------- | ------------------------------------------------------ |
+| cd               | Shows current directory                                |
+| cd folder        | Change to a directory                                  |
+| cd ..            | Go up one level                                        |
+| dir              | List files and folders                                 |
+| dir /a           | Include hidden and system files                        |
+| dir /s           | List files in current directory and all subdirectories |
+| tree             | Visual representation of directory structure           |
+| mkdir foldername | Create a new directory                                 |
+| rmdir foldername | Delete an empty directory                              |
+
+### Working with Files
+
 |Command|Description|
 |---|---|
-|cd|Shows current directory|
-|cd folder|Change to a directory|
-|cd ..|Go up one level|
-|dir|List files and folders|
-|dir /a|Include hidden and system files|
-|dir /s|List files in current directory and all subdirectories|
-|tree|Visual representation of directory structure|
-|mkdir foldername|Create a new directory|
-|rmdir foldername|Delete an empty directory|
+|type file.txt|Display contents of a text file|
+|more file.txt|View long text files page-by-page|
+|copy source destination|Copy a file|
+|move source destination|Move or rename a file|
+|del file or erase file|Delete a file|
+
+**Wildcard example:**  
+copy *.md C:\Markdown → Copies all Markdown files to the specified folder.
+
+### Managing Processes
+
+| Command                              | Description                |
+| ------------------------------------ | -------------------------- |
+| tasklist                             | List all running processes |
+| tasklist /FI "imagename eq sshd.exe" | Filter processes by name   |
+| taskkill /PID 1234                   | Terminate a process by PID |
+
+### Additional Useful Commands
+
+| Command      | Description                    |
+| ------------ | ------------------------------ |
+| chkdsk       | Checks disk for errors         |
+| driverquery  | Lists installed drivers        |
+| sfc /scannow | Scans and repairs system files |
+
+### Helpful Tips
+
+- Most commands support /? for help:  
+    ipconfig /? or tasklist /?
+- Use | more to paginate long output.
+- The Path environment variable determines where Windows looks for executables.
+
