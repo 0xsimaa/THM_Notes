@@ -1248,3 +1248,10 @@ Scripting involves writing a sequence of commands to automate tasks. In cybersec
 **Invoke-Command:**
 
 This cmdlet is essential for executing commands on remote systems. It allows users to run scripts or raw command blocks (`-ScriptBlock { ... }`) across multiple machines simultaneously, making it highly valuable for centralized administration and remote payload execution.
+
+**ROOM COMPLETE:**
+
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Cyber%20Security%20101/Pasted%20image%20(10).png)
+
+---
+
