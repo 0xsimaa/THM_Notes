@@ -1177,7 +1177,7 @@ PowerShell is a cross-platform task automation solution made up of a command-lin
 
 Unlike older text-based command-line tools (like cmd.exe or bash), PowerShell is **object-oriented**, which means it can handle complex data types and interact with system components more effectively. Initially exclusive to Windows, PowerShell Core (released in 2016) expanded support to macOS and Linux.
 
-## The Power in PowerShell (Objects vs. Text)
+### The Power in PowerShell (Objects vs. Text)
 
 Traditional command shells process and output data as plain text. When a cmdlet is run in PowerShell, it returns **objects**.
 
@@ -1188,12 +1188,26 @@ An object represents an item that encapsulates:
 
 Because PowerShell passes these objects directly between commands, users can manipulate data dynamically without needing to write complex text-parsing scripts.
 
-## Basic Syntax and Core Cmdlets
+### Basic Syntax and Core Cmdlets
 
 PowerShell commands are called **cmdlets** (pronounced command-lets). They follow a strict, easy-to-understand **Verb-Noun** naming convention, where the Verb describes the action and the Noun specifies the target.
 
-|**Cmdlet**|**Purpose**|**Example / Details**|
+| **Cmdlet**    | **Purpose**                                         | **Example / Details**                            |
+| ------------- | --------------------------------------------------- | ------------------------------------------------ |
+| `Get-Command` | Lists all available cmdlets, functions, and aliases | `Get-Command -CommandType "Function"`            |
+| `Get-Help`    | Provides detailed manual pages, usage, and examples | `Get-Help Get-Date -examples`                    |
+| `Get-Alias`   | Lists alternative shortcut names for cmdlets        | Shows that `dir` is an alias for `Get-ChildItem` |
+
+### File and Directory Management
+
+PowerShell uses a unified set of cmdlets to handle the creation and management of both files and directories, replacing the need for separate traditional commands.
+
+|**Cmdlet**|**Action Performed**|**Traditional Equivalent**|
 |---|---|---|
-|`Get-Command`|Lists all available cmdlets, functions, and aliases|`Get-Command -CommandType "Function"`|
-|`Get-Help`|Provides detailed manual pages, usage, and examples|`Get-Help Get-Date -examples`|
-|`Get-Alias`|Lists alternative shortcut names for cmdlets|Shows that `dir` is an alias for `Get-ChildItem`|
+|`Get-ChildItem`|Lists files and directories in a specific path|`dir` / `ls`|
+|`Set-Location`|Changes the current working directory|`cd`|
+|`New-Item`|Creates a new file or directory|`mkdir` / `touch`|
+|`Remove-Item`|Deletes files or directories|`rmdir` / `del`|
+|`Copy-Item` / `Move-Item`|Copies or moves items to a destination|`copy` / `move`|
+|`Get-Content`|Reads and displays the contents of a file|`type` / `cat`|
+
