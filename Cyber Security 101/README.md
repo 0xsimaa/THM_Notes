@@ -1295,10 +1295,69 @@ Different Linux distributions come with different shells installed. You can inte
 
 ### Major Linux Shells Comparison
 
-|**Feature**|**Bash (Bourne Again Shell)**|**Fish (Friendly Interactive Shell)**|**Zsh (Z Shell)**|
-|---|---|---|---|
-|**Default Usage**|The default shell in most Linux distributions.|Rarely the default; heavily focuses on beginner-friendliness.|Modern shell, increasingly popular (default on modern macOS).|
-|**Scripting**|Widely compatible with extensive documentation.|Limited scripting features compared to Bash/Zsh.|Excellent scripting, combining Bash capabilities with extra features.|
-|**Tab Completion**|Basic tab completion (auto-completes file/command names).|Advanced, giving suggestions based on your command history.|Highly extensible via third-party plugins.|
-|**Customization**|Basic level of customization.|Good customization via interactive web-based tools.|Advanced customization (e.g., Oh-My-Zsh framework).|
-|**Syntax Highlighting**|Not available built-in.|Built-in out of the box (colors commands to spot errors).|Available by installing external plugins.|
+| **Feature**             | **Bash (Bourne Again Shell)**                             | **Fish (Friendly Interactive Shell)**                         | **Zsh (Z Shell)**                                                     |
+| ----------------------- | --------------------------------------------------------- | ------------------------------------------------------------- | --------------------------------------------------------------------- |
+| **Default Usage**       | The default shell in most Linux distributions.            | Rarely the default; heavily focuses on beginner-friendliness. | Modern shell, increasingly popular (default on modern macOS).         |
+| **Scripting**           | Widely compatible with extensive documentation.           | Limited scripting features compared to Bash/Zsh.              | Excellent scripting, combining Bash capabilities with extra features. |
+| **Tab Completion**      | Basic tab completion (auto-completes file/command names). | Advanced, giving suggestions based on your command history.   | Highly extensible via third-party plugins.                            |
+| **Customization**       | Basic level of customization.                             | Good customization via interactive web-based tools.           | Advanced customization (e.g., Oh-My-Zsh framework).                   |
+| **Syntax Highlighting** | Not available built-in.                                   | Built-in out of the box (colors commands to spot errors).     | Available by installing external plugins.                             |
+
+## Shell Scripting Fundamentals
+
+A **shell script** is a plain text file containing a sequence of commands. Instead of typing repetitive commands one by one, you can automate tasks by executing the script once.
+
+### Setting Up a Script
+
+1. **Create the file:** Use a text editor to create a `.sh` file (e.g., `nano script.sh`).
+    
+2. **Add the Shebang:** The first line must be `#!/bin/bash`. This tells the OS which interpreter to use to run the script.
+    
+3. **Grant Execution Permissions:** Make the script runnable using `chmod +x script.sh`.
+    
+4. **Execute the Script:** Run it from the current directory using `./script.sh` (the `./` tells the system to look in the exact current folder, bypassing the global PATH variables).
+    
+
+### Core Scripting Components
+
+|**Component**|**Description**|**Example Syntax**|
+|---|---|---|
+|**Variables**|Stores data (like names, paths, or URLs) so you can reuse them without re-typing.|`read name` (takes user input)<br><br>  <br><br>`echo "Welcome, $name"`|
+|**Loops**|Repeats a specific block of code multiple times, iterating through lists or ranges automatically.|`for i in {1..10}; do echo $i; done`|
+|**Conditional Statements**|Executes specific code _only_ if a certain condition is met (`if`, `elif`, `else`).|`if [ "$name" = "John" ]; then echo "Access Granted"; fi`|
+|**Comments**|Notes added to explain what the code does. Ignored by the computer. Vital for readability.|`# This checks if the user is admin`|
+
+### Practical Script Example: The Locker Authenticator
+
+By combining these components, we can build functional automation. Here is a script combining variables, a loop, and conditional statements to authenticate a user:
+
+```Bash
+#!/bin/bash
+# This script authenticates a user before opening a locker
+
+username=""
+companyname=""
+pin=""
+
+# Loop to ask 3 different questions sequentially
+for i in {1..3}; do
+        if [ "$i" -eq 1 ]; then
+                echo "Enter your Username:"
+                read username
+        elif [ "$i" -eq 2 ]; then
+                echo "Enter your Company name:"
+                read companyname
+        else
+                echo "Enter your PIN:"
+                read pin
+        fi
+done
+
+# Conditional statement verifying all inputs match the secret credentials
+if [ "$username" = "John" ] && [ "$companyname" = "Tryhackme" ] && [ "$pin" = "7385" ]; then
+        echo "Authentication Successful. You can now access your locker, John."
+else
+        echo "Authentication Denied!!"
+fi
+```
+
