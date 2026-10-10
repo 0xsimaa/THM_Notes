@@ -1255,3 +1255,8 @@ This cmdlet is essential for executing commands on remote systems. It allows use
 
 ---
 
+### Linux Shells and Scripting
+
+### What is a Linux Shell?
+
+While most users interact with an Operating System via a Graphical User Interface (GUI), interacting through a Command-Line Interface (CLI) using a **Shell** is far more efficient, resource-friendly, and powerful. The shell is a program that takes commands from the keyboard and passes them to the operating system to perform.
