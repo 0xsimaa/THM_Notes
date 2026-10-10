@@ -1223,3 +1223,28 @@ Piping (`|`) in PowerShell passes structured objects rather than raw text, allow
 |`Select-String`|Searches for text or regex patterns within files|Finding specific error codes in a log file (like `grep`)|
 
 _PowerShell Comparison Operators:_ `-eq` (equal to), `-ne` (not equal), `-gt` (greater than), `-ge` (greater or equal), `-lt` (less than), `-le` (less or equal), `-like` (matches a pattern).
+
+## System Enumeration and Monitoring
+
+PowerShell provides comprehensive cmdlets for gathering system details and monitoring dynamic aspects of a machine, making it a critical tool for system administrators and security professionals.
+
+|**Cmdlet**|**Information Retrieved**|**Cyber Security Value**|
+|---|---|---|
+|`Get-ComputerInfo`|OS information, hardware specs, BIOS details|Baseline system profiling|
+|`Get-LocalUser`|All local user accounts and account status|Hunting for rogue or unauthorized admin accounts|
+|`Get-NetIPConfiguration`|Interfaces, IP addresses, DNS, and Gateways|Mapping local network configurations|
+|`Get-Process`|Running processes, CPU, and memory usage|Spotting anomalous or resource-heavy malicious tasks|
+|`Get-Service`|Status of services (Running, Stopped, Paused)|Identifying unauthorized persistence mechanisms|
+|`Get-NetTCPConnection`|Current TCP connections and remote endpoints|Uncovering backdoors and established remote access|
+|`Get-FileHash`|File hashes (e.g., SHA256)|Verifying file integrity and identifying malware|
+
+## Scripting and Remote Execution
+
+Scripting involves writing a sequence of commands to automate tasks. In cybersecurity:
+
+- **Blue Teams** use PowerShell scripts to automate log analysis, detect anomalies, and extract indicators of compromise (IOCs).
+- **Red Teams** use scripts to automate system enumeration, bypass defenses, and establish persistence.
+
+**Invoke-Command:**
+
+This cmdlet is essential for executing commands on remote systems. It allows users to run scripts or raw command blocks (`-ScriptBlock { ... }`) across multiple machines simultaneously, making it highly valuable for centralized administration and remote payload execution.
