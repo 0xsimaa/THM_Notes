@@ -1361,3 +1361,9 @@ else
 fi
 ```
 
+**ROOM COMPLETE:**
+
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Cyber%20Security%20101/pasted%20file(11).png)
+
+---
+
