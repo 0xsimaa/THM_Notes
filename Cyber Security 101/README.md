@@ -1211,3 +1211,15 @@ PowerShell uses a unified set of cmdlets to handle the creation and management o
 |`Copy-Item` / `Move-Item`|Copies or moves items to a destination|`copy` / `move`|
 |`Get-Content`|Reads and displays the contents of a file|`type` / `cat`|
 
+## The Pipeline and Filtering
+
+Piping (`|`) in PowerShell passes structured objects rather than raw text, allowing properties and methods to flow seamlessly from one command to the next.
+
+|**Cmdlet**|**What it Does**|**Use Case**|
+|---|---|---|
+|`Sort-Object`|Sorts piped objects based on specified properties|Sorting a directory listing by file `Length`|
+|`Where-Object`|Filters objects based on specific conditions|Finding files where the `Extension` is `-eq ".txt"`|
+|`Select-Object`|Selects specific properties or limits object output|Showing only the `Name` and `Length` of the top 5 files|
+|`Select-String`|Searches for text or regex patterns within files|Finding specific error codes in a log file (like `grep`)|
+
+_PowerShell Comparison Operators:_ `-eq` (equal to), `-ne` (not equal), `-gt` (greater than), `-ge` (greater or equal), `-lt` (less than), `-le` (less or equal), `-like` (matches a pattern).
