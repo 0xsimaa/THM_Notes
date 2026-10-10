@@ -1169,3 +1169,10 @@ copy *.md C:\Markdown → Copies all Markdown files to the specified folder.
 
 ---
 
+### Windows PowerShell
+
+### What is PowerShell?
+
+PowerShell is a cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework built on the .NET framework.
+
+Unlike older text-based command-line tools (like cmd.exe or bash), PowerShell is **object-oriented**, which means it can handle complex data types and interact with system components more effectively. Initially exclusive to Windows, PowerShell Core (released in 2016) expanded support to macOS and Linux.
