@@ -1274,10 +1274,31 @@ While most users interact with an Operating System via a Graphical User Interfac
 
 Before scripting, you must understand fundamental Linux commands used to navigate and manipulate the system within the shell:
 
-|**Command**|**Purpose**|**Example Usage**|
-|---|---|---|
-|`pwd`|Print Working Directory (displays your current folder location)|`pwd` -> `/home/user`|
-|`cd`|Change Directory (moves you to a specified folder)|`cd Desktop`|
-|`ls`|List (shows all files and folders in the current directory)|`ls`|
-|`cat`|Concatenate (reads and displays the entire contents of a file)|`cat filename.txt`|
-|`grep`|Search (finds a specific word or string pattern inside a file)|`grep THM dictionary.txt`|
+| **Command** | **Purpose**                                                     | **Example Usage**         |
+| ----------- | --------------------------------------------------------------- | ------------------------- |
+| `pwd`       | Print Working Directory (displays your current folder location) | `pwd` -> `/home/user`     |
+| `cd`        | Change Directory (moves you to a specified folder)              | `cd Desktop`              |
+| `ls`        | List (shows all files and folders in the current directory)     | `ls`                      |
+| `cat`       | Concatenate (reads and displays the entire contents of a file)  | `cat filename.txt`        |
+| `grep`      | Search (finds a specific word or string pattern inside a file)  | `grep THM dictionary.txt` |
+
+## Exploring Linux Shells
+
+Different Linux distributions come with different shells installed. You can interact with your system to find out which ones are available and switch between them:
+
+- **Check current shell:** `echo $SHELL`
+    
+- **List available installed shells:** `cat /etc/shells`
+    
+- **Permanently change default shell:** `chsh -s /usr/bin/zsh` (replaces your default shell with Zsh)
+    
+
+### Major Linux Shells Comparison
+
+|**Feature**|**Bash (Bourne Again Shell)**|**Fish (Friendly Interactive Shell)**|**Zsh (Z Shell)**|
+|---|---|---|---|
+|**Default Usage**|The default shell in most Linux distributions.|Rarely the default; heavily focuses on beginner-friendliness.|Modern shell, increasingly popular (default on modern macOS).|
+|**Scripting**|Widely compatible with extensive documentation.|Limited scripting features compared to Bash/Zsh.|Excellent scripting, combining Bash capabilities with extra features.|
+|**Tab Completion**|Basic tab completion (auto-completes file/command names).|Advanced, giving suggestions based on your command history.|Highly extensible via third-party plugins.|
+|**Customization**|Basic level of customization.|Good customization via interactive web-based tools.|Advanced customization (e.g., Oh-My-Zsh framework).|
+|**Syntax Highlighting**|Not available built-in.|Built-in out of the box (colors commands to spot errors).|Available by installing external plugins.|
