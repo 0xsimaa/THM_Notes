@@ -1387,3 +1387,19 @@ The OSI (Open Systems Interconnection) model is a conceptual framework developed
 | **Layer 2: Data Link**    | Enables data transfer between nodes on the same network using MAC addresses. | Ethernet (802.3), WiFi (802.11)              |
 | **Layer 1: Physical**     | Deals with the physical connection and transmission of binary digits.        | Electrical cables, Optical fiber, WiFi radio |
 
+### The TCP/IP Model
+
+Developed in the 1970s by the Department of Defense (DoD), this is a practical, implemented networking model designed to adapt and function even if parts of the network go offline.
+
+It groups the OSI model into 4 (or 5) layers:
+
+- **Application Layer:** Combines OSI Layers 5, 6, and 7.
+    
+- **Transport Layer:** Maps directly to OSI Layer 4.
+    
+- **Internet Layer:** Maps to OSI Layer 3 (Network Layer).
+    
+- **Link Layer:** Maps to OSI Layer 2 (Data Link).
+    
+- _(Optional)_ **Physical Layer:** Sometimes separated from the Link Layer as Layer 1.
+
