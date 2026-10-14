@@ -1374,3 +1374,16 @@ fi
 The OSI (Open Systems Interconnection) model is a conceptual framework developed by the ISO that describes how computer network communications should occur. It consists of seven layers that help explain and standardise network interactions.
 
 **Mnemonic to remember (Bottom to Top):** Please Do Not Throw Spinach Pizza Away (Physical, Data Link, Network, Transport, Session, Presentation, Application).
+
+### The 7 Layers of the OSI Model
+
+| **Layer Name**            | **Main Function**                                                            | **Example Protocols & Standards**            |
+| ------------------------- | ---------------------------------------------------------------------------- | -------------------------------------------- |
+| **Layer 7: Application**  | Provides network services directly to end-user applications.                 | HTTP, FTP, DNS, POP3, SMTP                   |
+| **Layer 6: Presentation** | Handles data encoding, compression, and encryption.                          | ASCII, Unicode, MIME, JPEG, PNG              |
+| **Layer 5: Session**      | Establishes, maintains, and synchronizes communication sessions.             | NFS, RPC                                     |
+| **Layer 4: Transport**    | Enables end-to-end communication and data segmentation.                      | TCP, UDP                                     |
+| **Layer 3: Network**      | Handles logical addressing and routing between different networks.           | IP, ICMP, IPSec, VPNs                        |
+| **Layer 2: Data Link**    | Enables data transfer between nodes on the same network using MAC addresses. | Ethernet (802.3), WiFi (802.11)              |
+| **Layer 1: Physical**     | Deals with the physical connection and transmission of binary digits.        | Electrical cables, Optical fiber, WiFi radio |
+
