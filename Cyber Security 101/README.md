@@ -1403,3 +1403,18 @@ It groups the OSI model into 4 (or 5) layers:
     
 - _(Optional)_ **Physical Layer:** Sometimes separated from the Link Layer as Layer 1.
 
+### IP Addresses & Routing
+
+An IP Address is a unique identifier required for a host to communicate on a network, acting similarly to a home postal address.
+
+- **IPv4:** Consists of 32 bits divided into four octets (e.g., `192.168.66.89`).
+    
+- **Network & Broadcast Addresses:** The lowest address (e.g., `.0`) is reserved for the network, and the highest (e.g., `.255`) is reserved for broadcasting to all hosts.
+    
+- **Subnet Masks:** A mask like `255.255.255.0` (or `/24`) indicates that the first 24 bits are the network address, and the remaining bits are for assigning individual hosts.
+    
+
+### Public vs. Private IP Addresses
+
+Private IP addresses are used for internal local networks and cannot be reached directly from the Internet. They require a router with NAT (Network Address Translation) to communicate externally.
+
