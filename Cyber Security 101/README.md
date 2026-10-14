@@ -1418,3 +1418,31 @@ An IP Address is a unique identifier required for a host to communicate on a net
 
 Private IP addresses are used for internal local networks and cannot be reached directly from the Internet. They require a router with NAT (Network Address Translation) to communicate externally.
 
+**The RFC 1918 private IP ranges are:**
+
+- `10.0.0.0` to `10.255.255.255`
+    
+- `172.16.0.0` to `172.31.255.255`
+    
+- `192.168.0.0` to `192.168.255.255`
+    
+
+### Transport Protocols: TCP vs. UDP
+
+To reach specific applications or processes on a host, transport protocols use Port Numbers (ranging from 1 to 65535).
+
+| **Feature**          | **TCP (Transmission Control Protocol)**                      | **UDP (User Datagram Protocol)**                           |
+| -------------------- | ------------------------------------------------------------ | ---------------------------------------------------------- |
+| **Connection Style** | Connection-oriented (Requires a 3-way handshake)             | Connectionless (Sends data without establishing a session) |
+| **Reliability**      | High (Guarantees delivery, orders packets, error correction) | Low (No delivery confirmation, "fire and forget")          |
+| **Speed**            | Slower (Due to overhead and acknowledgments)                 | Faster (No overhead, no waiting for confirmations)         |
+| **Use Cases**        | Web browsing (HTTP/S), Email, SSH, File Transfer             | Video streaming, DNS queries, Online gaming                |
+
+### The TCP 3-Way Handshake
+
+1. **SYN:** Client initiates connection with a Synchronize packet.
+    
+2. **SYN-ACK:** Server responds with a Synchronize-Acknowledgment packet.
+    
+3. **ACK:** Client sends a final Acknowledgment packet, establishing the connection.
+
