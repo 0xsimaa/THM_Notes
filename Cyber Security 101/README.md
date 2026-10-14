@@ -1367,3 +1367,10 @@ fi
 
 ---
 
+### Networking Concepts
+
+### What is the OSI Model?
+
+The OSI (Open Systems Interconnection) model is a conceptual framework developed by the ISO that describes how computer network communications should occur. It consists of seven layers that help explain and standardise network interactions.
+
+**Mnemonic to remember (Bottom to Top):** Please Do Not Throw Spinach Pizza Away (Physical, Data Link, Network, Transport, Session, Presentation, Application).
