@@ -1446,3 +1446,33 @@ To reach specific applications or processes on a host, transport protocols use P
     
 3. **ACK:** Client sends a final Acknowledgment packet, establishing the connection.
 
+### Encapsulation
+
+Encapsulation is the process where each layer adds its own header (and sometimes a trailer) to the data before passing it down to the next layer.
+
+1. **Application Data:** User creates data (e.g., an email).
+    
+2. **Segment / Datagram:** Transport layer adds a TCP/UDP header.
+    
+3. **Packet:** Network layer adds an IP header (Source/Destination IPs).
+    
+4. **Frame:** Data Link layer adds a MAC header and trailer.
+    
+
+_(Note: The process is reversed, known as decapsulation, when the data reaches the destination.)_
+
+### Command Line Tools
+
+- **Check IP Configuration:**
+    
+    - Windows: `ipconfig`
+        
+    - Linux/UNIX: `ifconfig` or `ip address show` (`ip a s`)
+        
+- **TELNET:** A protocol/tool used to connect to and communicate with remote systems over TCP ports.
+    
+    - Connect to an Echo Server: `telnet [IP] 7`
+        
+    - Connect to a Daytime Server: `telnet [IP] 13`
+        
+    - Connect to a Web Server: `telnet [IP] 80` (Requires manual HTTP requests like `GET / HTTP/1.1`)
