@@ -1476,3 +1476,10 @@ _(Note: The process is reversed, known as decapsulation, when the data reaches t
     - Connect to a Daytime Server: `telnet [IP] 13`
         
     - Connect to a Web Server: `telnet [IP] 80` (Requires manual HTTP requests like `GET / HTTP/1.1`)
+
+**ROOM COMPLETE:**
+
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Cyber%20Security%20101/pasted%20file12.png)
+
+---
+
