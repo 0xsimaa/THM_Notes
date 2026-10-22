@@ -1508,3 +1508,14 @@ DHCP assigns IP addresses using a four-step process known as DORA:
 |**2. Offer**|`DHCPOFFER`|The DHCP server responds with an available IP address for the client.|
 |**3. Request**|`DHCPREQUEST`|The client broadcasts that it accepts the offered IP address.|
 |**4. Acknowledge**|`DHCPACK`|The server confirms the IP assignment, officially leasing it to the client.|
+
+### ARP (Address Resolution Protocol)
+
+While IP addresses (Layer 3) are used to route data across different networks, devices on the _same_ local network (like Ethernet or WiFi) must use MAC addresses (Layer 2) to exchange data frames. **ARP translates Layer 3 IP addresses into Layer 2 MAC addresses.**
+
+- **ARP Request:** A device broadcasts a message to the entire network (`ff:ff:ff:ff:ff:ff`), asking: _"Who has IP address X? Tell IP address Y."_
+    
+- **ARP Reply:** The device with the requested IP address responds directly with its MAC address.
+    
+- **Note:** ARP messages are encapsulated directly within Ethernet frames, bypassing IP/UDP encapsulation entirely.
+
