@@ -1548,3 +1548,17 @@ Routing is the process of determining the best path for a packet to travel from 
 | **BGP** (Border Gateway Protocol)                      | The primary protocol of the Internet; routes data between different major networks/ISPs.                       |
 | **RIP** (Routing Information Protocol)                 | Simple protocol for small networks; chooses routes based purely on the lowest "hop count" (number of routers). |
 
+### NAT (Network Address Translation)
+
+Because IPv4 only supports roughly 4 billion unique addresses, the address space was quickly depleting. **NAT** solves this by allowing an entire internal network of devices (using Private IP addresses) to share a single (or a few) Public IP addresses to access the Internet.
+
+- **How it Works:** The NAT-enabled router maintains a **translation table**. When an internal device makes a request to the Internet, the router translates the private IP and source port to its own public IP and a unique port.
+    
+- When the external server replies, the router checks its table, translates the public IP/port back to the original internal IP/port, and seamlessly forwards the packet to the correct internal device.
+
+**ROOM COMPLETE:**
+
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Cyber%20Security%20101/pasted%20file13.png)
+
+---
+
