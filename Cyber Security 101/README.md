@@ -1519,3 +1519,20 @@ While IP addresses (Layer 3) are used to route data across different networks, d
     
 - **Note:** ARP messages are encapsulated directly within Ethernet frames, bypassing IP/UDP encapsulation entirely.
 
+### ICMP (Internet Control Message Protocol)
+
+ICMP is primarily used for network diagnostics and error reporting. It is the backbone of two critical troubleshooting commands: `ping` and `traceroute`.
+
+### Diagnostic Commands & ICMP Types
+
+| **Command / Message** | **ICMP Type** | **Description**                                                                            |
+| --------------------- | ------------- | ------------------------------------------------------------------------------------------ |
+| **Ping (Request)**    | `Type 8`      | Sends an **Echo Request** to test if a target is alive and reachable.                      |
+| **Ping (Reply)**      | `Type 0`      | The target responds with an **Echo Reply**, allowing calculation of Round-Trip Time (RTT). |
+| **Time Exceeded**     | `Type 11`     | Sent by a router when a packet is dropped because its TTL reached zero.                    |
+
+### How Traceroute Works
+
+`traceroute` (Linux) or `tracert` (Windows) maps the path packets take to a destination.
+
+It works by manipulating the **Time-to-Live (TTL)** field in an IP packet. The TTL dictates the maximum number of routers a packet can pass through. `traceroute` sends packets with gradually increasing TTLs (1, 2, 3...). When a packet's TTL hits zero, the router drops it and sends back an **ICMP Time Exceeded (Type 11)** message, revealing that router's IP address.
