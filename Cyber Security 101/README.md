@@ -1483,3 +1483,28 @@ _(Note: The process is reversed, known as decapsulation, when the data reaches t
 
 ---
 
+### Networking Essentials: Protocols & Operations
+
+### DHCP (Dynamic Host Configuration Protocol)
+
+DHCP automates the process of assigning network configurations to devices, preventing IP address conflicts and saving manual setup time. It operates at the Application Layer using **UDP** (Server listens on port 67, Client uses port 68).
+
+A DHCP server provides three critical pieces of information to a client:
+
+1. An IP address and Subnet Mask.
+    
+2. The Gateway (Router) address.
+    
+3. The DNS Server address.
+    
+
+### The DORA Process
+
+DHCP assigns IP addresses using a four-step process known as DORA:
+
+|**Step**|**Action**|**Description**|
+|---|---|---|
+|**1. Discover**|`DHCPDISCOVER`|The client broadcasts a message (`255.255.255.255`) searching for an available DHCP server.|
+|**2. Offer**|`DHCPOFFER`|The DHCP server responds with an available IP address for the client.|
+|**3. Request**|`DHCPREQUEST`|The client broadcasts that it accepts the offered IP address.|
+|**4. Acknowledge**|`DHCPACK`|The server confirms the IP assignment, officially leasing it to the client.|
