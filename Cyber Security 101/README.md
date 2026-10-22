@@ -1536,3 +1536,15 @@ ICMP is primarily used for network diagnostics and error reporting. It is the ba
 `traceroute` (Linux) or `tracert` (Windows) maps the path packets take to a destination.
 
 It works by manipulating the **Time-to-Live (TTL)** field in an IP packet. The TTL dictates the maximum number of routers a packet can pass through. `traceroute` sends packets with gradually increasing TTLs (1, 2, 3...). When a packet's TTL hits zero, the router drops it and sends back an **ICMP Time Exceeded (Type 11)** message, revealing that router's IP address.
+
+### Routing & Routing Protocols
+
+Routing is the process of determining the best path for a packet to travel from its source to its destination across interconnected networks (the Internet). Routers use routing protocols to build maps of the network and decide which links to use.
+
+| **Routing Protocol**                                   | **Characteristics**                                                                                            |
+| ------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------- |
+| **OSPF** (Open Shortest Path First)                    | Routers share network topology states to calculate the most efficient, shortest paths.                         |
+| **EIGRP** (Enhanced Interior Gateway Routing Protocol) | Cisco proprietary protocol; considers bandwidth and delay (cost) to find the best route.                       |
+| **BGP** (Border Gateway Protocol)                      | The primary protocol of the Internet; routes data between different major networks/ISPs.                       |
+| **RIP** (Routing Information Protocol)                 | Simple protocol for small networks; chooses routes based purely on the lowest "hop count" (number of routers). |
+
