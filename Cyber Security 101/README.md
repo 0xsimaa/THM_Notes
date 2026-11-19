@@ -1577,3 +1577,23 @@ DNS operates at the **Application Layer (Layer 7)** and maps human-readable doma
 - **CNAME Record:** Maps a domain name to another domain name (canonical name).
     
 - **MX Record:** Specifies the mail server responsible for handling emails for a domain.
+
+### Domain Registration & WHOIS
+
+When a domain is registered, the registrant's contact info is made publicly accessible via **WHOIS records**. Privacy services can be used to mask personal information from these records.
+
+- **Command-Line Lookup:** `whois domain.com` / `nslookup domain.com`
+
+### Web Protocols: HTTP & HTTPS
+
+HTTP (Hypertext Transfer Protocol) and HTTPS (secure via TLS) define how browsers communicate with web servers. They typically use **TCP ports 80 and 443**, respectively.
+
+### Core HTTP Methods
+
+| **Method** | **Description**                                                          |
+| ---------- | ------------------------------------------------------------------------ |
+| **GET**    | Retrieves data/resources from a server (e.g., an HTML file or image).    |
+| **POST**   | Submits new data to the server (e.g., form submissions or file uploads). |
+| **PUT**    | Creates a new resource or overwrites existing information on the server. |
+| **DELETE** | Removes a specified file or resource from the server.                    |
+
