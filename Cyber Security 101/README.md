@@ -1645,3 +1645,7 @@ Email architecture separates sending mail (SMTP) from retrieving and synchronizi
 
 **ROOM COMPLETE:**
 
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Cyber%20Security%20101/pasted%20file14.png)
+
+---
+
