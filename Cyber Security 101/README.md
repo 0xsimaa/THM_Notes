@@ -1597,3 +1597,19 @@ HTTP (Hypertext Transfer Protocol) and HTTPS (secure via TLS) define how browser
 | **PUT**    | Creates a new resource or overwrites existing information on the server. |
 | **DELETE** | Removes a specified file or resource from the server.                    |
 
+### File Transfer Protocol (FTP)
+
+FTP is optimized for transferring files efficiently. It listens by default on **TCP port 21** (with data transferred over a separate connection).
+
+### Core FTP Commands
+
+- `USER` / `PASS`: Input credentials to authenticate.
+    
+- `ls`: Lists available directory contents (sent as `LIST` on the wire).
+    
+- `type ascii`: Switches transfer mode to ASCII.
+    
+- `get [file]`: Downloads a file from the server (`RETR`).
+    
+- `put [file]`: Uploads a file to the server (`STOR`).
+
