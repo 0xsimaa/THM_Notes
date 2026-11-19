@@ -1613,3 +1613,35 @@ FTP is optimized for transferring files efficiently. It listens by default on **
     
 - `put [file]`: Uploads a file to the server (`STOR`).
 
+### Email Protocols: SMTP, POP3, & IMAP
+
+Email architecture separates sending mail (SMTP) from retrieving and synchronizing mail (POP3 / IMAP).
+
+### 1. Simple Mail Transfer Protocol (SMTP)
+
+- **Function:** Defines how mail clients talk to servers and servers talk to each other.
+    
+- **Port:** **TCP port 25** by default.
+    
+- **Core Commands:** `HELO`/`EHLO`, `MAIL FROM`, `RCPT TO`, `DATA`, `QUIT`.
+    
+
+### 2. Post Office Protocol version 3 (POP3)
+
+- **Function:** Allows a client to retrieve email messages from a mail server (typically downloading and deleting them from the remote server).
+    
+- **Port:** **TCP port 110** by default.
+    
+- **Core Commands:** `USER`, `PASS`, `STAT`, `LIST`, `RETR`, `DELE`, `QUIT`.
+    
+
+### 3. Internet Message Access Protocol (IMAP)
+
+- **Function:** Synchronizes read, moved, and deleted messages across multiple client devices by keeping emails stored on the server.
+    
+- **Port:** **TCP port 143** by default.
+    
+- **Core Commands:** `LOGIN`, `SELECT`, `FETCH`, `MOVE`, `COPY`, `LOGOUT`.
+
+**ROOM COMPLETE:**
+
