@@ -1562,3 +1562,18 @@ Because IPv4 only supports roughly 4 billion unique addresses, the address space
 
 ---
 
+### Networking Core Protocols: DNS, Web, FTP, & Email
+
+###. Domain Name System (DNS)
+
+DNS operates at the **Application Layer (Layer 7)** and maps human-readable domain names to machine-readable IP addresses. By default, it uses **UDP port 53** with a **TCP port 53** fallback.
+
+### Common DNS Record Types
+
+- **A Record:** Maps a hostname to an IPv4 address.
+    
+- **AAAA Record:** Maps a hostname to an IPv6 address.
+    
+- **CNAME Record:** Maps a domain name to another domain name (canonical name).
+    
+- **MX Record:** Specifies the mail server responsible for handling emails for a domain.
