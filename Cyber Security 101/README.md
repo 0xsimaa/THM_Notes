@@ -1649,3 +1649,16 @@ Email architecture separates sending mail (SMTP) from retrieving and synchronizi
 
 ---
 
+### Networking Secure Protocols
+
+#### What is Transport Layer Security (TLS)?
+
+Standard network protocols (like HTTP, SMTP, POP3, and IMAP) send data in cleartext, meaning passwords, sensitive messages, and web traffic can easily be intercepted, read, or modified by attackers.
+
+**Transport Layer Security (TLS)** is a cryptographic protocol that adds security to these existing protocols, transforming them into HTTPS, SMTPS, POP3S, and IMAPS (where the "S" stands for Secure).
+
+- **Confidentiality:** Encrypts data so eavesdroppers cannot read it.
+    
+- **Integrity:** Ensures data cannot be altered or tampered with in transit.
+    
+- **Authenticity:** Verifies that you are communicating with a legitimate server (via digital certificates issued by Certificate Authorities).
