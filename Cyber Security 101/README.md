@@ -1671,3 +1671,27 @@ Standard network protocols (like HTTP, SMTP, POP3, and IMAP) send data in cleart
 |**SMTP / SMTPS**|Port 25|Ports 465 and 587|
 |**POP3 / POP3S**|Port 110|Port 995|
 |**IMAP / IMAPS**|Port 143|Port 993|
+
+### Secure Shell (SSH)
+
+TELNET provides a convenient way to administer remote systems, but it transmits all traffic—including login credentials—in cleartext. **Secure Shell (SSH)** was created to replace TELNET with robust cryptographic protection.
+
+- **Port:** Listens by default on **Port 22**.
+    
+- **Key Benefits:**
+    
+    - **Secure Authentication:** Supports passwords, public-key authentication, and two-factor authentication.
+        
+    - **End-to-End Encryption:** Protects data confidentiality and guards against Man-in-the-Middle (MitM) attacks.
+        
+    - **Tunneling:** Allows creating secure tunnels to route plaintext protocols.
+        
+    - **X11 Forwarding:** Enables running graphical applications over a network connection.
+        
+
+### File Transfer: SFTP vs. FTPS
+
+- **SFTP (SSH File Transfer Protocol):** Part of the SSH protocol suite, running securely over **Port 22**.
+    
+- **FTPS (FTP Secure):** Traditional FTP secured using TLS certificates, typically running on **Port 990**.
+    
