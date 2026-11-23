@@ -1662,3 +1662,12 @@ Standard network protocols (like HTTP, SMTP, POP3, and IMAP) send data in cleart
 - **Integrity:** Ensures data cannot be altered or tampered with in transit.
     
 - **Authenticity:** Verifies that you are communicating with a legitimate server (via digital certificates issued by Certificate Authorities).
+
+### Secure vs. Insecure Protocol Ports
+
+|**Protocol Type**|**Insecure Default Port**|**Secure (TLS) Default Port**|
+|---|---|---|
+|**HTTP / HTTPS**|Port 80|Port 443|
+|**SMTP / SMTPS**|Port 25|Ports 465 and 587|
+|**POP3 / POP3S**|Port 110|Port 995|
+|**IMAP / IMAPS**|Port 143|Port 993|
