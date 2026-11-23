@@ -1711,7 +1711,7 @@ A **Virtual Private Network (VPN)** provides a secure, encrypted "tunnel" over t
 
 **ROOM COMPLETE**
 
-![](https://github.com/0xsimaa/THM_Notes/blob/main/Cyber%20Security%20101/pasted%20file14.png)
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Cyber%20Security%20101/pasted%20file15.png)
 
 ---
 
