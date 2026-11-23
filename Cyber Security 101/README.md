@@ -1694,4 +1694,24 @@ TELNET provides a convenient way to administer remote systems, but it transmits 
 - **SFTP (SSH File Transfer Protocol):** Part of the SSH protocol suite, running securely over **Port 22**.
     
 - **FTPS (FTP Secure):** Traditional FTP secured using TLS certificates, typically running on **Port 990**.
+
+
+### Virtual Private Networks (VPNs)
+
+A **Virtual Private Network (VPN)** provides a secure, encrypted "tunnel" over the public Internet. It allows remote branches or individual users to connect to a main corporate network and access internal resources as if they were physically present on-site.
+
+### Key Characteristics & Benefits:
+
+- **Traffic Encryption:** All outgoing data is encrypted before entering the public internet, hiding activity from local ISPs and preventing eavesdropping.
     
+- **IP Masking:** When connected to a VPN, web servers see the VPN server's IP address rather than your real public IP, allowing users to bypass geographical restrictions.
+    
+- **Considerations:** Some VPN configurations may not route 100% of traffic, and poor configurations can lead to DNS leaks revealing your true location.
+    
+
+**ROOM COMPLETE**
+
+![](https://github.com/0xsimaa/THM_Notes/blob/main/Cyber%20Security%20101/pasted%20file14.png)
+
+---
+
